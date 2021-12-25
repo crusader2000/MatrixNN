@@ -68,7 +68,14 @@ class cycnet(nn.Module):
         self.odd_to_even_layer_mask = (self.odd_to_even_layer_mask - torch.eye(self.num_edges)).to(device)  
         self.even_to_odd_layer_mask = (self.even_to_odd_layer_mask - torch.eye(self.num_edges)).to(device)  
 
-        
+        self.weights_odd1_wv = nn.Parameter(torch.randn(1, self.num_edges))
+        self.weights_odd1_we = nn.Parameter(torch.randn(self.num_edges, self.num_edges))
+        self.weights_odd2_wv = nn.Parameter(torch.randn(1, self.num_edges))
+        self.weights_odd2_we = nn.Parameter(torch.randn(self.num_edges, self.num_edges))
+        self.weights_odd3_wv = nn.Parameter(torch.randn(1, self.num_edges))
+        self.weights_odd3_we = nn.Parameter(torch.randn(self.num_edges, self.num_edges))
+        self.weights_output_wv = nn.Parameter(torch.randn(1, self.num_edges))
+        self.weights_output_we = nn.Parameter(torch.randn(self.num_edges, self.num_edges))
 
         # self.oddw_v1 = nn.Parameter(torch.randn(1, self.num_edges))
         # self.oddw_e1 = nn.Parameter(torch.randn(self.num_edges, self.num_edges))
