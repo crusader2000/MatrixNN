@@ -45,7 +45,7 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 from itertools import combinations
 
-#python train_KO_m2.py --gpu 0 --m 8 --enc_train_snr 0 --dec_train_snr -2 --batch_size 10000 --small_batch_size 2500
+#python train_KO_m2.py --gpu 0 --m 8 --enc_train_snr 0 --dec_train_snr -2 --batch_size 10000 --small_batch_size 250encoder0
 
 parser = argparse.ArgumentParser(description='(m,2) dumer')
 
