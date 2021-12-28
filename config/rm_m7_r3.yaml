@@ -1,7 +1,8 @@
 para:
   train_dataset_length : 10000
   test_dataset_length : 250
-  train_batch_size: 160
+  train_batch_size: 16000
+  train_small_batch_size: 160
   test_batch_size: 10000
   full_iterations: 2000
   enc_train_iters: 50
@@ -27,7 +28,8 @@ para:
   data_type: "7_3"
   logger_name: RM_{}_train
   CUDA_VISIBLE_DEVICES: "1"
-  train_save_path: "./save/rm_{}/rm_{}_{}.pth"
+  train_save_path_encoder: "./save/{}/rm_enc_{}_{}.pth"
+  train_save_path_decoder: "./save/{}/rm_dec_{}_{}.pth"
   test_model_path: ./save/rm_{}/rm_{}_1.pth
 
 data:

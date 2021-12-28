@@ -16,6 +16,7 @@ def get_default_conf(conf_path=None):
     conf["para"]["test_model_path"] = conf["para"]["test_model_path"].format(
         data_type, data_type)
     conf["para"]["logger_name"] = conf["para"]["logger_name"].format(data_type)
+    
     G = get_gen_matrix(m,r)
 
     k = len(G)

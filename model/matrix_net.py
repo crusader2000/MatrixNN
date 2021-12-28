@@ -4,14 +4,12 @@ import numpy as np
 
 
 class MatrixNet(nn.Module):
-    def __init__(self, conf, device):
+    def __init__(self, device, matrix):
         super(cycnet, self).__init__()
         self.clip_tanh = 10
-        # self.v_size = conf["data"]['v_size']
-        # self.e_size = conf["data"]['e_size']
         self.num_edges = 0
-
-        self.k,self.n = np.size(self.matrix)
+        self.matrix = matrix
+        self.k,self.n = np.size(matrix)
 
         ############################
         # Matrix : 
@@ -103,8 +101,8 @@ class MatrixNet(nn.Module):
         inputs_e = inputs_e.to(torch.float)
         e_out = torch.matmul(inputs_e, torch.mul(self.odd_to_even_layer_mask,oddw_e),dtype=torch.float)
         
-        o_c = torch.special.expit(e_out)
-        o_c = (o_c > 0.5).to(torch.int)
+        # o_c = torch.special.expit(e_out)
+        # o_c = (o_c > 0.5).to(torch.int)
         return o_c
 
     def forward(self, x):
