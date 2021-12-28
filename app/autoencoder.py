@@ -12,7 +12,6 @@ from torch.autograd import Variable
 from torchvision.utils import save_image
 from torchvision.utils import make_grid
 import torch.utils.data
-from data_loader import *
 from IPython import display
 
 import pickle
@@ -31,12 +30,6 @@ import reed_muller_modules
 from reed_muller_modules.logging_utils import *
 
 from opt_einsum import contract   # This is for faster torch.einsum
-from reed_muller_modules.reedmuller_codebook import *
-from reed_muller_modules.hadamard import *
-from reed_muller_modules.comm_utils import *
-from reed_muller_modules.logging_utils import *
-from reed_muller_modules.all_functions import *
-# import reed_muller_modules.reedmuller_codebook as reedmuller_codebook
 
 import pandas as pd
 import numpy as np
@@ -44,9 +37,12 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from itertools import combinations
+from util.log_util import get_logger
 
-#python train_KO_m2.py --gpu 0 --m 8 --enc_train_snr 0 --dec_train_snr -2 --batch_size 10000 --small_batch_size 250encoder0
+from model.matrix_net import MatrixNet
 
+#python train_KO_m2.py --gpu 0 --m 8 --enc_train_snr 0 --dec_train_snr -2 --batch_size 10000 --small_batch_size 250
+ 
 parser = argparse.ArgumentParser(description='(m,2) dumer')
 
 parser.add_argument('--m', type=int, default=8, help='reed muller code parameter m')
@@ -181,13 +177,7 @@ def moving_average(a, n=3) :
 bers = []
 losses = []
 codebook_size = 1000
-
-def pairwise_distances(codebook):
-    dists = []
-    for row1, row2 in combinations(codebook, 2): 
-        distance = (row1-row2).pow(2).sum()
-        dists.append(np.sqrt(distance.item()))
-    return dists, np.min(dists)
+logger = get_logger("Reed_Muller_n_%d_k_%d".format(n,k))
 
 # Training Algorithm
 try:
@@ -237,9 +227,9 @@ try:
 
         losses.append(loss.item())
         if k % 10 == 0:
-            print('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 
+            logger.warning('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 
                 % (k+1, args.full_iterations, args.enc_train_snr, loss.item(), ber))
-            print("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
+            logger.warning("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
 
 
         # Save the model for safety
@@ -264,9 +254,9 @@ try:
             plt.close()
 
 except KeyboardInterrupt:
-    print('Graceful Exit')
+    logger.warning('Graceful Exit')
 else:
-    print('Finished')
+    logger.warning('Finished')
 
 plt.figure()
 plt.plot(bers)

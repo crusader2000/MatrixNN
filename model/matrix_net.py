@@ -13,8 +13,6 @@ class MatrixNet(nn.Module):
 
         self.k,self.n = np.size(self.matrix)
 
-
-
         ############################
         # Matrix : 
         #   c1 c2 ..... cn
@@ -110,7 +108,8 @@ class MatrixNet(nn.Module):
         return o_c
 
     def forward(self, x):
-        
+        x = x.to(torch.float)
+
         flag_clip = 1
         lv = torch.matmul(x,self.input_layer_mask).to(torch.float)
 
