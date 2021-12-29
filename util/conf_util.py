@@ -1,6 +1,6 @@
 import yaml
 import numpy as np
-from reed_muller import *
+from .reed_muller import *
 
 def get_default_conf(conf_path=None):
     if conf_path is None:

@@ -4,11 +4,19 @@
 from __future__ import print_function
 import torch
 import torch.nn as nn
+from torch.nn import BCEWithLogitsLoss
 import torch.nn.functional as F
+from torch.utils.data import DataLoader
+from torch.optim.lr_scheduler import StepLR
 import torch.optim as optim
 import torch.utils.data
 from IPython import display
 
+from util.conf_util import *
+from util.log_util import *
+from model.matrix_net import *
+
+import sys
 import pickle
 import glob
 import os
@@ -16,6 +24,8 @@ import logging
 import time
 from datetime import datetime
 from datetime import date
+import random
+
 
 import matplotlib
 # matplotlib.use('AGG')
@@ -69,7 +79,7 @@ def moving_average(a, n=3) :
 bers = []
 losses = []
 
-if __name__="__main__":
+if __name__ == "__main__":
 	if len(sys.argv) == 2:
 		conf_name = sys.argv[1]
 		print("train conf_name:", conf_name)
@@ -85,6 +95,7 @@ if __name__="__main__":
 	else:
 			device = torch.device("cpu")
 			print(device)
+	
 
 	para = conf["para"]
 	seed = para["seed"]
@@ -95,12 +106,15 @@ if __name__="__main__":
 	today = date.today().strftime("%b-%d-%Y")
 
 	logger = get_logger(para["logger_name"])
+	logger.info("train_conf_name : "+conf_name)
+	logger.info("Device : "+str(device))
+	logger.info("We are on!!!")
 
 	enc_model = MatrixNet(device, conf["data"]["G"]).to(device)
 	dec_model = MatrixNet(device, np.transpose(conf["data"]["G"])).to(device)
 	criterion = BCEWithLogitsLoss()
-	optimizer_enc = optim.RMSprop(enc_model.parameters(), lr=para["lr"])
-	optimizer_dec = optim.RMSprop(dec_model.parameters(), lr=para["lr"])
+	enc_optimizer = optim.RMSprop(enc_model.parameters(), lr=para["lr"])
+	dec_optimizer = optim.RMSprop(dec_model.parameters(), lr=para["lr"])
 	
 	data_type = para["data_type"]
 	
@@ -111,7 +125,7 @@ if __name__="__main__":
 	try:
 			for k in range(para["full_iterations"]):
 					start_time = time.time()
-					msg_bits_large_batch = 2*torch.randint(0,2,para["train_batch_size"], para["k"]) -1
+					msg_bits_large_batch = 2*torch.randint(0,2,(para["train_batch_size"], para["k"])) -1
 
 					num_small_batches = int(para["train_batch_size"]/para["train_small_batch_size"])
 
@@ -122,12 +136,13 @@ if __name__="__main__":
 									start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
 									msg_bits = msg_bits_large_batch[start:end].to(device)
 									codewords = enc_model(msg_bits)      
-									transmit_codewords = F.normalize(codewords, p=2, dim=1)*torch.sqrt(2**para["m"])
-									corrupted_codewords = awgn_channel(transmit_codewords, conf.dec_train_snr)
+									transmit_codewords = F.normalize(codewords, p=2, dim=1)*np.sqrt(2**para["m"])
+									corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
 									decoded_bits = dec_model(corrupted_codewords)
 
 									loss = criterion(decoded_bits, 0.5*msg_bits+0.5)/num_small_batches
 									
+									print(i)
 									loss.backward()
 							dec_optimizer.step()
 							
@@ -137,37 +152,38 @@ if __name__="__main__":
 							enc_optimizer.zero_grad()        
 
 							for i in range(num_small_batches):
-									start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
-									msg_bits = msg_bits_large_batch[start:end].to(device)
-							
-									codewords = enc_model(msg_bits)      
-									transmit_codewords = F.normalize(codewords, p=2, dim=1)*torch.sqrt(2**para["m"])      
-									corrupted_codewords = awgn_channel(transmit_codewords, conf.dec_train_snr)
-									decoded_bits = dec_model(corrupted_codewords)
+								start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
+								msg_bits = msg_bits_large_batch[start:end].to(device)
+						
+								codewords = enc_model(msg_bits)      
+								transmit_codewords = F.normalize(codewords, p=2, dim=1)*np.sqrt(2**para["m"])      
+								corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
+								decoded_bits = dec_model(corrupted_codewords)
 
-									loss = criterion(decoded_bits, msg_bits )/num_small_batches
-									
-									loss.backward()
-							
+								loss = criterion(decoded_bits, msg_bits )/num_small_batches
+								
+								loss.backward()
+
 							enc_optimizer.step()
 							
 							ber = errors_ber(msg_bits, decoded_bits.sign()).item()
 							
 					bers.append(ber)
+					logger.info('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 
+									% (k+1, para["full_iterations"], para["enc_train_snr"], loss.item(), ber))
+					logger.info("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
 
 					losses.append(loss.item())
 					if k % 10 == 0:
-  							train_save_path_encoder = para["train_save_path_decoder"].format(today, data_type, k+1)
-								if not os.path.exists(train_save_path_encoder):
-									os.makedirs(train_save_path_encoder)
-								
-								train_save_path_decoder = para["train_save_path_decoder"].format(today, data_type, k+1)
-								if not os.path.exists(train_save_path_decoder):
-										os.makedirs(train_save_path_decoder)
+							train_save_path_encoder = para["train_save_path_decoder"].format(today, data_type, k+1)
+							if not os.path.exists(train_save_path_encoder):
+								os.makedirs(train_save_path_encoder)
+							
+							train_save_path_decoder = para["train_save_path_decoder"].format(today, data_type, k+1)
+							if not os.path.exists(train_save_path_decoder):
+									os.makedirs(train_save_path_decoder)
 
-							logger.warning('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 
-									% (k+1, para["full_iterations"], para["enc_train_snr"], loss.item(), ber))
-							logger.warning("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
+							
 
 							# Save the model for safety
 							torch.save(enc_model.state_dict(), para["train_save_path_encoder"].format(today, data_type, k+1))

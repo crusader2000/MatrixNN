@@ -5,12 +5,12 @@ import numpy as np
 
 class MatrixNet(nn.Module):
     def __init__(self, device, matrix):
-        super(cycnet, self).__init__()
+        super(MatrixNet, self).__init__()
         self.clip_tanh = 10
         self.num_edges = 0
         self.matrix = matrix
-        self.k,self.n = np.size(matrix)
-
+        self.k,self.n = len(matrix),len(matrix[0])
+        self.device = device
         ############################
         # Matrix : 
         #   c1 c2 ..... cn
@@ -30,12 +30,12 @@ class MatrixNet(nn.Module):
             for j in range(self.n):
                 if self.matrix[i,j] == 1:
 
-                    if not self.adjancency_list["v"+str(i)]:
+                    if "v"+str(i) not in self.adjancency_list:
                         self.adjancency_list["v"+str(i)] = [("c"+str(j),self.num_edges)]
                     else:
                         self.adjancency_list["v"+str(i)].append(("c"+str(j),self.num_edges))
                     
-                    if not self.adjancency_list["c"+str(j)]:
+                    if "c"+str(j) not in self.adjancency_list:
                         self.adjancency_list["c"+str(j)] = [("v"+str(i),self.num_edges)]
                     else:
                         self.adjancency_list["c"+str(j)].append(("v"+str(i),self.num_edges))
@@ -48,8 +48,10 @@ class MatrixNet(nn.Module):
         self.odd_to_even_layer_mask = torch.zeros(self.num_edges, self.num_edges).to(device)
         self.even_to_odd_layer_mask = torch.zeros(self.num_edges, self.num_edges).to(device)
 
+        self.zero_indices = torch.nonzero(1-self.even_to_odd_layer_mask)
+        
         for i in range(self.num_edges):
-            self.input_layer_mask[self.edges[i][0],i] = 1
+            self.input_layer_mask[int(self.edges[i][0][1]),i] = 1
 
         for i in range(self.n):
             for _,e_num in self.adjancency_list["c"+str(i)]:
@@ -57,12 +59,12 @@ class MatrixNet(nn.Module):
     
         for i in range(self.num_edges):
             for _,e_num in self.adjancency_list[self.edges[i][1]]: 
-                self.odd_to_even_layer_mask[e_num,i] = 1
+                self.odd_to_even_layer_mask[i,e_num] = 1
             for _,e_num in self.adjancency_list[self.edges[i][0]]: 
-                self.even_to_odd_layer_mask[e_num,i] = 1
+                self.even_to_odd_layer_mask[i,e_num] = 1
 
-        self.odd_to_even_layer_mask = (self.odd_to_even_layer_mask - torch.eye(self.num_edges)).to(device)  
-        self.even_to_odd_layer_mask = (self.even_to_odd_layer_mask - torch.eye(self.num_edges)).to(device)  
+        self.odd_to_even_layer_mask = (self.odd_to_even_layer_mask - torch.eye(self.num_edges).to(device))
+        self.even_to_odd_layer_mask = (self.even_to_odd_layer_mask - torch.eye(self.num_edges).to(device))
 
         self.weights_odd1_wv = nn.Parameter(torch.randn(1, self.num_edges))
         self.weights_odd1_we = nn.Parameter(torch.randn(self.num_edges, self.num_edges))
@@ -74,10 +76,9 @@ class MatrixNet(nn.Module):
 
     def odd_layer(self, inputs_v, inputs_e, oddw_v, oddw_e):
         inputs_v = inputs_v.to(torch.float)
-        v_out = torch.mul(inputs_v, oddw_v,dtype=torch.float)
-
+        v_out = torch.mul(inputs_v, oddw_v).to(torch.float)
         inputs_e = inputs_e.to(torch.float)
-        e_out = torch.matmul(inputs_e, torch.mul(self.odd_to_even_layer_mask,oddw_e,dtype=torch.float),dtype=torch.float)
+        e_out = torch.matmul(inputs_e, torch.mul(self.odd_to_even_layer_mask,oddw_e).to(torch.float)).to(torch.float)
 
         odd = v_out + e_out
         odd = 0.5 * torch.clamp(odd, min=-self.clip_tanh, max=self.clip_tanh)
@@ -85,25 +86,44 @@ class MatrixNet(nn.Module):
         return odd
 
     def even_layer(self, odd, flag_clip):
-        even = odd.repeat(self.num_edges,dtype=torch.float)
-        even = torch.matmul(even,self.even_to_odd_layer_mask,dtype=torch.float)
+        num_m,_ = odd.size()
+        odd_repeat = torch.zeros(num_m,self.num_edges,self.num_edges).to(self.device)
 
-        even[torch.nonzero(1-self.even_to_odd_layer_mask)] = 1
+        # print(odd.size())
+        # print(odd_repeat.size())
+        for i in range(num_m):
+            odd_repeat[i,:,:] = torch.reshape(odd[i].repeat(1,self.num_edges),(self.num_edges,self.num_edges)).to(torch.float)
 
-        even = torch.prod(even,dim = self.num_edges,keepdim=False,dtype=torch.float)
+        # print(odd_repeat.size())
+        # odd_repeat.to(self.device)
+        # self.even_to_odd_layer_mask.to(self.device)
+
+        even = torch.matmul(odd_repeat,self.even_to_odd_layer_mask).to(torch.float)
+        # print(even.size())
+
+        for i in range(num_m):
+            even[i][self.zero_indices] = 1
+        
+        # print(even.size())
+        
+        prod_rows = torch.prod(even,dim = 1,keepdim=False).to(torch.float)
+        # print(prod_rows.size())
+        # prod_rows = prod_rows.resize(1,self.num_edges)
 
         if flag_clip:
-            even = torch.clamp(even, min=-self.clip_tanh, max=self.clip_tanh)
-        even = torch.log(torch.div(1 + even, 1 - even))
-        return even
+            prod_rows = torch.clamp(prod_rows, min=-self.clip_tanh, max=self.clip_tanh)
+        prod_rows = torch.log(torch.div(1 + prod_rows, 1 - prod_rows))
+        return prod_rows
 
     def output_layer(self, inputs_e, oddw_e):
         inputs_e = inputs_e.to(torch.float)
-        e_out = torch.matmul(inputs_e, torch.mul(self.odd_to_even_layer_mask,oddw_e),dtype=torch.float)
+        print(inputs_e.size())
+        # print(torch.mul(self.odd_to_even_layer_mask,oddw_e).size())
+        e_out = torch.matmul(inputs_e, torch.mul(self.output_layer_mask,oddw_e)).to(torch.float)
         
         # o_c = torch.special.expit(e_out)
         # o_c = (o_c > 0.5).to(torch.int)
-        return o_c
+        return e_out
 
     def forward(self, x):
         x = x.to(torch.float)
@@ -121,6 +141,6 @@ class MatrixNet(nn.Module):
         odd_result = self.odd_layer(lv, even_result2, self.weights_odd3_wv, self.weights_odd3_we)
         even_result3 = self.even_layer(odd_result, flag_clip)
 
-        output = self.output_layer(odd_result, weights_output_we)
+        output = self.output_layer(odd_result, self.weights_output_we)
 
         return output

@@ -1,8 +1,8 @@
 para:
   train_dataset_length : 10000
   test_dataset_length : 250
-  train_batch_size: 16000
-  train_small_batch_size: 160
+  train_batch_size: 1000
+  train_small_batch_size: 10
   test_batch_size: 10000
   full_iterations: 2000
   enc_train_iters: 50

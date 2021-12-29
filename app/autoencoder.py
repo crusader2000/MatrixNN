@@ -5,7 +5,10 @@ from __future__ import print_function
 import argparse
 import torch
 import torch.nn as nn
+from torch.nn import BCEWithLogitsLoss
 import torch.nn.functional as F
+from torch.utils.data import DataLoader
+from torch.optim.lr_scheduler import StepLR
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.autograd import Variable
