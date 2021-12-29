@@ -120,7 +120,11 @@ if __name__ == "__main__":
 	
 	bers = []
 	losses = []
-
+	
+	train_save_dirpath = para["train_save_path_dir"].format(today, data_type)
+	if not os.path.exists(train_save_dirpath):
+		os.makedirs(train_save_dirpath)
+	
 	# Training Algorithm
 	try:
 			for k in range(para["full_iterations"]):
@@ -175,16 +179,6 @@ if __name__ == "__main__":
 
 					losses.append(loss.item())
 					if k % 10 == 0:
-							train_save_path_encoder = para["train_save_path_decoder"].format(today, data_type, k+1)
-							if not os.path.exists(train_save_path_encoder):
-								os.makedirs(train_save_path_encoder)
-							
-							train_save_path_decoder = para["train_save_path_decoder"].format(today, data_type, k+1)
-							if not os.path.exists(train_save_path_decoder):
-									os.makedirs(train_save_path_decoder)
-
-							
-
 							# Save the model for safety
 							torch.save(enc_model.state_dict(), para["train_save_path_encoder"].format(today, data_type, k+1))
 							torch.save(dec_model.state_dict(), para["train_save_path_decoder"].format(today, data_type, k+1))
@@ -192,13 +186,13 @@ if __name__ == "__main__":
 							plt.figure()
 							plt.plot(bers)
 							plt.plot(moving_average(bers, n=10))
-							plt.savefig(para["train_save_path_decoder"].format(today, data_type, k+1) +'/training_ber.png')
+							plt.savefig(train_save_dirpath +'/training_ber.png')
 							plt.close()
 
 							plt.figure()
 							plt.plot(losses)
 							plt.plot(moving_average(losses, n=10))
-							plt.savefig(para["train_save_path_decoder"].format(today, data_type, k+1) +'/training_losses.png')
+							plt.savefig(train_save_dirpath +'/training_losses.png')
 							plt.close()
 
 	except KeyboardInterrupt:
@@ -206,24 +200,16 @@ if __name__ == "__main__":
 	else:
 			logger.warning('Finished')
 
-	train_save_path_encoder = para["train_save_path_decoder"].format(today, data_type, para["full_iterations"])
-	if not os.path.exists(train_save_path_encoder):
-		os.makedirs(train_save_path_encoder)
-	
-	train_save_path_decoder = para["train_save_path_decoder"].format(today, data_type, para["full_iterations"])
-	if not os.path.exists(train_save_path_decoder):
-			os.makedirs(train_save_path_decoder)
-
 	plt.figure()
 	plt.plot(bers)
 	plt.plot(moving_average(bers, n=10))
-	plt.savefig(para["train_save_path_decoder"].format(today, data_type, para["full_iterations"]) +'/training_ber.png')
+	plt.savefig(train_save_dirpath +'/training_ber.png')
 	plt.close()
 
 	plt.figure()
 	plt.plot(losses)
 	plt.plot(moving_average(losses, n=10))
-	plt.savefig(para["train_save_path_decoder"].format(today, data_type, para["full_iterations"]) +'/training_losses.png')
+	plt.savefig(train_save_dirpath +'/training_losses.png')
 	plt.close()
 
 	torch.save(enc_model.state_dict(), para["train_save_path_encoder"].format(today, data_type, para["full_iterations"]))

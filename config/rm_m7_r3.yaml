@@ -28,9 +28,10 @@ para:
   data_type: "7_3"
   logger_name: RM_{}_train
   CUDA_VISIBLE_DEVICES: "1"
-  train_save_path_encoder: "./save/{}/rm_enc_{}_{}.pth"
-  train_save_path_decoder: "./save/{}/rm_dec_{}_{}.pth"
-  test_model_path: ./save/rm_{}/rm_{}_1.pth
+  train_save_path_dir: "./save/{}/rm_{}"
+  train_save_path_encoder: "./save/{}/rm_{}/enc_{}.pth"
+  train_save_path_decoder: "./save/{}/rm_{}/dec_{}.pth"
+  # test_model_path: ./save/rm_{}/rm_{}_1.pth
 
 data:
   rate: None   # dont edit, will init
