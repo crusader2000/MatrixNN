@@ -59,7 +59,7 @@ class MatrixNet(nn.Module):
     
         for i in range(self.num_edges):
             for _,e_num in self.adjancency_list[self.edges[i][1]]: 
-                self.odd_to_even_layer_mask[i,e_num] = 1
+                self.odd_to_even_layer_mask[e_num,i] = 1
             for _,e_num in self.adjancency_list[self.edges[i][0]]: 
                 self.even_to_odd_layer_mask[i,e_num] = 1
 
@@ -98,20 +98,26 @@ class MatrixNet(nn.Module):
         # odd_repeat.to(self.device)
         # self.even_to_odd_layer_mask.to(self.device)
 
-        even = torch.matmul(odd_repeat,self.even_to_odd_layer_mask).to(torch.float)
-        # print(even.size())
+        # Check Following Line
+        # Try torch.contract if doesnt work
+        print(self.even_to_odd_layer_mask)
+        even = torch.mul(odd_repeat,self.even_to_odd_layer_mask).to(torch.float)
+        print(even)
 
         for i in range(num_m):
             even[i][self.zero_indices] = 1
+        print(even)
         
         # print(even.size())
         
         prod_rows = torch.prod(even,dim = 1,keepdim=False).to(torch.float)
-        # print(prod_rows.size())
+        print(prod_rows.size())
         # prod_rows = prod_rows.resize(1,self.num_edges)
+        print(prod_rows)
 
         if flag_clip:
             prod_rows = torch.clamp(prod_rows, min=-self.clip_tanh, max=self.clip_tanh)
+        
         prod_rows = torch.log(torch.div(1 + prod_rows, 1 - prod_rows))
         return prod_rows
 

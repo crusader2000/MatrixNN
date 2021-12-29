@@ -33,9 +33,6 @@ import matplotlib.pyplot as plt
 
 from opt_einsum import contract   # This is for faster torch.einsum
 
-from model.matrix_net import MatrixNet
-
-
 def snr_db2sigma(train_snr):
 		return 10**(-train_snr*1.0/20)
 
@@ -144,9 +141,9 @@ if __name__ == "__main__":
 									corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
 									decoded_bits = dec_model(corrupted_codewords)
 
-									loss = criterion(decoded_bits, 0.5*msg_bits+0.5)/num_small_batches
+									loss = criterion(decoded_bits, msg_bits)/num_small_batches
 									
-									print(i)
+									# print(i)
 									loss.backward()
 							dec_optimizer.step()
 							
