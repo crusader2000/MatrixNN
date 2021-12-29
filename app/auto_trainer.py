@@ -122,11 +122,13 @@ if __name__ == "__main__":
 	if not os.path.exists(train_save_dirpath):
 		os.makedirs(train_save_dirpath)
 	
+	torch.autograd.set_detect_anomaly(True)
+
 	# Training Algorithm
 	try:
 			for k in range(para["full_iterations"]):
 					start_time = time.time()
-					msg_bits_large_batch = 2*torch.randint(0,2,(para["train_batch_size"], para["k"])) -1
+					msg_bits_large_batch = 2*torch.randint(0,2,(para["train_batch_size"], para["k"])).to(torch.float) -1
 
 					num_small_batches = int(para["train_batch_size"]/para["train_small_batch_size"])
 
@@ -137,10 +139,19 @@ if __name__ == "__main__":
 									start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
 									msg_bits = msg_bits_large_batch[start:end].to(device)
 									codewords = enc_model(msg_bits)      
+									print("codewords")
+									print(codewords)
 									transmit_codewords = F.normalize(codewords, p=2, dim=1)*np.sqrt(2**para["m"])
+									print("transmit_codewords")
+									print(transmit_codewords)
 									corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
+									print("corrupted_codewords")
+									print(corrupted_codewords)
+									
 									decoded_bits = dec_model(corrupted_codewords)
-
+									print("decoded_bits")
+									decoded_bits = torch.nan_to_num(decoded_bits,0.0)
+									print(decoded_bits)
 									loss = criterion(decoded_bits, msg_bits)/num_small_batches
 									
 									# print(i)
