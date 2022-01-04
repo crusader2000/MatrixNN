@@ -1,0 +1,16 @@
+2022-01-02 19:58:35,424 auto_trainer.py INFO 106: train_conf_name : rm_m4_r1
+2022-01-02 19:58:35,425 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 19:58:35,425 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 20:03:33,418 auto_trainer.py WARNING 213: Graceful Exit
+2022-01-02 20:03:53,698 auto_trainer.py INFO 106: train_conf_name : rm_m4_r1
+2022-01-02 20:03:53,698 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 20:03:53,698 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 20:31:26,833 auto_trainer.py INFO 187: [1/100] At 6 dB, Loss: -0.0017669131 BER: 0.3100000024
+2022-01-02 20:31:26,833 auto_trainer.py INFO 188: Time for one full iteration is 27.5146 minutes
+2022-01-02 20:58:57,890 auto_trainer.py INFO 187: [2/100] At 6 dB, Loss: -0.0028554981 BER: 0.2899999917
+2022-01-02 20:58:57,891 auto_trainer.py INFO 188: Time for one full iteration is 27.5145 minutes
+2022-01-02 21:04:11,589 auto_trainer.py INFO 106: train_conf_name : rm_m4_r1
+2022-01-02 21:04:11,589 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 21:04:11,589 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 21:04:16,318 auto_trainer.py WARNING 213: Graceful Exit
+2022-01-02 21:07:21,686 auto_trainer.py WARNING 213: Graceful Exit

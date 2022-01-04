@@ -1,0 +1,15 @@
+2022-01-02 14:54:05,642 auto_trainer.py INFO 106: train_conf_name : rm_m7_r3
+2022-01-02 14:54:05,642 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 14:54:05,642 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 15:05:08,218 auto_trainer.py WARNING 211: Graceful Exit
+2022-01-02 15:05:57,797 auto_trainer.py INFO 106: train_conf_name : rm_m7_r3
+2022-01-02 15:05:57,797 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 15:05:57,798 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 19:21:46,990 auto_trainer.py INFO 106: train_conf_name : rm_m7_r3
+2022-01-02 19:21:46,990 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 19:21:46,990 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 19:56:48,161 auto_trainer.py WARNING 211: Graceful Exit
+2022-01-02 19:56:53,965 auto_trainer.py INFO 106: train_conf_name : rm_m7_r3
+2022-01-02 19:56:53,965 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 19:56:53,965 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 19:58:25,919 auto_trainer.py WARNING 213: Graceful Exit

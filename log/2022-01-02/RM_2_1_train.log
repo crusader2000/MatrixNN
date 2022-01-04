@@ -1,0 +1,147 @@
+2022-01-02 12:12:42,664 auto_trainer.py INFO 106: train_conf_name : test
+2022-01-02 12:12:42,664 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 12:12:42,665 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 14:43:00,740 auto_trainer.py INFO 106: train_conf_name : test
+2022-01-02 14:43:00,740 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 14:43:00,740 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 14:44:29,690 auto_trainer.py INFO 106: train_conf_name : test
+2022-01-02 14:44:29,690 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 14:44:29,690 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 14:44:54,185 auto_trainer.py INFO 106: train_conf_name : test
+2022-01-02 14:44:54,186 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 14:44:54,186 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 14:44:57,453 auto_trainer.py INFO 185: [1/1] At 6 dB, Loss: 0.0706414804 BER: 0.1666666716
+2022-01-02 14:44:57,454 auto_trainer.py INFO 186: Time for one full iteration is 0.0162 minutes
+2022-01-02 14:44:57,705 auto_trainer.py WARNING 209: Finished
+2022-01-02 14:45:39,814 auto_trainer.py INFO 106: train_conf_name : test
+2022-01-02 14:45:39,814 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 14:45:39,814 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 14:45:43,072 auto_trainer.py INFO 185: [1/20] At 6 dB, Loss: 0.0706414804 BER: 0.1666666716
+2022-01-02 14:45:43,073 auto_trainer.py INFO 186: Time for one full iteration is 0.0163 minutes
+2022-01-02 14:45:43,995 auto_trainer.py INFO 185: [2/20] At 6 dB, Loss: 0.1156096011 BER: 0.3333333433
+2022-01-02 14:45:43,995 auto_trainer.py INFO 186: Time for one full iteration is 0.0125 minutes
+2022-01-02 14:45:44,746 auto_trainer.py INFO 185: [3/20] At 6 dB, Loss: 0.0690706596 BER: 0.3333333433
+2022-01-02 14:45:44,746 auto_trainer.py INFO 186: Time for one full iteration is 0.0125 minutes
+2022-01-02 14:45:45,519 auto_trainer.py INFO 185: [4/20] At 6 dB, Loss: 0.1175932512 BER: 0.5000000000
+2022-01-02 14:45:45,519 auto_trainer.py INFO 186: Time for one full iteration is 0.0129 minutes
+2022-01-02 14:45:46,305 auto_trainer.py INFO 185: [5/20] At 6 dB, Loss: 0.1172569022 BER: 0.5000000000
+2022-01-02 14:45:46,305 auto_trainer.py INFO 186: Time for one full iteration is 0.0131 minutes
+2022-01-02 14:45:47,051 auto_trainer.py INFO 185: [6/20] At 6 dB, Loss: 0.1005816013 BER: 0.3333333433
+2022-01-02 14:45:47,051 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:45:47,833 auto_trainer.py INFO 185: [7/20] At 6 dB, Loss: 0.1229625270 BER: 0.5000000000
+2022-01-02 14:45:47,834 auto_trainer.py INFO 186: Time for one full iteration is 0.0130 minutes
+2022-01-02 14:45:48,582 auto_trainer.py INFO 185: [8/20] At 6 dB, Loss: 0.0652835816 BER: 0.3333333433
+2022-01-02 14:45:48,582 auto_trainer.py INFO 186: Time for one full iteration is 0.0125 minutes
+2022-01-02 14:45:49,328 auto_trainer.py INFO 185: [9/20] At 6 dB, Loss: 0.1544877440 BER: 0.6666666865
+2022-01-02 14:45:49,328 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:45:50,069 auto_trainer.py INFO 185: [10/20] At 6 dB, Loss: 0.0475430116 BER: 0.3333333433
+2022-01-02 14:45:50,069 auto_trainer.py INFO 186: Time for one full iteration is 0.0123 minutes
+2022-01-02 14:45:50,813 auto_trainer.py INFO 185: [11/20] At 6 dB, Loss: 0.0863864645 BER: 0.5000000000
+2022-01-02 14:45:50,813 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:45:51,763 auto_trainer.py INFO 185: [12/20] At 6 dB, Loss: 0.0818625838 BER: 0.0000000000
+2022-01-02 14:45:51,763 auto_trainer.py INFO 186: Time for one full iteration is 0.0126 minutes
+2022-01-02 14:45:52,523 auto_trainer.py INFO 185: [13/20] At 6 dB, Loss: 0.0970180407 BER: 0.3333333433
+2022-01-02 14:45:52,523 auto_trainer.py INFO 186: Time for one full iteration is 0.0127 minutes
+2022-01-02 14:45:53,270 auto_trainer.py INFO 185: [14/20] At 6 dB, Loss: 0.1951242238 BER: 1.0000000000
+2022-01-02 14:45:53,270 auto_trainer.py INFO 186: Time for one full iteration is 0.0125 minutes
+2022-01-02 14:45:54,015 auto_trainer.py INFO 185: [15/20] At 6 dB, Loss: 0.0003373653 BER: 0.0000000000
+2022-01-02 14:45:54,015 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:45:54,760 auto_trainer.py INFO 185: [16/20] At 6 dB, Loss: 0.0491185300 BER: 0.1666666716
+2022-01-02 14:45:54,761 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:45:55,503 auto_trainer.py INFO 185: [17/20] At 6 dB, Loss: 0.0593515299 BER: 0.5000000000
+2022-01-02 14:45:55,503 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:45:56,258 auto_trainer.py INFO 185: [18/20] At 6 dB, Loss: 0.1400834471 BER: 0.5000000000
+2022-01-02 14:45:56,258 auto_trainer.py INFO 186: Time for one full iteration is 0.0126 minutes
+2022-01-02 14:45:57,003 auto_trainer.py INFO 185: [19/20] At 6 dB, Loss: 0.1031660587 BER: 0.5000000000
+2022-01-02 14:45:57,003 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:45:57,777 auto_trainer.py INFO 185: [20/20] At 6 dB, Loss: 0.0941487029 BER: 0.3333333433
+2022-01-02 14:45:57,778 auto_trainer.py INFO 186: Time for one full iteration is 0.0129 minutes
+2022-01-02 14:45:57,778 auto_trainer.py WARNING 209: Finished
+2022-01-02 14:48:52,222 auto_trainer.py INFO 106: train_conf_name : test
+2022-01-02 14:48:52,222 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 14:48:52,222 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 14:48:55,456 auto_trainer.py INFO 185: [1/20] At 6 dB, Loss: 0.0706414804 BER: 0.1666666716
+2022-01-02 14:48:55,457 auto_trainer.py INFO 186: Time for one full iteration is 0.0157 minutes
+2022-01-02 14:48:56,373 auto_trainer.py INFO 185: [2/20] At 6 dB, Loss: 0.1156096011 BER: 0.3333333433
+2022-01-02 14:48:56,374 auto_trainer.py INFO 186: Time for one full iteration is 0.0123 minutes
+2022-01-02 14:48:57,126 auto_trainer.py INFO 185: [3/20] At 6 dB, Loss: 0.0690706596 BER: 0.3333333433
+2022-01-02 14:48:57,126 auto_trainer.py INFO 186: Time for one full iteration is 0.0125 minutes
+2022-01-02 14:48:57,858 auto_trainer.py INFO 185: [4/20] At 6 dB, Loss: 0.1175932512 BER: 0.5000000000
+2022-01-02 14:48:57,859 auto_trainer.py INFO 186: Time for one full iteration is 0.0122 minutes
+2022-01-02 14:48:58,600 auto_trainer.py INFO 185: [5/20] At 6 dB, Loss: 0.1172569022 BER: 0.5000000000
+2022-01-02 14:48:58,600 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:48:59,334 auto_trainer.py INFO 185: [6/20] At 6 dB, Loss: 0.1005816013 BER: 0.3333333433
+2022-01-02 14:48:59,335 auto_trainer.py INFO 186: Time for one full iteration is 0.0122 minutes
+2022-01-02 14:49:00,067 auto_trainer.py INFO 185: [7/20] At 6 dB, Loss: 0.1229625270 BER: 0.5000000000
+2022-01-02 14:49:00,068 auto_trainer.py INFO 186: Time for one full iteration is 0.0122 minutes
+2022-01-02 14:49:00,799 auto_trainer.py INFO 185: [8/20] At 6 dB, Loss: 0.0652835816 BER: 0.3333333433
+2022-01-02 14:49:00,799 auto_trainer.py INFO 186: Time for one full iteration is 0.0122 minutes
+2022-01-02 14:49:01,533 auto_trainer.py INFO 185: [9/20] At 6 dB, Loss: 0.1544877440 BER: 0.6666666865
+2022-01-02 14:49:01,533 auto_trainer.py INFO 186: Time for one full iteration is 0.0122 minutes
+2022-01-02 14:49:02,280 auto_trainer.py INFO 185: [10/20] At 6 dB, Loss: 0.0475430116 BER: 0.3333333433
+2022-01-02 14:49:02,280 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:49:03,046 auto_trainer.py INFO 185: [11/20] At 6 dB, Loss: 0.0863864645 BER: 0.5000000000
+2022-01-02 14:49:03,046 auto_trainer.py INFO 186: Time for one full iteration is 0.0128 minutes
+2022-01-02 14:49:03,995 auto_trainer.py INFO 185: [12/20] At 6 dB, Loss: 0.0818625838 BER: 0.0000000000
+2022-01-02 14:49:03,996 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:49:04,759 auto_trainer.py INFO 185: [13/20] At 6 dB, Loss: 0.0970180407 BER: 0.3333333433
+2022-01-02 14:49:04,759 auto_trainer.py INFO 186: Time for one full iteration is 0.0127 minutes
+2022-01-02 14:49:05,495 auto_trainer.py INFO 185: [14/20] At 6 dB, Loss: 0.1951242238 BER: 1.0000000000
+2022-01-02 14:49:05,495 auto_trainer.py INFO 186: Time for one full iteration is 0.0123 minutes
+2022-01-02 14:49:06,241 auto_trainer.py INFO 185: [15/20] At 6 dB, Loss: 0.0003373653 BER: 0.0000000000
+2022-01-02 14:49:06,241 auto_trainer.py INFO 186: Time for one full iteration is 0.0124 minutes
+2022-01-02 14:49:06,974 auto_trainer.py INFO 185: [16/20] At 6 dB, Loss: 0.0491185300 BER: 0.1666666716
+2022-01-02 14:49:06,974 auto_trainer.py INFO 186: Time for one full iteration is 0.0122 minutes
+2022-01-02 14:49:07,711 auto_trainer.py INFO 185: [17/20] At 6 dB, Loss: 0.0593515299 BER: 0.5000000000
+2022-01-02 14:49:07,711 auto_trainer.py INFO 186: Time for one full iteration is 0.0123 minutes
+2022-01-02 14:49:08,447 auto_trainer.py INFO 185: [18/20] At 6 dB, Loss: 0.1400834471 BER: 0.5000000000
+2022-01-02 14:49:08,448 auto_trainer.py INFO 186: Time for one full iteration is 0.0123 minutes
+2022-01-02 14:49:09,201 auto_trainer.py INFO 185: [19/20] At 6 dB, Loss: 0.1031660587 BER: 0.5000000000
+2022-01-02 14:49:09,201 auto_trainer.py INFO 186: Time for one full iteration is 0.0125 minutes
+2022-01-02 14:49:09,932 auto_trainer.py INFO 185: [20/20] At 6 dB, Loss: 0.0941487029 BER: 0.3333333433
+2022-01-02 14:49:09,932 auto_trainer.py INFO 186: Time for one full iteration is 0.0122 minutes
+2022-01-02 14:49:09,933 auto_trainer.py WARNING 213: Finished
+2022-01-02 14:50:08,919 auto_trainer.py INFO 106: train_conf_name : test
+2022-01-02 14:50:08,919 auto_trainer.py INFO 107: Device : cuda
+2022-01-02 14:50:08,920 auto_trainer.py INFO 108: We are on!!!
+2022-01-02 14:50:12,153 auto_trainer.py INFO 185: [1/20] At 6 dB, Loss: 0.0706414804 BER: 0.1666666716
+2022-01-02 14:50:12,153 auto_trainer.py INFO 186: Time for one full iteration is 0.0151 minutes
+2022-01-02 14:50:13,042 auto_trainer.py INFO 185: [2/20] At 6 dB, Loss: 0.1156096011 BER: 0.3333333433
+2022-01-02 14:50:13,043 auto_trainer.py INFO 186: Time for one full iteration is 0.0117 minutes
+2022-01-02 14:50:13,741 auto_trainer.py INFO 185: [3/20] At 6 dB, Loss: 0.0690706596 BER: 0.3333333433
+2022-01-02 14:50:13,741 auto_trainer.py INFO 186: Time for one full iteration is 0.0116 minutes
+2022-01-02 14:50:14,435 auto_trainer.py INFO 185: [4/20] At 6 dB, Loss: 0.1175932512 BER: 0.5000000000
+2022-01-02 14:50:14,435 auto_trainer.py INFO 186: Time for one full iteration is 0.0116 minutes
+2022-01-02 14:50:15,145 auto_trainer.py INFO 185: [5/20] At 6 dB, Loss: 0.1172569022 BER: 0.5000000000
+2022-01-02 14:50:15,145 auto_trainer.py INFO 186: Time for one full iteration is 0.0118 minutes
+2022-01-02 14:50:15,847 auto_trainer.py INFO 185: [6/20] At 6 dB, Loss: 0.1005816013 BER: 0.3333333433
+2022-01-02 14:50:15,847 auto_trainer.py INFO 186: Time for one full iteration is 0.0117 minutes
+2022-01-02 14:50:16,545 auto_trainer.py INFO 185: [7/20] At 6 dB, Loss: 0.1229625270 BER: 0.5000000000
+2022-01-02 14:50:16,545 auto_trainer.py INFO 186: Time for one full iteration is 0.0116 minutes
+2022-01-02 14:50:17,243 auto_trainer.py INFO 185: [8/20] At 6 dB, Loss: 0.0652835816 BER: 0.3333333433
+2022-01-02 14:50:17,244 auto_trainer.py INFO 186: Time for one full iteration is 0.0116 minutes
+2022-01-02 14:50:17,944 auto_trainer.py INFO 185: [9/20] At 6 dB, Loss: 0.1544877440 BER: 0.6666666865
+2022-01-02 14:50:17,944 auto_trainer.py INFO 186: Time for one full iteration is 0.0117 minutes
+2022-01-02 14:50:18,646 auto_trainer.py INFO 185: [10/20] At 6 dB, Loss: 0.0475430116 BER: 0.3333333433
+2022-01-02 14:50:18,647 auto_trainer.py INFO 186: Time for one full iteration is 0.0117 minutes
+2022-01-02 14:50:19,363 auto_trainer.py INFO 185: [11/20] At 6 dB, Loss: 0.0863864645 BER: 0.5000000000
+2022-01-02 14:50:19,363 auto_trainer.py INFO 186: Time for one full iteration is 0.0119 minutes
+2022-01-02 14:50:20,288 auto_trainer.py INFO 185: [12/20] At 6 dB, Loss: 0.0818625838 BER: 0.0000000000
+2022-01-02 14:50:20,288 auto_trainer.py INFO 186: Time for one full iteration is 0.0118 minutes
+2022-01-02 14:50:20,990 auto_trainer.py INFO 185: [13/20] At 6 dB, Loss: 0.0970180407 BER: 0.3333333433
+2022-01-02 14:50:20,990 auto_trainer.py INFO 186: Time for one full iteration is 0.0117 minutes
+2022-01-02 14:50:21,690 auto_trainer.py INFO 185: [14/20] At 6 dB, Loss: 0.1951242238 BER: 1.0000000000
+2022-01-02 14:50:21,690 auto_trainer.py INFO 186: Time for one full iteration is 0.0117 minutes
+2022-01-02 14:50:22,387 auto_trainer.py INFO 185: [15/20] At 6 dB, Loss: 0.0003373653 BER: 0.0000000000
+2022-01-02 14:50:22,387 auto_trainer.py INFO 186: Time for one full iteration is 0.0116 minutes
+2022-01-02 14:50:23,085 auto_trainer.py INFO 185: [16/20] At 6 dB, Loss: 0.0491185300 BER: 0.1666666716
+2022-01-02 14:50:23,085 auto_trainer.py INFO 186: Time for one full iteration is 0.0116 minutes
+2022-01-02 14:50:23,787 auto_trainer.py INFO 185: [17/20] At 6 dB, Loss: 0.0593515299 BER: 0.5000000000
+2022-01-02 14:50:23,787 auto_trainer.py INFO 186: Time for one full iteration is 0.0117 minutes
+2022-01-02 14:50:24,487 auto_trainer.py INFO 185: [18/20] At 6 dB, Loss: 0.1400834471 BER: 0.5000000000
+2022-01-02 14:50:24,487 auto_trainer.py INFO 186: Time for one full iteration is 0.0117 minutes
+2022-01-02 14:50:25,183 auto_trainer.py INFO 185: [19/20] At 6 dB, Loss: 0.1031660587 BER: 0.5000000000
+2022-01-02 14:50:25,183 auto_trainer.py INFO 186: Time for one full iteration is 0.0116 minutes
+2022-01-02 14:50:25,879 auto_trainer.py INFO 185: [20/20] At 6 dB, Loss: 0.0941487029 BER: 0.3333333433
+2022-01-02 14:50:25,880 auto_trainer.py INFO 186: Time for one full iteration is 0.0116 minutes
+2022-01-02 14:50:25,880 auto_trainer.py WARNING 213: Finished

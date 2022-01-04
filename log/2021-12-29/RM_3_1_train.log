@@ -1,9 +1,0 @@
-2021-12-29 18:21:57,439 auto_trainer.py INFO 106: train_conf_name : test
-2021-12-29 18:21:57,439 auto_trainer.py INFO 107: Device : cuda
-2021-12-29 18:21:57,439 auto_trainer.py INFO 108: We are on!!!
-2021-12-29 18:27:02,477 auto_trainer.py INFO 106: train_conf_name : test
-2021-12-29 18:27:02,478 auto_trainer.py INFO 107: Device : cuda
-2021-12-29 18:27:02,478 auto_trainer.py INFO 108: We are on!!!
-2021-12-29 18:29:22,585 auto_trainer.py INFO 106: train_conf_name : test
-2021-12-29 18:29:22,586 auto_trainer.py INFO 107: Device : cuda
-2021-12-29 18:29:22,586 auto_trainer.py INFO 108: We are on!!!

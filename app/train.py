@@ -92,7 +92,7 @@ if __name__ == "__main__":
     param_size = sum([param.nelement() for param in model.parameters()])
     print(f"parameters size: {param_size}\n")
 
-    for epoch in range(1, para['epoch_szie'] + 1):
+    for epoch in range(1, para['epoch_size'] + 1):
         model.train()
         train(model, device, train_loader, para, conf, epoch, criterion)
         test(model, device, test_loader, para,epoch)

@@ -133,33 +133,34 @@ if __name__ == "__main__":
 					num_small_batches = int(para["train_batch_size"]/para["train_small_batch_size"])
 
 					# Train decoder  
-					for _ in range(para["dec_train_iters"]):
+					for iter_num in range(para["dec_train_iters"]):
 							dec_optimizer.zero_grad()        
 							for i in range(num_small_batches):
 									start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
 									msg_bits = msg_bits_large_batch[start:end].to(device)
 									codewords = enc_model(msg_bits)      
-									print("codewords")
-									print(codewords)
+									# print("codewords")
+									# print(codewords)
 									transmit_codewords = F.normalize(codewords, p=2, dim=1)*np.sqrt(2**para["m"])
-									print("transmit_codewords")
-									print(transmit_codewords)
+									# print("transmit_codewords")
+									# print(transmit_codewords)
 									corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
-									print("corrupted_codewords")
-									print(corrupted_codewords)
+									# print("corrupted_codewords")
+									# print(corrupted_codewords)
 									
 									decoded_bits = dec_model(corrupted_codewords)
-									print("decoded_bits")
-									decoded_bits = torch.nan_to_num(decoded_bits,0.0)
-									print(decoded_bits)
+									# print("decoded_bits")
+									# decoded_bits = torch.nan_to_num(decoded_bits,0.0)
+									# print(decoded_bits)
 									loss = criterion(decoded_bits, msg_bits)/num_small_batches
 									
-									# print(i)
+									# print(loss)
 									loss.backward()
+							print("Decoder",iter_num)
 							dec_optimizer.step()
 							
 					# Train Encoder
-					for _ in range(para["enc_train_iters"]):
+					for iter_num in range(para["enc_train_iters"]):
 
 							enc_optimizer.zero_grad()        
 
@@ -176,13 +177,14 @@ if __name__ == "__main__":
 								
 								loss.backward()
 
+							print("Encoder",iter_num)
 							enc_optimizer.step()
 							
 							ber = errors_ber(msg_bits, decoded_bits.sign()).item()
 							
 					bers.append(ber)
 					logger.info('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 
-									% (k+1, para["full_iterations"], para["enc_train_snr"], loss.item(), ber))
+									% (k+1, para["full_iterations"], para["snr"], loss.item(), ber))
 					logger.info("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
 
 					losses.append(loss.item())
@@ -194,12 +196,16 @@ if __name__ == "__main__":
 							plt.figure()
 							plt.plot(bers)
 							plt.plot(moving_average(bers, n=10))
+							plt.legend(("bers","moving_average"))
+							plt.xlabel("Iterations")
 							plt.savefig(train_save_dirpath +'/training_ber.png')
 							plt.close()
 
 							plt.figure()
 							plt.plot(losses)
 							plt.plot(moving_average(losses, n=10))
+							plt.legend(("bers","moving_average"))
+							plt.xlabel("Iterations")
 							plt.savefig(train_save_dirpath +'/training_losses.png')
 							plt.close()
 
@@ -211,12 +217,17 @@ if __name__ == "__main__":
 	plt.figure()
 	plt.plot(bers)
 	plt.plot(moving_average(bers, n=10))
+	plt.legend(("bers","moving_average"))
+	plt.xlabel("Iterations")
+
 	plt.savefig(train_save_dirpath +'/training_ber.png')
 	plt.close()
 
 	plt.figure()
 	plt.plot(losses)
 	plt.plot(moving_average(losses, n=10))
+	plt.legend(("bers","moving_average"))
+	plt.xlabel("Iterations")
 	plt.savefig(train_save_dirpath +'/training_losses.png')
 	plt.close()
 

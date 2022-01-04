@@ -9,17 +9,17 @@ para:
   lr: 0.001
   seed: 1
 
-  log_interval: 100
-  epoch_size : 200
-  m: 7
-  r: 3
+  # log_interval: 100
+  # epoch_size : 200
+  m: 4
+  r: 1
   n: None
   k: None
 
   # Use in train validate data util
   snr: 6
  
-  data_type: "7_3"
+  data_type: "4_1"
   logger_name: RM_{}_train
   CUDA_VISIBLE_DEVICES: "1"
   train_save_path_dir: "./save/{}/rm_{}"
