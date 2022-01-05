@@ -112,6 +112,17 @@ if __name__ == "__main__":
 
 	enc_model = MatrixNet(device, conf["data"]["G"][:,n:]).to(device)
 	dec_model = MatrixNet(device, np.transpose(conf["data"]["G"])).to(device)
+	start_epoch = 0
+
+	if para["retrain"]:
+		test_model_path_encoder = test_conf["test_model_path_encoder"].format(para["retrain_day"],para["data_type"],para["retrain_epoch_num"])
+		test_model_path_decoder = test_conf["test_model_path_decoder"].format(para["retrain_day"],para["data_type"],para["retrain_epoch_num"])
+		enc_model.load_state_dict(torch.load(test_model_path_encoder))
+    dec_model.load_state_dict(torch.load(test_model_path_decoder))
+		start_epoch = int(para["retrain_epoch_num"])
+		logger.info("Retraining Model " + conf_name + " : " +str(para["retrain_day"]) +" Epoch: "+str(para["retrain_epoch_num"]))
+
+
 	criterion = BCEWithLogitsLoss()
 	enc_optimizer = optim.RMSprop(enc_model.parameters(), lr=para["lr"])
 	dec_optimizer = optim.RMSprop(dec_model.parameters(), lr=para["lr"])
@@ -129,7 +140,7 @@ if __name__ == "__main__":
 
 	# Training Algorithm
 	try:
-			for k in range(para["full_iterations"]):
+			for k in range(start_epoch, para["full_iterations"]):
 					start_time = time.time()
 					msg_bits_large_batch = 2*torch.randint(0,2,(para["train_batch_size"], para["k"])).to(torch.float) -1
 
@@ -166,7 +177,7 @@ if __name__ == "__main__":
 					for iter_num in range(para["enc_train_iters"]):
 
 							enc_optimizer.zero_grad()        
-
+							ber = 0
 							for i in range(num_small_batches):
 								start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
 								msg_bits = msg_bits_large_batch[start:end].to(device)						
@@ -178,11 +189,11 @@ if __name__ == "__main__":
 								loss = criterion(decoded_bits, msg_bits )/num_small_batches
 								
 								loss.backward()
+								ber += errors_ber(msg_bits, decoded_bits.sign()).item()
 
 							print("Encoder",iter_num)
 							enc_optimizer.step()
-							
-							ber = errors_ber(msg_bits, decoded_bits.sign()).item()
+							ber /= num_small_batches	
 							
 					bers.append(ber)
 					logger.info('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 

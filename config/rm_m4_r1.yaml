@@ -16,6 +16,7 @@ para:
   n: None
   k: None
 
+
   # Use in train validate data util
   snr: 6
  
@@ -26,6 +27,11 @@ para:
   train_save_path_encoder: "./save/{}/rm_{}/enc_{}.pth"
   train_save_path_decoder: "./save/{}/rm_{}/dec_{}.pth"
   # test_model_path: ./save/rm_{}/rm_{}_1.pth
+
+  # Retraining parameters
+  retrain: True
+  retrain_day: Jan-05-2022
+  retrain_epoch_num: 11
 
 data:
   rate: None   # dont edit, will init
