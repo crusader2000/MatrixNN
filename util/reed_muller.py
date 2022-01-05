@@ -22,7 +22,7 @@ def construct_vector(m, i):
     A string of 2^{m-i-1} 0s followed by 2^{m-i-1} 1s, repeated
     2^m / (2*2^{m-i}) =  2^{i} times.
     NOTE: we must have 0 <= i < m."""
-    return np.array(([0] * (2 ** (m-i-1)) + [1] * (2 ** (m-i-1))) * (2 ** (i)))
+    return np.array(([1] * (2 ** (m-i-1)) + [0] * (2 ** (m-i-1))) * (2 ** (i)))
 
 def generate_all_rows(m, S):
     """Generate all rows over the monomials in S, e.g. if S = {0,2}, we want to generate

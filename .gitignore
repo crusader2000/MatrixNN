@@ -7,3 +7,5 @@ model/__pycache__/*
 core
 save
 save/*
+
+venv
