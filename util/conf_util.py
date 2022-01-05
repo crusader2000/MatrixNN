@@ -31,6 +31,17 @@ def GaussElim(mat):
             if i != r and mat[i,lead] == 1:
                 mat[i,:] ^= mat[r,:]
         lead += 1
+
+    curr = 0
+    for i in range(m):
+        if curr == n:
+            break
+        if np.sum(mat[:,i]) == 1 :
+            temp = np.copy(mat[:,i])
+            mat[:,i] = np.copy(mat[:,curr])
+            mat[:,curr] = np.copy(temp)
+            curr += 1
+    
     return mat 
 
 
