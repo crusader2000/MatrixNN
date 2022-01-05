@@ -18,6 +18,9 @@ import matplotlib
 # matplotlib.use('AGG')
 import matplotlib.pyplot as plt
 
+from datetime import datetime
+from datetime import date
+
 if len(sys.argv) == 2:
     conf_name = sys.argv[1]
     print("test conf_name:", conf_name)
@@ -36,6 +39,8 @@ else:
 para = conf["para"]
 test_conf = conf["test"]
 
+today = date.today().strftime("%b-%d-%Y")
+
 logger = get_logger(para["logger_name"])
 logger.info("test_conf_name : "+conf_name)
 logger.info("Device : "+str(device))
@@ -44,7 +49,7 @@ test_size = para["test_size"]
 test_model_path_encoder = test_conf["test_model_path_encoder"].format(test_conf["day"],para["data_type"],test_conf["epoch_num"])
 test_model_path_decoder = test_conf["test_model_path_decoder"].format(test_conf["day"],para["data_type"],test_conf["epoch_num"])
 
-train_save_dirpath = para["train_save_path_dir"].format(today, data_type)
+train_save_dirpath = para["train_save_path_dir"].format(today, para["data_type"])
 
 def snr_db2sigma(train_snr):
     return 10**(-train_snr*1.0/20)
@@ -101,14 +106,14 @@ if __name__ == "__main__":
     np.random.seed(seed)
     torch.manual_seed(seed)
 
-	n = len(conf["data"]["G"])
-	m = len(conf["data"]["G"][0])
+    n = len(conf["data"]["G"])
+    m = len(conf["data"]["G"][0])
 
-	enc_model = MatrixNet(device, conf["data"]["G"][:,n:]).to(device)
-	dec_model = MatrixNet(device, np.transpose(conf["data"]["G"])).to(device)
+    enc_model = MatrixNet(device, conf["data"]["G"][:,n:]).to(device)
+    dec_model = MatrixNet(device, np.transpose(conf["data"]["G"])).to(device)
 
     enc_model.load_state_dict(torch.load(test_model_path_encoder))
-    dec_model.load_state_dict(torch.load(test_model_path_encoder))
+    dec_model.load_state_dict(torch.load(test_model_path_decoder))
     
     bers = []
     snrs = []
@@ -118,10 +123,10 @@ if __name__ == "__main__":
         bers.append(ber)
         snrs.append(int(snr))
     
-    plt.semilogy(snrs, bers, label=" ",linewidth=2, color='blue')
+    plt.plot(snrs, bers, label=" ",linewidth=2, color='blue')
 
-    plt.xlabel("Iterations")
+    plt.xlabel("SNRs")
     plt.ylabel("BERs (Testing)")
-							
+    plt.title("Testing BERs")
     plt.savefig(train_save_dirpath+ "/ber_testing.png")
     plt.close()
