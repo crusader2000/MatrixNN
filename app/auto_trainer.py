@@ -169,8 +169,7 @@ if __name__ == "__main__":
 
 							for i in range(num_small_batches):
 								start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
-								msg_bits = msg_bits_large_batch[start:end].to(device)
-						
+								msg_bits = msg_bits_large_batch[start:end].to(device)						
 								codewords = enc_model(msg_bits)      
 								transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
 								corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
