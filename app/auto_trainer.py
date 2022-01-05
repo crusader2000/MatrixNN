@@ -115,10 +115,10 @@ if __name__ == "__main__":
 	start_epoch = 0
 
 	if para["retrain"]:
-		test_model_path_encoder = test_conf["test_model_path_encoder"].format(para["retrain_day"],para["data_type"],para["retrain_epoch_num"])
-		test_model_path_decoder = test_conf["test_model_path_decoder"].format(para["retrain_day"],para["data_type"],para["retrain_epoch_num"])
-		enc_model.load_state_dict(torch.load(test_model_path_encoder))
-    dec_model.load_state_dict(torch.load(test_model_path_decoder))
+		train_model_path_encoder = para["train_save_path_encoder"].format(para["retrain_day"],para["data_type"],para["retrain_epoch_num"])
+		train_model_path_decoder = para["train_save_path_decoder"].format(para["retrain_day"],para["data_type"],para["retrain_epoch_num"])
+		enc_model.load_state_dict(torch.load(train_model_path_encoder))
+		dec_model.load_state_dict(torch.load(train_model_path_decoder))
 		start_epoch = int(para["retrain_epoch_num"])
 		logger.info("Retraining Model " + conf_name + " : " +str(para["retrain_day"]) +" Epoch: "+str(para["retrain_epoch_num"]))
 
