@@ -61,8 +61,8 @@ class MatrixNet(nn.Module):
             for _,e_num in self.adjancency_list[self.edges[i][0]]: 
                 self.even_to_odd_layer_mask[i,e_num] = 1
 
-        # self.odd_to_even_layer_mask = (self.odd_to_even_layer_mask - torch.eye(self.num_edges).to(device))
-        # self.even_to_odd_layer_mask = (self.even_to_odd_layer_mask - torch.eye(self.num_edges).to(device))
+        self.odd_to_even_layer_mask = (self.odd_to_even_layer_mask - torch.eye(self.num_edges).to(device))
+        self.even_to_odd_layer_mask = (self.even_to_odd_layer_mask - torch.eye(self.num_edges).to(device))
 
         # print("self.odd_to_even_layer_mask")
         # print(self.odd_to_even_layer_mask)

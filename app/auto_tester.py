@@ -49,7 +49,9 @@ test_size = para["test_size"]
 test_model_path_encoder = test_conf["test_model_path_encoder"].format(test_conf["day"],para["data_type"],test_conf["epoch_num"])
 test_model_path_decoder = test_conf["test_model_path_decoder"].format(test_conf["day"],para["data_type"],test_conf["epoch_num"])
 
-train_save_dirpath = para["train_save_path_dir"].format(today, para["data_type"])
+test_save_dirpath = para["train_save_path_dir"].format(test_conf["day"], para["data_type"])
+if not os.path.exists(test_save_dirpath):
+    os.makedirs(test_save_dirpath)
 
 def snr_db2sigma(train_snr):
     return 10**(-train_snr*1.0/20)
@@ -128,5 +130,5 @@ if __name__ == "__main__":
     plt.xlabel("SNRs")
     plt.ylabel("BERs (Testing)")
     plt.title("Testing BERs")
-    plt.savefig(train_save_dirpath+ "/ber_testing.png")
+    plt.savefig(test_save_dirpath+ "/ber_testing_epoch_"+str(test_conf["epoch_num"])+".png")
     plt.close()

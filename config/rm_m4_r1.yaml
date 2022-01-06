@@ -29,7 +29,7 @@ para:
   # test_model_path: ./save/rm_{}/rm_{}_1.pth
 
   # Retraining parameters
-  retrain: True
+  retrain: False
   retrain_day: Jan-05-2022
   retrain_epoch_num: 11
 
@@ -42,7 +42,7 @@ test:
   Boosting_number_list: 1,2,3
   snr: 6
   day: Jan-05-2022
-  epoch_num: 11
+  epoch_num: 21
 
   test_model_path_encoder: "./save/{}/rm_{}/enc_{}.pth"
   test_model_path_decoder: "./save/{}/rm_{}/dec_{}.pth"
