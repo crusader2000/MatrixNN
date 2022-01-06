@@ -1,7 +1,7 @@
 para:
   train_batch_size: 10000
   train_small_batch_size: 20
-  test_batch_size: 10000
+  test_size: 10000
   full_iterations: 100
   enc_train_iters: 5
   dec_train_iters: 25
@@ -9,12 +9,13 @@ para:
   lr: 0.001
   seed: 1
 
-  log_interval: 100
-  epoch_size : 200
+  # log_interval: 100
+  # epoch_size : 200
   m: 7
   r: 3
   n: None
   k: None
+
 
   # Use in train validate data util
   snr: 6
@@ -27,6 +28,11 @@ para:
   train_save_path_decoder: "./save/{}/rm_{}/dec_{}.pth"
   # test_model_path: ./save/rm_{}/rm_{}_1.pth
 
+  # Retraining parameters
+  retrain: False
+  retrain_day: Jan-05-2022
+  retrain_epoch_num: 11
+
 data:
   rate: None   # dont edit, will init
   G : None # dont edit, will init
@@ -35,8 +41,8 @@ test:
   snr_list: 1,2,3,4,5,6
   Boosting_number_list: 1,2,3
   snr: 6
-  day: Dec-29-2021
-  epoch_num: 10
-
+  day: Jan-06-2022
+  epoch_num: 11
+  logger_name: RM_{}_test
   test_model_path_encoder: "./save/{}/rm_{}/enc_{}.pth"
   test_model_path_decoder: "./save/{}/rm_{}/dec_{}.pth"

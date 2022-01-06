@@ -34,43 +34,43 @@ import matplotlib.pyplot as plt
 from opt_einsum import contract   # This is for faster torch.einsum
 
 def snr_db2sigma(train_snr):
-		return 10**(-train_snr*1.0/20)
+	return 10**(-train_snr*1.0/20)
 
 # Calculating BER
 def errors_ber(y_true, y_pred):
-		y_true = y_true.view(y_true.shape[0], -1, 1)
-		y_pred = y_pred.view(y_pred.shape[0], -1, 1)
+	y_true = y_true.view(y_true.shape[0], -1, 1)
+	y_pred = y_pred.view(y_pred.shape[0], -1, 1)
 
-		myOtherTensor = torch.ne(torch.round(y_true), torch.round(y_pred)).float()
-		res = sum(sum(myOtherTensor))/(myOtherTensor.shape[0]*myOtherTensor.shape[1])
-		return res
+	myOtherTensor = torch.ne(torch.round(y_true), torch.round(y_pred)).float()
+	res = sum(sum(myOtherTensor))/(myOtherTensor.shape[0]*myOtherTensor.shape[1])
+	return res
 
 
 # Calculating BLER
 def errors_bler(y_true, y_pred):
-		y_true = y_true.view(y_true.shape[0], -1, 1)
-		y_pred = y_pred.view(y_pred.shape[0], -1, 1)
+	y_true = y_true.view(y_true.shape[0], -1, 1)
+	y_pred = y_pred.view(y_pred.shape[0], -1, 1)
 
-		decoded_bits = torch.round(y_pred).cpu()
-		X_test       = torch.round(y_true).cpu()
-		tp0 = (abs(decoded_bits-X_test)).view([X_test.shape[0],X_test.shape[1]])
-		tp0 = tp0.detach().cpu().numpy()
-		bler_err_rate = sum(np.sum(tp0,axis=1)>0)*1.0/(X_test.shape[0])
-		return bler_err_rate
+	decoded_bits = torch.round(y_pred).cpu()
+	X_test       = torch.round(y_true).cpu()
+	tp0 = (abs(decoded_bits-X_test)).view([X_test.shape[0],X_test.shape[1]])
+	tp0 = tp0.detach().cpu().numpy()
+	bler_err_rate = sum(np.sum(tp0,axis=1)>0)*1.0/(X_test.shape[0])
+	return bler_err_rate
 
 def awgn_channel(codewords, snr):
-		noise_sigma = snr_db2sigma(snr)
-		standard_Gaussian = torch.randn_like(codewords)
-		corrupted_codewords = codewords+noise_sigma * standard_Gaussian
-		return corrupted_codewords
+	noise_sigma = snr_db2sigma(snr)
+	standard_Gaussian = torch.randn_like(codewords)
+	corrupted_codewords = codewords+noise_sigma * standard_Gaussian
+	return corrupted_codewords
 
 
 ############################
 
 def moving_average(a, n=3) :
-		ret = np.cumsum(a, dtype=float)
-		ret[n:] = ret[n:] - ret[:-n]
-		return ret[n - 1:] / n
+	ret = np.cumsum(a, dtype=float)
+	ret[n:] = ret[n:] - ret[:-n]
+	return ret[n - 1:] / n
 
 
 bers = []
@@ -86,12 +86,12 @@ if __name__ == "__main__":
 		conf = get_default_conf()
 
 	if torch.cuda.is_available():
-			device = torch.device("cuda")
-			os.environ["CUDA_VISIBLE_DEVICES"] = conf["para"]["CUDA_VISIBLE_DEVICES"]
-			print(device,os.environ["CUDA_VISIBLE_DEVICES"])
+		device = torch.device("cuda")
+		os.environ["CUDA_VISIBLE_DEVICES"] = conf["para"]["CUDA_VISIBLE_DEVICES"]
+		print(device,os.environ["CUDA_VISIBLE_DEVICES"])
 	else:
-			device = torch.device("cpu")
-			print(device)
+		device = torch.device("cpu")
+		print(device)
 	
 
 	para = conf["para"]
@@ -140,96 +140,96 @@ if __name__ == "__main__":
 
 	# Training Algorithm
 	try:
-			for k in range(start_epoch, para["full_iterations"]):
-					start_time = time.time()
-					msg_bits_large_batch = 2*torch.randint(0,2,(para["train_batch_size"], para["k"])).to(torch.float) -1
+		for k in range(start_epoch, para["full_iterations"]):
+			start_time = time.time()
+			msg_bits_large_batch = 2*torch.randint(0,2,(para["train_batch_size"], para["k"])).to(torch.float) -1
 
-					num_small_batches = int(para["train_batch_size"]/para["train_small_batch_size"])
+			num_small_batches = int(para["train_batch_size"]/para["train_small_batch_size"])
 
-					# Train decoder  
-					for iter_num in range(para["dec_train_iters"]):
-							dec_optimizer.zero_grad()        
-							for i in range(num_small_batches):
-									start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
-									msg_bits = msg_bits_large_batch[start:end].to(device)
-									codewords = enc_model(msg_bits)      
-									# print("codewords")
-									# print(codewords)
-									transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
-									# print("transmit_codewords")
-									# print(transmit_codewords)
-									corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
-									# print("corrupted_codewords")
-									# print(corrupted_codewords)
-									
-									decoded_bits = dec_model(corrupted_codewords)
-									# print("decoded_bits")
-									# decoded_bits = torch.nan_to_num(decoded_bits,0.0)
-									# print(decoded_bits)
-									loss = criterion(decoded_bits, msg_bits)/num_small_batches
-									
-									# print(loss)
-									loss.backward()
-							print("Decoder",iter_num)
-							dec_optimizer.step()
-							
-					# Train Encoder
-					for iter_num in range(para["enc_train_iters"]):
+			# Train decoder  
+			for iter_num in range(para["dec_train_iters"]):
+				dec_optimizer.zero_grad()        
+				for i in range(num_small_batches):
+						start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
+						msg_bits = msg_bits_large_batch[start:end].to(device)
+						codewords = enc_model(msg_bits)      
+						# print("codewords")
+						# print(codewords)
+						transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
+						# print("transmit_codewords")
+						# print(transmit_codewords)
+						corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
+						# print("corrupted_codewords")
+						# print(corrupted_codewords)
+						
+						decoded_bits = dec_model(corrupted_codewords)
+						# print("decoded_bits")
+						# decoded_bits = torch.nan_to_num(decoded_bits,0.0)
+						# print(decoded_bits)
+						loss = criterion(decoded_bits, msg_bits)/num_small_batches
+						
+						# print(loss)
+						loss.backward()
+				print("Decoder",iter_num)
+				dec_optimizer.step()
+					
+			# Train Encoder
+			for iter_num in range(para["enc_train_iters"]):
+				enc_optimizer.zero_grad()        
+				ber = 0
+				for i in range(num_small_batches):
+					start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
+					msg_bits = msg_bits_large_batch[start:end].to(device)						
+					codewords = enc_model(msg_bits)      
+					transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
+					corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
+					decoded_bits = dec_model(corrupted_codewords)
 
-							enc_optimizer.zero_grad()        
-							ber = 0
-							for i in range(num_small_batches):
-								start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
-								msg_bits = msg_bits_large_batch[start:end].to(device)						
-								codewords = enc_model(msg_bits)      
-								transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
-								corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
-								decoded_bits = dec_model(corrupted_codewords)
+					loss = criterion(decoded_bits, msg_bits )/num_small_batches
+					
+					loss.backward()
+					ber += errors_ber(msg_bits, decoded_bits.sign()).item()
 
-								loss = criterion(decoded_bits, msg_bits )/num_small_batches
-								
-								loss.backward()
-								ber += errors_ber(msg_bits, decoded_bits.sign()).item()
+				print("Encoder",iter_num)
+				enc_optimizer.step()
+				ber /= num_small_batches	
+				
+			bers.append(ber)
+			logger.info('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 
+							% (k+1, para["full_iterations"], para["snr"], loss.item(), ber))
+			logger.info("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
 
-							print("Encoder",iter_num)
-							enc_optimizer.step()
-							ber /= num_small_batches	
-							
-					bers.append(ber)
-					logger.info('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 
-									% (k+1, para["full_iterations"], para["snr"], loss.item(), ber))
-					logger.info("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
+			losses.append(loss.item())
+			if k % 5 == 0:
+				# Save the model for safety
+				torch.save(enc_model.state_dict(), para["train_save_path_encoder"].format(today, data_type, k+1))
+				torch.save(dec_model.state_dict(), para["train_save_path_decoder"].format(today, data_type, k+1))
 
-					losses.append(loss.item())
-					if k % 10 == 0:
-							# Save the model for safety
-							torch.save(enc_model.state_dict(), para["train_save_path_encoder"].format(today, data_type, k+1))
-							torch.save(dec_model.state_dict(), para["train_save_path_decoder"].format(today, data_type, k+1))
+				plt.figure()
+				plt.plot(bers)
+				plt.plot(moving_average(bers, n=10))
+				plt.legend(("bers","moving_average"))
+				plt.xlabel("Iterations")
+				plt.savefig(train_save_dirpath +'/training_ber.png')
+				plt.close()
 
-							plt.figure()
-							plt.plot(bers)
-							plt.plot(moving_average(bers, n=10))
-							plt.legend(("bers","moving_average"))
-							plt.xlabel("Iterations")
-							plt.savefig(train_save_dirpath +'/training_ber.png')
-							plt.close()
-
-							plt.figure()
-							plt.plot(losses)
-							plt.plot(moving_average(losses, n=10))
-							plt.legend(("bers","moving_average"))
-							plt.xlabel("Iterations")
-							plt.savefig(train_save_dirpath +'/training_losses.png')
-							plt.close()
+				plt.figure()
+				plt.plot(losses)
+				plt.plot(moving_average(losses, n=10))
+				plt.legend(("bers","moving_average"))
+				plt.xlabel("Iterations")
+				plt.savefig(train_save_dirpath +'/training_losses.png')
+				plt.close()
 
 	except KeyboardInterrupt:
-			logger.warning('Graceful Exit')
+		logger.warning('Graceful Exit')
+		exit()
 	else:
-			logger.warning('Finished')
+		logger.warning('Finished')
 
 	plt.figure()
 	plt.plot(bers)
-	plt.plot(moving_average(bers, n=10))
+	plt.plot(moving_average(bers, n=5))
 	plt.legend(("bers","moving_average"))
 	plt.xlabel("Iterations")
 
@@ -238,7 +238,7 @@ if __name__ == "__main__":
 
 	plt.figure()
 	plt.plot(losses)
-	plt.plot(moving_average(losses, n=10))
+	plt.plot(moving_average(losses, n=5))
 	plt.legend(("bers","moving_average"))
 	plt.xlabel("Iterations")
 	plt.savefig(train_save_dirpath +'/training_losses.png')

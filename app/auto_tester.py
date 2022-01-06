@@ -41,7 +41,7 @@ test_conf = conf["test"]
 
 today = date.today().strftime("%b-%d-%Y")
 
-logger = get_logger(para["logger_name"])
+logger = get_logger(test_conf["logger_name"])
 logger.info("test_conf_name : "+conf_name)
 logger.info("Device : "+str(device))
 
@@ -119,6 +119,8 @@ if __name__ == "__main__":
     
     bers = []
     snrs = []
+    logger.info("Testing {} trained till epoch_num {}".format(conf_name,test_conf["epoch_num"]))
+    logger.info("Model trained on {}".format(test_conf["day"]))
     logger.info("Less go!")
     for snr in test_conf["snr_list"].split(","):
         ber = test(enc_model, dec_model, device, int(snr))

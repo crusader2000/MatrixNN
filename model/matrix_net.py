@@ -61,17 +61,17 @@ class MatrixNet(nn.Module):
             for _,e_num in self.adjancency_list[self.edges[i][0]]: 
                 self.even_to_odd_layer_mask[i,e_num] = 1
 
-        self.odd_to_even_layer_mask = (self.odd_to_even_layer_mask - torch.eye(self.num_edges).to(device))
-        self.even_to_odd_layer_mask = (self.even_to_odd_layer_mask - torch.eye(self.num_edges).to(device))
+        # self.odd_to_even_layer_mask = (self.odd_to_even_layer_mask - torch.eye(self.num_edges).to(device))
+        # self.even_to_odd_layer_mask = (self.even_to_odd_layer_mask - torch.eye(self.num_edges).to(device))
+        print(matrix)
+        print("self.odd_to_even_layer_mask")
+        print(self.odd_to_even_layer_mask)
+        print(torch.sum(self.odd_to_even_layer_mask,dim=1,keepdim=False))
+        print("self.even_to_odd_layer_mask")
+        print(self.even_to_odd_layer_mask)
+        print(torch.sum(self.even_to_odd_layer_mask,dim=1,keepdim=False))
 
-        # print("self.odd_to_even_layer_mask")
-        # print(self.odd_to_even_layer_mask)
-        # print(torch.sum(self.odd_to_even_layer_mask,dim=1,keepdim=False))
-        # print("self.even_to_odd_layer_mask")
-        # print(self.even_to_odd_layer_mask)
-        # print(torch.sum(self.even_to_odd_layer_mask,dim=1,keepdim=False))
-
-        self.zero_indices = ((self.even_to_odd_layer_mask == 0)).nonzero()
+        # self.zero_indices = ((self.even_to_odd_layer_mask == 0)).nonzero()
 
         self.weights_odd1_wv = nn.Parameter(torch.randn(1, self.num_edges))
         self.weights_odd1_we = nn.Parameter(torch.randn(self.num_edges, self.num_edges))

@@ -42,7 +42,7 @@ test:
   Boosting_number_list: 1,2,3
   snr: 6
   day: Jan-05-2022
-  epoch_num: 21
-
+  epoch_num: 11
+  logger_name: RM_{}_test
   test_model_path_encoder: "./save/{}/rm_{}/enc_{}.pth"
   test_model_path_decoder: "./save/{}/rm_{}/dec_{}.pth"

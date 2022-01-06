@@ -1,0 +1,4 @@
+2022-01-06 15:48:02,645 auto_trainer.py INFO 106: train_conf_name : rm_m4_r1
+2022-01-06 15:48:02,645 auto_trainer.py INFO 107: Device : cuda
+2022-01-06 15:48:02,645 auto_trainer.py INFO 108: We are on!!!
+2022-01-06 15:48:09,817 auto_trainer.py WARNING 225: Graceful Exit

@@ -35,7 +35,7 @@ def get_logger(name: str = "project", level: str = "info") -> logging.Logger:
 
 
 def _log_path_util(name: str = "project") -> str:
-    day = time.strftime("%Y-%m-%d", time.localtime())
+    day = time.strftime("%b-%d-%Y", time.localtime())
     log_path = pathlib.Path(f"./log/{day}")
     if not log_path.exists():
         log_path.mkdir(parents=True)
