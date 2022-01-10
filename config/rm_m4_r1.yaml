@@ -4,7 +4,7 @@ para:
   test_size: 10000
   full_iterations: 100
   enc_train_iters: 5
-  dec_train_iters: 25
+  dec_train_iters: 20
 
   lr: 0.001
   seed: 1
@@ -29,9 +29,9 @@ para:
   # test_model_path: ./save/rm_{}/rm_{}_1.pth
 
   # Retraining parameters
-  retrain: False
+  retrain: True
   retrain_day: Jan-05-2022
-  retrain_epoch_num: 11
+  retrain_epoch_num: 21
 
 data:
   rate: None   # dont edit, will init
@@ -41,8 +41,8 @@ test:
   snr_list: 1,2,3,4,5,6
   Boosting_number_list: 1,2,3
   snr: 6
-  day: Jan-05-2022
-  epoch_num: 11
+  day: Jan-07-2022
+  epoch_num: 100
   logger_name: RM_{}_test
   test_model_path_encoder: "./save/{}/rm_{}/enc_{}.pth"
   test_model_path_decoder: "./save/{}/rm_{}/dec_{}.pth"

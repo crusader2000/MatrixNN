@@ -63,13 +63,13 @@ class MatrixNet(nn.Module):
 
         # self.odd_to_even_layer_mask = (self.odd_to_even_layer_mask - torch.eye(self.num_edges).to(device))
         # self.even_to_odd_layer_mask = (self.even_to_odd_layer_mask - torch.eye(self.num_edges).to(device))
-        print(matrix)
-        print("self.odd_to_even_layer_mask")
-        print(self.odd_to_even_layer_mask)
-        print(torch.sum(self.odd_to_even_layer_mask,dim=1,keepdim=False))
-        print("self.even_to_odd_layer_mask")
-        print(self.even_to_odd_layer_mask)
-        print(torch.sum(self.even_to_odd_layer_mask,dim=1,keepdim=False))
+        # print(matrix)
+        # print("self.odd_to_even_layer_mask")
+        # print(self.odd_to_even_layer_mask)
+        # print(torch.sum(self.odd_to_even_layer_mask,dim=1,keepdim=False))
+        # print("self.even_to_odd_layer_mask")
+        # print(self.even_to_odd_layer_mask)
+        # print(torch.sum(self.even_to_odd_layer_mask,dim=1,keepdim=False))
 
         # self.zero_indices = ((self.even_to_odd_layer_mask == 0)).nonzero()
 
