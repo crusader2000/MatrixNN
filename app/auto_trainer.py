@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 from opt_einsum import contract   # This is for faster torch.einsum
 
 def snr_db2sigma(train_snr):
-	return 10**(-train_snr*1.0/20)
+	return 10**(train_snr*1.0/20)
 
 # Calculating BER
 def errors_ber(y_true, y_pred):
@@ -61,7 +61,7 @@ def errors_bler(y_true, y_pred):
 def awgn_channel(codewords, snr):
 	noise_sigma = snr_db2sigma(snr)
 	standard_Gaussian = torch.randn_like(codewords)
-	corrupted_codewords = codewords+noise_sigma * standard_Gaussian
+	corrupted_codewords = codewords+ (noise_sigma/2)*standard_Gaussian
 	return corrupted_codewords
 
 

@@ -54,12 +54,12 @@ if not os.path.exists(test_save_dirpath):
     os.makedirs(test_save_dirpath)
 
 def snr_db2sigma(train_snr):
-    return 10**(-train_snr*1.0/20)
+    return 10**(train_snr*1.0/20)
 
 def awgn_channel(codewords, snr):
     noise_sigma = snr_db2sigma(snr)
     standard_Gaussian = torch.randn_like(codewords)
-    corrupted_codewords = codewords+noise_sigma * standard_Gaussian
+    corrupted_codewords = codewords+ (noise_sigma/2)*standard_Gaussian
     return corrupted_codewords
 
 def errors_ber(y_true, y_pred):
