@@ -158,7 +158,7 @@ if __name__ == "__main__":
 						transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
 						# print("transmit_codewords")
 						# print(transmit_codewords)
-						corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
+						corrupted_codewords = awgn_channel(transmit_codewords, para["dec_train_snr"])
 						# print("corrupted_codewords")
 						# print(corrupted_codewords)
 						
@@ -182,7 +182,7 @@ if __name__ == "__main__":
 					msg_bits = msg_bits_large_batch[start:end].to(device)						
 					codewords = enc_model(msg_bits)      
 					transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
-					corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
+					corrupted_codewords = awgn_channel(transmit_codewords, para["enc_train_snr"])
 					decoded_bits = dec_model(corrupted_codewords)
 
 					loss = criterion(decoded_bits, msg_bits )/num_small_batches

@@ -3,7 +3,7 @@ para:
   train_small_batch_size: 20
   test_size: 10000
   full_iterations: 100
-  enc_train_iters: 5
+  enc_train_iters: 4
   dec_train_iters: 20
 
   lr: 0.001
@@ -18,7 +18,8 @@ para:
 
 
   # Use in train validate data util
-  snr: 6
+  enc_train_snr: 4
+  dec_train_snr: 2
  
   data_type: "4_1"
   logger_name: RM_{}_train
@@ -29,7 +30,7 @@ para:
   # test_model_path: ./save/rm_{}/rm_{}_1.pth
 
   # Retraining parameters
-  retrain: True
+  retrain: False
   retrain_day: Jan-05-2022
   retrain_epoch_num: 21
 
@@ -40,7 +41,6 @@ test:
  # Use in test_ber
   snr_list: 1,2,3,4,5,6
   Boosting_number_list: 1,2,3
-  snr: 6
   day: Jan-07-2022
   epoch_num: 100
   logger_name: RM_{}_test

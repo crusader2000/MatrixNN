@@ -90,7 +90,7 @@ def test(enc_model, dec_model, device, snr):
             msg_bits = msg_bits.to(device)
             codewords = enc_model(msg_bits)      
             transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
-            corrupted_codewords = awgn_channel(transmit_codewords, para["snr"])
+            corrupted_codewords = awgn_channel(transmit_codewords, snr)
             decoded_bits = dec_model(corrupted_codewords)
             ber += errors_ber(msg_bits, decoded_bits.sign()).item()
 

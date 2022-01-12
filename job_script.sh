@@ -6,8 +6,8 @@
 #SBATCH --mem-per-cpu=2G
 
 #SBATCH --time=4-00:00:00
-#SBATCH --output=rm_m7_r3_enc_dec_experiment.txt
-#SBATCH --mail-user=jayant.duneja@students.iiit.ac.in
+#SBATCH --output=rm_m4_r1.txt
+#SBATCH --mail-user=ansh.puvvada@students.iiit.ac.in
 #SBATCH --mail-type=ALL
 
 
