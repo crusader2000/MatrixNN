@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 from opt_einsum import contract   # This is for faster torch.einsum
 
 def snr_db2sigma(train_snr):
-	return 10**(train_snr*1.0/20)
+	return 10**(-train_snr*1.0/20)
 
 # Calculating BER
 def errors_ber(y_true, y_pred):
@@ -195,8 +195,8 @@ if __name__ == "__main__":
 				ber /= num_small_batches	
 				
 			bers.append(ber)
-			logger.info('[%d/%d] At %d dB, Loss: %.10f BER: %.10f' 
-							% (k+1, para["full_iterations"], para["snr"], loss.item(), ber))
+			logger.info('[%d/%d] At ENC SNR %f dB DEC SNR %f dB, Loss: %.10f BER: %.10f' 
+							% (k+1, para["full_iterations"], para["enc_train_snr"], para["dec_train_snr"], loss.item(), ber))
 			logger.info("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
 
 			losses.append(loss.item())

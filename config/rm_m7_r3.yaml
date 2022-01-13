@@ -16,9 +16,9 @@ para:
   n: None
   k: None
 
-
   # Use in train validate data util
-  snr: 6
+  enc_train_snr: 4
+  dec_train_snr: 2
  
   data_type: "7_3"
   logger_name: RM_{}_train

@@ -18,8 +18,8 @@ para:
 
 
   # Use in train validate data util
-  enc_train_snr: 4
-  dec_train_snr: 2
+  enc_train_snr: 2
+  dec_train_snr: 4
  
   data_type: "4_1"
   logger_name: RM_{}_train
