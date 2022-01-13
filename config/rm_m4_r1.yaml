@@ -2,11 +2,11 @@ para:
   train_batch_size: 10000
   train_small_batch_size: 20
   test_size: 10000
-  full_iterations: 100
-  enc_train_iters: 4
-  dec_train_iters: 20
+  full_iterations: 500
+  enc_train_iters: 1
+  dec_train_iters: 5
 
-  lr: 0.001
+  lr: 0.0001
   seed: 1
 
   # log_interval: 100
@@ -18,8 +18,8 @@ para:
 
 
   # Use in train validate data util
-  enc_train_snr: 2
-  dec_train_snr: 4
+  enc_train_snr: -2
+  dec_train_snr: -4
  
   data_type: "4_1"
   logger_name: RM_{}_train

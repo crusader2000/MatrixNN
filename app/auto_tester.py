@@ -12,6 +12,7 @@ from torch.optim.lr_scheduler import StepLR
 
 from util.conf_util import *
 from util.log_util import *
+from util.utils import *
 from model.matrix_net import *
 
 import matplotlib
@@ -52,23 +53,6 @@ test_model_path_decoder = test_conf["test_model_path_decoder"].format(test_conf[
 test_save_dirpath = para["train_save_path_dir"].format(test_conf["day"], para["data_type"])
 if not os.path.exists(test_save_dirpath):
     os.makedirs(test_save_dirpath)
-
-def snr_db2sigma(train_snr):
-    return 10**(train_snr*1.0/20)
-
-def awgn_channel(codewords, snr):
-    noise_sigma = snr_db2sigma(snr)
-    standard_Gaussian = torch.randn_like(codewords)
-    corrupted_codewords = codewords+ (noise_sigma/2)*standard_Gaussian
-    return corrupted_codewords
-
-def errors_ber(y_true, y_pred):
-    y_true = y_true.view(y_true.shape[0], -1, 1)
-    y_pred = y_pred.view(y_pred.shape[0], -1, 1)
-
-    myOtherTensor = torch.ne(torch.round(y_true), torch.round(y_pred)).float()
-    res = sum(sum(myOtherTensor))/(myOtherTensor.shape[0]*myOtherTensor.shape[1])
-    return res
 
 # Validate part
 def test(enc_model, dec_model, device, snr):

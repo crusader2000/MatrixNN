@@ -7,13 +7,14 @@ import torch.nn as nn
 from torch.nn import BCEWithLogitsLoss
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
-from torch.optim.lr_scheduler import StepLR
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 import torch.optim as optim
 import torch.utils.data
 from IPython import display
 
 from util.conf_util import *
 from util.log_util import *
+from util.utils import *
 from model.matrix_net import *
 
 import sys
@@ -32,37 +33,6 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 from opt_einsum import contract   # This is for faster torch.einsum
-
-def snr_db2sigma(train_snr):
-	return 10**(-train_snr*1.0/20)
-
-# Calculating BER
-def errors_ber(y_true, y_pred):
-	y_true = y_true.view(y_true.shape[0], -1, 1)
-	y_pred = y_pred.view(y_pred.shape[0], -1, 1)
-
-	myOtherTensor = torch.ne(torch.round(y_true), torch.round(y_pred)).float()
-	res = sum(sum(myOtherTensor))/(myOtherTensor.shape[0]*myOtherTensor.shape[1])
-	return res
-
-
-# Calculating BLER
-def errors_bler(y_true, y_pred):
-	y_true = y_true.view(y_true.shape[0], -1, 1)
-	y_pred = y_pred.view(y_pred.shape[0], -1, 1)
-
-	decoded_bits = torch.round(y_pred).cpu()
-	X_test       = torch.round(y_true).cpu()
-	tp0 = (abs(decoded_bits-X_test)).view([X_test.shape[0],X_test.shape[1]])
-	tp0 = tp0.detach().cpu().numpy()
-	bler_err_rate = sum(np.sum(tp0,axis=1)>0)*1.0/(X_test.shape[0])
-	return bler_err_rate
-
-def awgn_channel(codewords, snr):
-	noise_sigma = snr_db2sigma(snr)
-	standard_Gaussian = torch.randn_like(codewords)
-	corrupted_codewords = codewords+ (noise_sigma/2)*standard_Gaussian
-	return corrupted_codewords
 
 
 ############################
@@ -124,9 +94,11 @@ if __name__ == "__main__":
 
 
 	criterion = BCEWithLogitsLoss()
-	enc_optimizer = optim.RMSprop(enc_model.parameters(), lr=para["lr"])
-	dec_optimizer = optim.RMSprop(dec_model.parameters(), lr=para["lr"])
-	
+	enc_optimizer = optim.ADAM(enc_model.parameters(), lr=para["lr"])
+	dec_optimizer = optim.ADAM(dec_model.parameters(), lr=para["lr"])
+	enc_scheduler = ReduceLROnPlateau(enc_optimizer, 'min')
+	dec_scheduler = ReduceLROnPlateau(dec_optimizer, 'min')
+
 	data_type = para["data_type"]
 	
 	bers = []
@@ -150,26 +122,27 @@ if __name__ == "__main__":
 			for iter_num in range(para["dec_train_iters"]):
 				dec_optimizer.zero_grad()        
 				for i in range(num_small_batches):
-						start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
-						msg_bits = msg_bits_large_batch[start:end].to(device)
-						codewords = enc_model(msg_bits)      
-						# print("codewords")
-						# print(codewords)
-						transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
-						# print("transmit_codewords")
-						# print(transmit_codewords)
-						corrupted_codewords = awgn_channel(transmit_codewords, para["dec_train_snr"])
-						# print("corrupted_codewords")
-						# print(corrupted_codewords)
-						
-						decoded_bits = dec_model(corrupted_codewords)
-						# print("decoded_bits")
-						# decoded_bits = torch.nan_to_num(decoded_bits,0.0)
-						# print(decoded_bits)
-						loss = criterion(decoded_bits, msg_bits)/num_small_batches
-						
-						# print(loss)
-						loss.backward()
+					start, end = i*para["train_small_batch_size"], (i+1)*para["train_small_batch_size"]
+					msg_bits = msg_bits_large_batch[start:end].to(device)
+					codewords = enc_model(msg_bits)      
+					# print("codewords")
+					# print(codewords)
+					transmit_codewords = F.normalize(torch.hstack((msg_bits,codewords)), p=2, dim=1)*np.sqrt(2**para["m"])
+					# print("transmit_codewords")
+					# print(transmit_codewords)
+					corrupted_codewords = awgn_channel(transmit_codewords, para["dec_train_snr"])
+					# print("corrupted_codewords")
+					# print(corrupted_codewords)
+					
+					decoded_bits = dec_model(corrupted_codewords)
+					# print("decoded_bits")
+					# decoded_bits = torch.nan_to_num(decoded_bits,0.0)
+					# print(decoded_bits)
+					loss = criterion(decoded_bits, msg_bits)/num_small_batches
+					
+					# print(loss)
+					loss.backward()
+				dec_scheduler.step(loss)
 				print("Decoder",iter_num)
 				dec_optimizer.step()
 					
@@ -190,6 +163,7 @@ if __name__ == "__main__":
 					loss.backward()
 					ber += errors_ber(msg_bits, decoded_bits.sign()).item()
 
+				enc_scheduler.step(loss)
 				print("Encoder",iter_num)
 				enc_optimizer.step()
 				ber /= num_small_batches	
@@ -200,7 +174,7 @@ if __name__ == "__main__":
 			logger.info("Time for one full iteration is {0:.4f} minutes".format((time.time() - start_time)/60))
 
 			losses.append(loss.item())
-			if k % 5 == 0:
+			if k % 20 == 0:
 				# Save the model for safety
 				torch.save(enc_model.state_dict(), para["train_save_path_encoder"].format(today, data_type, k+1))
 				torch.save(dec_model.state_dict(), para["train_save_path_decoder"].format(today, data_type, k+1))
