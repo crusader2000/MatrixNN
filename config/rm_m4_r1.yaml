@@ -2,9 +2,9 @@ para:
   train_batch_size: 10000
   train_small_batch_size: 20
   test_size: 10000
-  full_iterations: 500
-  enc_train_iters: 1
-  dec_train_iters: 5
+  full_iterations: 100
+  enc_train_iters: 5
+  dec_train_iters: 25
 
   lr: 0.0001
   seed: 1
@@ -41,7 +41,7 @@ test:
  # Use in test_ber
   snr_list: 1,2,3,4,5,6
   Boosting_number_list: 1,2,3
-  day: Jan-07-2022
+  day: Jan-16-2022
   epoch_num: 100
   logger_name: RM_{}_test
   test_model_path_encoder: "./save/{}/rm_{}/enc_{}.pth"

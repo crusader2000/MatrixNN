@@ -5,3 +5,1007 @@
 2022-01-13 13:19:59,449 auto_trainer.py INFO 77: Device : cuda
 2022-01-13 13:19:59,449 auto_trainer.py INFO 78: We are on!!!
 2022-01-13 13:21:12,981 auto_trainer.py WARNING 199: Graceful Exit
+2022-01-13 13:22:58,525 auto_trainer.py INFO 76: train_conf_name : rm_m4_r1
+2022-01-13 13:22:58,525 auto_trainer.py INFO 77: Device : cuda
+2022-01-13 13:22:58,525 auto_trainer.py INFO 78: We are on!!!
+2022-01-13 13:28:56,848 auto_trainer.py INFO 173: [1/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012218780 BER: 0.4833399864
+2022-01-13 13:28:56,849 auto_trainer.py INFO 174: Time for one full iteration is 5.7986 minutes
+2022-01-13 13:34:43,266 auto_trainer.py INFO 173: [2/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018318461 BER: 0.4834599864
+2022-01-13 13:34:43,267 auto_trainer.py INFO 174: Time for one full iteration is 5.7687 minutes
+2022-01-13 13:40:29,564 auto_trainer.py INFO 173: [3/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009820416 BER: 0.4786999871
+2022-01-13 13:40:29,565 auto_trainer.py INFO 174: Time for one full iteration is 5.7716 minutes
+2022-01-13 13:46:16,431 auto_trainer.py INFO 173: [4/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018016410 BER: 0.4819399869
+2022-01-13 13:46:16,432 auto_trainer.py INFO 174: Time for one full iteration is 5.7811 minutes
+2022-01-13 13:52:03,047 auto_trainer.py INFO 173: [5/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010161063 BER: 0.4761799875
+2022-01-13 13:52:03,048 auto_trainer.py INFO 174: Time for one full iteration is 5.7769 minutes
+2022-01-13 13:57:50,111 auto_trainer.py INFO 173: [6/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012945243 BER: 0.4781999874
+2022-01-13 13:57:50,111 auto_trainer.py INFO 174: Time for one full iteration is 5.7844 minutes
+2022-01-13 14:03:37,362 auto_trainer.py INFO 173: [7/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014458201 BER: 0.4770599887
+2022-01-13 14:03:37,362 auto_trainer.py INFO 174: Time for one full iteration is 5.7875 minutes
+2022-01-13 14:09:24,645 auto_trainer.py INFO 173: [8/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015562571 BER: 0.4807999879
+2022-01-13 14:09:24,646 auto_trainer.py INFO 174: Time for one full iteration is 5.7881 minutes
+2022-01-13 14:15:11,756 auto_trainer.py INFO 173: [9/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016993259 BER: 0.4798799871
+2022-01-13 14:15:11,757 auto_trainer.py INFO 174: Time for one full iteration is 5.7852 minutes
+2022-01-13 14:20:57,857 auto_trainer.py INFO 173: [10/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015918800 BER: 0.4777599878
+2022-01-13 14:20:57,858 auto_trainer.py INFO 174: Time for one full iteration is 5.7683 minutes
+2022-01-13 14:26:44,025 auto_trainer.py INFO 173: [11/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016814709 BER: 0.4766399879
+2022-01-13 14:26:44,026 auto_trainer.py INFO 174: Time for one full iteration is 5.7695 minutes
+2022-01-13 14:32:31,199 auto_trainer.py INFO 173: [12/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016735226 BER: 0.4800999880
+2022-01-13 14:32:31,199 auto_trainer.py INFO 174: Time for one full iteration is 5.7862 minutes
+2022-01-13 14:38:17,810 auto_trainer.py INFO 173: [13/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0021882709 BER: 0.4775999876
+2022-01-13 14:38:17,810 auto_trainer.py INFO 174: Time for one full iteration is 5.7768 minutes
+2022-01-13 14:44:04,260 auto_trainer.py INFO 173: [14/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019096195 BER: 0.4778799872
+2022-01-13 14:44:04,261 auto_trainer.py INFO 174: Time for one full iteration is 5.7742 minutes
+2022-01-13 14:49:50,573 auto_trainer.py INFO 173: [15/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011971615 BER: 0.4766199875
+2022-01-13 14:49:50,574 auto_trainer.py INFO 174: Time for one full iteration is 5.7719 minutes
+2022-01-13 14:55:37,154 auto_trainer.py INFO 173: [16/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016840881 BER: 0.4770999873
+2022-01-13 14:55:37,154 auto_trainer.py INFO 174: Time for one full iteration is 5.7763 minutes
+2022-01-13 15:01:23,880 auto_trainer.py INFO 173: [17/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017432590 BER: 0.4773199871
+2022-01-13 15:01:23,881 auto_trainer.py INFO 174: Time for one full iteration is 5.7788 minutes
+2022-01-13 15:07:11,559 auto_trainer.py INFO 173: [18/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012007160 BER: 0.4813599873
+2022-01-13 15:07:11,560 auto_trainer.py INFO 174: Time for one full iteration is 5.7946 minutes
+2022-01-13 15:12:58,965 auto_trainer.py INFO 173: [19/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015403694 BER: 0.4809799891
+2022-01-13 15:12:58,966 auto_trainer.py INFO 174: Time for one full iteration is 5.7901 minutes
+2022-01-13 15:18:40,952 auto_trainer.py INFO 173: [20/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014664781 BER: 0.4753999874
+2022-01-13 15:18:40,953 auto_trainer.py INFO 174: Time for one full iteration is 5.6998 minutes
+2022-01-13 15:24:07,778 auto_trainer.py INFO 173: [21/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011722409 BER: 0.4782399884
+2022-01-13 15:24:07,779 auto_trainer.py INFO 174: Time for one full iteration is 5.4471 minutes
+2022-01-13 15:29:34,203 auto_trainer.py INFO 173: [22/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020247377 BER: 0.4751799877
+2022-01-13 15:29:34,204 auto_trainer.py INFO 174: Time for one full iteration is 5.4369 minutes
+2022-01-13 15:35:02,198 auto_trainer.py INFO 173: [23/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016861040 BER: 0.4780399866
+2022-01-13 15:35:02,199 auto_trainer.py INFO 174: Time for one full iteration is 5.4666 minutes
+2022-01-13 15:40:28,404 auto_trainer.py INFO 173: [24/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017434407 BER: 0.4809999873
+2022-01-13 15:40:28,404 auto_trainer.py INFO 174: Time for one full iteration is 5.4368 minutes
+2022-01-13 15:45:54,466 auto_trainer.py INFO 173: [25/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013125505 BER: 0.4767999873
+2022-01-13 15:45:54,467 auto_trainer.py INFO 174: Time for one full iteration is 5.4344 minutes
+2022-01-13 15:51:22,158 auto_trainer.py INFO 173: [26/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016608695 BER: 0.4801399875
+2022-01-13 15:51:22,158 auto_trainer.py INFO 174: Time for one full iteration is 5.4615 minutes
+2022-01-13 15:56:49,019 auto_trainer.py INFO 173: [27/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015382277 BER: 0.4782599881
+2022-01-13 15:56:49,019 auto_trainer.py INFO 174: Time for one full iteration is 5.4477 minutes
+2022-01-13 16:02:16,602 auto_trainer.py INFO 173: [28/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015135456 BER: 0.4789799879
+2022-01-13 16:02:16,603 auto_trainer.py INFO 174: Time for one full iteration is 5.4597 minutes
+2022-01-13 16:07:43,503 auto_trainer.py INFO 173: [29/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015783197 BER: 0.4792999876
+2022-01-13 16:07:43,503 auto_trainer.py INFO 174: Time for one full iteration is 5.4483 minutes
+2022-01-13 16:13:10,313 auto_trainer.py INFO 173: [30/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0008466981 BER: 0.4781999879
+2022-01-13 16:13:10,314 auto_trainer.py INFO 174: Time for one full iteration is 5.4468 minutes
+2022-01-13 16:18:36,296 auto_trainer.py INFO 173: [31/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016966865 BER: 0.4777799879
+2022-01-13 16:18:36,297 auto_trainer.py INFO 174: Time for one full iteration is 5.4330 minutes
+2022-01-13 16:24:03,287 auto_trainer.py INFO 173: [32/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011320683 BER: 0.4799599875
+2022-01-13 16:24:03,288 auto_trainer.py INFO 174: Time for one full iteration is 5.4499 minutes
+2022-01-13 16:29:29,559 auto_trainer.py INFO 173: [33/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016185031 BER: 0.4782999880
+2022-01-13 16:29:29,559 auto_trainer.py INFO 174: Time for one full iteration is 5.4379 minutes
+2022-01-13 16:34:56,141 auto_trainer.py INFO 173: [34/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017792240 BER: 0.4781799880
+2022-01-13 16:34:56,142 auto_trainer.py INFO 174: Time for one full iteration is 5.4430 minutes
+2022-01-13 16:40:22,724 auto_trainer.py INFO 173: [35/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011545002 BER: 0.4796599868
+2022-01-13 16:40:22,725 auto_trainer.py INFO 174: Time for one full iteration is 5.4430 minutes
+2022-01-13 16:45:49,068 auto_trainer.py INFO 173: [36/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013626596 BER: 0.4794799871
+2022-01-13 16:45:49,069 auto_trainer.py INFO 174: Time for one full iteration is 5.4391 minutes
+2022-01-13 16:51:15,518 auto_trainer.py INFO 173: [37/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012646348 BER: 0.4759199872
+2022-01-13 16:51:15,519 auto_trainer.py INFO 174: Time for one full iteration is 5.4408 minutes
+2022-01-13 16:56:42,350 auto_trainer.py INFO 173: [38/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013622257 BER: 0.4789999879
+2022-01-13 16:56:42,350 auto_trainer.py INFO 174: Time for one full iteration is 5.4472 minutes
+2022-01-13 17:02:09,356 auto_trainer.py INFO 173: [39/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014412618 BER: 0.4779199880
+2022-01-13 17:02:09,357 auto_trainer.py INFO 174: Time for one full iteration is 5.4501 minutes
+2022-01-13 17:07:35,638 auto_trainer.py INFO 173: [40/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015583042 BER: 0.4809599875
+2022-01-13 17:07:35,639 auto_trainer.py INFO 174: Time for one full iteration is 5.4380 minutes
+2022-01-13 17:13:01,610 auto_trainer.py INFO 173: [41/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020338702 BER: 0.4781599879
+2022-01-13 17:13:01,611 auto_trainer.py INFO 174: Time for one full iteration is 5.4329 minutes
+2022-01-13 17:18:28,963 auto_trainer.py INFO 173: [42/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015434437 BER: 0.4792599874
+2022-01-13 17:18:28,963 auto_trainer.py INFO 174: Time for one full iteration is 5.4520 minutes
+2022-01-13 17:23:54,425 auto_trainer.py INFO 173: [43/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018806328 BER: 0.4809999877
+2022-01-13 17:23:54,426 auto_trainer.py INFO 174: Time for one full iteration is 5.4244 minutes
+2022-01-13 17:29:20,567 auto_trainer.py INFO 173: [44/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018812070 BER: 0.4793999872
+2022-01-13 17:29:20,567 auto_trainer.py INFO 174: Time for one full iteration is 5.4357 minutes
+2022-01-13 17:34:46,498 auto_trainer.py INFO 173: [45/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016160021 BER: 0.4779799865
+2022-01-13 17:34:46,498 auto_trainer.py INFO 174: Time for one full iteration is 5.4322 minutes
+2022-01-13 17:40:12,447 auto_trainer.py INFO 173: [46/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011774598 BER: 0.4753399875
+2022-01-13 17:40:12,448 auto_trainer.py INFO 174: Time for one full iteration is 5.4325 minutes
+2022-01-13 17:45:38,732 auto_trainer.py INFO 173: [47/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018312866 BER: 0.4767999881
+2022-01-13 17:45:38,733 auto_trainer.py INFO 174: Time for one full iteration is 5.4381 minutes
+2022-01-13 17:51:05,564 auto_trainer.py INFO 173: [48/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020003885 BER: 0.4819599875
+2022-01-13 17:51:05,565 auto_trainer.py INFO 174: Time for one full iteration is 5.4472 minutes
+2022-01-13 17:56:31,612 auto_trainer.py INFO 173: [49/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015648172 BER: 0.4815799876
+2022-01-13 17:56:31,613 auto_trainer.py INFO 174: Time for one full iteration is 5.4341 minutes
+2022-01-13 18:01:58,191 auto_trainer.py INFO 173: [50/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019039835 BER: 0.4781199878
+2022-01-13 18:01:58,192 auto_trainer.py INFO 174: Time for one full iteration is 5.4430 minutes
+2022-01-13 18:07:25,043 auto_trainer.py INFO 173: [51/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014310192 BER: 0.4774799879
+2022-01-13 18:07:25,043 auto_trainer.py INFO 174: Time for one full iteration is 5.4475 minutes
+2022-01-13 18:12:51,085 auto_trainer.py INFO 173: [52/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012217580 BER: 0.4790199873
+2022-01-13 18:12:51,086 auto_trainer.py INFO 174: Time for one full iteration is 5.4340 minutes
+2022-01-13 18:18:16,808 auto_trainer.py INFO 173: [53/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019859001 BER: 0.4747799875
+2022-01-13 18:18:16,809 auto_trainer.py INFO 174: Time for one full iteration is 5.4287 minutes
+2022-01-13 18:23:42,055 auto_trainer.py INFO 173: [54/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013562319 BER: 0.4761599873
+2022-01-13 18:23:42,056 auto_trainer.py INFO 174: Time for one full iteration is 5.4208 minutes
+2022-01-13 18:29:06,994 auto_trainer.py INFO 173: [55/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018093396 BER: 0.4795199876
+2022-01-13 18:29:06,995 auto_trainer.py INFO 174: Time for one full iteration is 5.4156 minutes
+2022-01-13 18:34:32,056 auto_trainer.py INFO 173: [56/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016438508 BER: 0.4763599871
+2022-01-13 18:34:32,057 auto_trainer.py INFO 174: Time for one full iteration is 5.4177 minutes
+2022-01-13 18:39:56,643 auto_trainer.py INFO 173: [57/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011734121 BER: 0.4796199877
+2022-01-13 18:39:56,644 auto_trainer.py INFO 174: Time for one full iteration is 5.4098 minutes
+2022-01-13 18:45:20,286 auto_trainer.py INFO 173: [58/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012275637 BER: 0.4796799874
+2022-01-13 18:45:20,286 auto_trainer.py INFO 174: Time for one full iteration is 5.3940 minutes
+2022-01-13 18:50:45,450 auto_trainer.py INFO 173: [59/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017705461 BER: 0.4768599878
+2022-01-13 18:50:45,450 auto_trainer.py INFO 174: Time for one full iteration is 5.4194 minutes
+2022-01-13 18:56:11,726 auto_trainer.py INFO 173: [60/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015485663 BER: 0.4775999879
+2022-01-13 18:56:11,727 auto_trainer.py INFO 174: Time for one full iteration is 5.4379 minutes
+2022-01-13 19:01:37,570 auto_trainer.py INFO 173: [61/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020267514 BER: 0.4775999875
+2022-01-13 19:01:37,571 auto_trainer.py INFO 174: Time for one full iteration is 5.4307 minutes
+2022-01-13 19:07:02,257 auto_trainer.py INFO 173: [62/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011177399 BER: 0.4779999873
+2022-01-13 19:07:02,257 auto_trainer.py INFO 174: Time for one full iteration is 5.4080 minutes
+2022-01-13 19:12:26,960 auto_trainer.py INFO 173: [63/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012950840 BER: 0.4762199876
+2022-01-13 19:12:26,961 auto_trainer.py INFO 174: Time for one full iteration is 5.4117 minutes
+2022-01-13 19:17:51,575 auto_trainer.py INFO 173: [64/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016900976 BER: 0.4764799877
+2022-01-13 19:17:51,575 auto_trainer.py INFO 174: Time for one full iteration is 5.4102 minutes
+2022-01-13 19:23:15,731 auto_trainer.py INFO 173: [65/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011682963 BER: 0.4766999879
+2022-01-13 19:23:15,732 auto_trainer.py INFO 174: Time for one full iteration is 5.4026 minutes
+2022-01-13 19:28:38,696 auto_trainer.py INFO 173: [66/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013603132 BER: 0.4790199874
+2022-01-13 19:28:38,697 auto_trainer.py INFO 174: Time for one full iteration is 5.3827 minutes
+2022-01-13 19:34:02,237 auto_trainer.py INFO 173: [67/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015412554 BER: 0.4802199868
+2022-01-13 19:34:02,238 auto_trainer.py INFO 174: Time for one full iteration is 5.3924 minutes
+2022-01-13 19:39:25,194 auto_trainer.py INFO 173: [68/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017671713 BER: 0.4791799886
+2022-01-13 19:39:25,194 auto_trainer.py INFO 174: Time for one full iteration is 5.3826 minutes
+2022-01-13 19:44:48,205 auto_trainer.py INFO 173: [69/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012631103 BER: 0.4801399881
+2022-01-13 19:44:48,205 auto_trainer.py INFO 174: Time for one full iteration is 5.3835 minutes
+2022-01-13 19:50:11,401 auto_trainer.py INFO 173: [70/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016977134 BER: 0.4783999877
+2022-01-13 19:50:11,402 auto_trainer.py INFO 174: Time for one full iteration is 5.3866 minutes
+2022-01-13 19:55:34,828 auto_trainer.py INFO 173: [71/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016102963 BER: 0.4799599880
+2022-01-13 19:55:34,829 auto_trainer.py INFO 174: Time for one full iteration is 5.3905 minutes
+2022-01-13 20:00:57,997 auto_trainer.py INFO 173: [72/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016080327 BER: 0.4790999872
+2022-01-13 20:00:57,997 auto_trainer.py INFO 174: Time for one full iteration is 5.3861 minutes
+2022-01-13 20:06:22,438 auto_trainer.py INFO 173: [73/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015224459 BER: 0.4798999876
+2022-01-13 20:06:22,439 auto_trainer.py INFO 174: Time for one full iteration is 5.4074 minutes
+2022-01-13 20:11:46,945 auto_trainer.py INFO 173: [74/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011889159 BER: 0.4757399880
+2022-01-13 20:11:46,946 auto_trainer.py INFO 174: Time for one full iteration is 5.4084 minutes
+2022-01-13 20:17:11,223 auto_trainer.py INFO 173: [75/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019018757 BER: 0.4739999881
+2022-01-13 20:17:11,224 auto_trainer.py INFO 174: Time for one full iteration is 5.4046 minutes
+2022-01-13 20:22:36,015 auto_trainer.py INFO 173: [76/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019412107 BER: 0.4797999874
+2022-01-13 20:22:36,016 auto_trainer.py INFO 174: Time for one full iteration is 5.4132 minutes
+2022-01-13 20:28:00,146 auto_trainer.py INFO 173: [77/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011410104 BER: 0.4763999878
+2022-01-13 20:28:00,147 auto_trainer.py INFO 174: Time for one full iteration is 5.4022 minutes
+2022-01-13 20:33:24,938 auto_trainer.py INFO 173: [78/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019119435 BER: 0.4743999875
+2022-01-13 20:33:24,939 auto_trainer.py INFO 174: Time for one full iteration is 5.4132 minutes
+2022-01-13 20:38:49,609 auto_trainer.py INFO 173: [79/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016206302 BER: 0.4774199876
+2022-01-13 20:38:49,609 auto_trainer.py INFO 174: Time for one full iteration is 5.4112 minutes
+2022-01-13 20:44:14,458 auto_trainer.py INFO 173: [80/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019595143 BER: 0.4799199870
+2022-01-13 20:44:14,458 auto_trainer.py INFO 174: Time for one full iteration is 5.4141 minutes
+2022-01-13 20:49:39,071 auto_trainer.py INFO 173: [81/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014805943 BER: 0.4746599880
+2022-01-13 20:49:39,072 auto_trainer.py INFO 174: Time for one full iteration is 5.4102 minutes
+2022-01-13 20:55:05,710 auto_trainer.py INFO 173: [82/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014437140 BER: 0.4812999874
+2022-01-13 20:55:05,710 auto_trainer.py INFO 174: Time for one full iteration is 5.4400 minutes
+2022-01-13 21:00:31,648 auto_trainer.py INFO 173: [83/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019113468 BER: 0.4804199877
+2022-01-13 21:00:31,649 auto_trainer.py INFO 174: Time for one full iteration is 5.4323 minutes
+2022-01-13 21:05:57,649 auto_trainer.py INFO 173: [84/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017149007 BER: 0.4794599883
+2022-01-13 21:05:57,650 auto_trainer.py INFO 174: Time for one full iteration is 5.4333 minutes
+2022-01-13 21:11:23,862 auto_trainer.py INFO 173: [85/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014759953 BER: 0.4763399878
+2022-01-13 21:11:23,863 auto_trainer.py INFO 174: Time for one full iteration is 5.4369 minutes
+2022-01-13 21:16:50,082 auto_trainer.py INFO 173: [86/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012705364 BER: 0.4792199879
+2022-01-13 21:16:50,083 auto_trainer.py INFO 174: Time for one full iteration is 5.4370 minutes
+2022-01-13 21:22:16,416 auto_trainer.py INFO 173: [87/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011615388 BER: 0.4789799871
+2022-01-13 21:22:16,416 auto_trainer.py INFO 174: Time for one full iteration is 5.4389 minutes
+2022-01-13 21:27:42,702 auto_trainer.py INFO 173: [88/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018810891 BER: 0.4794599879
+2022-01-13 21:27:42,703 auto_trainer.py INFO 174: Time for one full iteration is 5.4381 minutes
+2022-01-13 21:33:09,108 auto_trainer.py INFO 173: [89/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011581467 BER: 0.4776799880
+2022-01-13 21:33:09,109 auto_trainer.py INFO 174: Time for one full iteration is 5.4401 minutes
+2022-01-13 21:38:36,159 auto_trainer.py INFO 173: [90/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017543256 BER: 0.4797199874
+2022-01-13 21:38:36,159 auto_trainer.py INFO 174: Time for one full iteration is 5.4508 minutes
+2022-01-13 21:44:02,288 auto_trainer.py INFO 173: [91/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017054767 BER: 0.4800799881
+2022-01-13 21:44:02,288 auto_trainer.py INFO 174: Time for one full iteration is 5.4355 minutes
+2022-01-13 21:49:28,271 auto_trainer.py INFO 173: [92/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014636684 BER: 0.4771399881
+2022-01-13 21:49:28,271 auto_trainer.py INFO 174: Time for one full iteration is 5.4330 minutes
+2022-01-13 21:54:55,161 auto_trainer.py INFO 173: [93/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012793352 BER: 0.4769399875
+2022-01-13 21:54:55,162 auto_trainer.py INFO 174: Time for one full iteration is 5.4482 minutes
+2022-01-13 22:00:21,313 auto_trainer.py INFO 173: [94/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019050378 BER: 0.4784799880
+2022-01-13 22:00:21,313 auto_trainer.py INFO 174: Time for one full iteration is 5.4359 minutes
+2022-01-13 22:05:48,012 auto_trainer.py INFO 173: [95/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009299870 BER: 0.4787599872
+2022-01-13 22:05:48,013 auto_trainer.py INFO 174: Time for one full iteration is 5.4450 minutes
+2022-01-13 22:11:14,254 auto_trainer.py INFO 173: [96/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018778936 BER: 0.4764199875
+2022-01-13 22:11:14,255 auto_trainer.py INFO 174: Time for one full iteration is 5.4374 minutes
+2022-01-13 22:16:38,525 auto_trainer.py INFO 173: [97/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015833487 BER: 0.4811799876
+2022-01-13 22:16:38,526 auto_trainer.py INFO 174: Time for one full iteration is 5.4045 minutes
+2022-01-13 22:22:02,390 auto_trainer.py INFO 173: [98/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015860575 BER: 0.4773799878
+2022-01-13 22:22:02,391 auto_trainer.py INFO 174: Time for one full iteration is 5.3977 minutes
+2022-01-13 22:27:26,687 auto_trainer.py INFO 173: [99/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0025167884 BER: 0.4749199883
+2022-01-13 22:27:26,687 auto_trainer.py INFO 174: Time for one full iteration is 5.4049 minutes
+2022-01-13 22:32:53,515 auto_trainer.py INFO 173: [100/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0008721328 BER: 0.4789799872
+2022-01-13 22:32:53,516 auto_trainer.py INFO 174: Time for one full iteration is 5.4471 minutes
+2022-01-13 22:38:19,616 auto_trainer.py INFO 173: [101/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012129057 BER: 0.4788399878
+2022-01-13 22:38:19,616 auto_trainer.py INFO 174: Time for one full iteration is 5.4350 minutes
+2022-01-13 22:43:46,461 auto_trainer.py INFO 173: [102/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014428804 BER: 0.4769799883
+2022-01-13 22:43:46,462 auto_trainer.py INFO 174: Time for one full iteration is 5.4434 minutes
+2022-01-13 22:49:13,092 auto_trainer.py INFO 173: [103/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012247702 BER: 0.4788799880
+2022-01-13 22:49:13,092 auto_trainer.py INFO 174: Time for one full iteration is 5.4438 minutes
+2022-01-13 22:54:37,179 auto_trainer.py INFO 173: [104/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015582407 BER: 0.4749599881
+2022-01-13 22:54:37,180 auto_trainer.py INFO 174: Time for one full iteration is 5.4015 minutes
+2022-01-13 23:00:00,451 auto_trainer.py INFO 173: [105/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015295233 BER: 0.4781999878
+2022-01-13 23:00:00,451 auto_trainer.py INFO 174: Time for one full iteration is 5.3879 minutes
+2022-01-13 23:05:24,054 auto_trainer.py INFO 173: [106/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014438074 BER: 0.4731999882
+2022-01-13 23:05:24,055 auto_trainer.py INFO 174: Time for one full iteration is 5.3934 minutes
+2022-01-13 23:10:47,749 auto_trainer.py INFO 173: [107/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018016871 BER: 0.4786799879
+2022-01-13 23:10:47,749 auto_trainer.py INFO 174: Time for one full iteration is 5.3949 minutes
+2022-01-13 23:16:11,086 auto_trainer.py INFO 173: [108/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019806772 BER: 0.4782399872
+2022-01-13 23:16:11,087 auto_trainer.py INFO 174: Time for one full iteration is 5.3890 minutes
+2022-01-13 23:21:35,279 auto_trainer.py INFO 173: [109/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0021649841 BER: 0.4791799872
+2022-01-13 23:21:35,280 auto_trainer.py INFO 174: Time for one full iteration is 5.4032 minutes
+2022-01-13 23:26:58,581 auto_trainer.py INFO 173: [110/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013991849 BER: 0.4787399877
+2022-01-13 23:26:58,581 auto_trainer.py INFO 174: Time for one full iteration is 5.3884 minutes
+2022-01-13 23:32:22,186 auto_trainer.py INFO 173: [111/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013414618 BER: 0.4783199875
+2022-01-13 23:32:22,187 auto_trainer.py INFO 174: Time for one full iteration is 5.3934 minutes
+2022-01-13 23:37:45,921 auto_trainer.py INFO 173: [112/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018357338 BER: 0.4781199869
+2022-01-13 23:37:45,922 auto_trainer.py INFO 174: Time for one full iteration is 5.3956 minutes
+2022-01-13 23:43:09,400 auto_trainer.py INFO 173: [113/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014053568 BER: 0.4799399875
+2022-01-13 23:43:09,401 auto_trainer.py INFO 174: Time for one full iteration is 5.3913 minutes
+2022-01-13 23:48:33,093 auto_trainer.py INFO 173: [114/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016610812 BER: 0.4797199877
+2022-01-13 23:48:33,094 auto_trainer.py INFO 174: Time for one full iteration is 5.3949 minutes
+2022-01-13 23:54:00,282 auto_trainer.py INFO 173: [115/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017544993 BER: 0.4771199881
+2022-01-13 23:54:00,283 auto_trainer.py INFO 174: Time for one full iteration is 5.4531 minutes
+2022-01-13 23:59:26,453 auto_trainer.py INFO 173: [116/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019542109 BER: 0.4800799881
+2022-01-13 23:59:26,453 auto_trainer.py INFO 174: Time for one full iteration is 5.4362 minutes
+2022-01-14 00:04:53,454 auto_trainer.py INFO 173: [117/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012765772 BER: 0.4785599868
+2022-01-14 00:04:53,455 auto_trainer.py INFO 174: Time for one full iteration is 5.4500 minutes
+2022-01-14 00:10:20,476 auto_trainer.py INFO 173: [118/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015716403 BER: 0.4788599877
+2022-01-14 00:10:20,477 auto_trainer.py INFO 174: Time for one full iteration is 5.4504 minutes
+2022-01-14 00:15:47,142 auto_trainer.py INFO 173: [119/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0021382580 BER: 0.4797199872
+2022-01-14 00:15:47,143 auto_trainer.py INFO 174: Time for one full iteration is 5.4444 minutes
+2022-01-14 00:21:15,698 auto_trainer.py INFO 173: [120/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014445672 BER: 0.4789999874
+2022-01-14 00:21:15,698 auto_trainer.py INFO 174: Time for one full iteration is 5.4759 minutes
+2022-01-14 00:26:43,100 auto_trainer.py INFO 173: [121/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017690839 BER: 0.4778399877
+2022-01-14 00:26:43,101 auto_trainer.py INFO 174: Time for one full iteration is 5.4567 minutes
+2022-01-14 00:32:08,731 auto_trainer.py INFO 173: [122/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015607575 BER: 0.4795199875
+2022-01-14 00:32:08,732 auto_trainer.py INFO 174: Time for one full iteration is 5.4238 minutes
+2022-01-14 00:37:33,959 auto_trainer.py INFO 173: [123/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018437153 BER: 0.4764799872
+2022-01-14 00:37:33,960 auto_trainer.py INFO 174: Time for one full iteration is 5.4205 minutes
+2022-01-14 00:42:59,437 auto_trainer.py INFO 173: [124/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009085774 BER: 0.4780399870
+2022-01-14 00:42:59,438 auto_trainer.py INFO 174: Time for one full iteration is 5.4246 minutes
+2022-01-14 00:48:22,636 auto_trainer.py INFO 173: [125/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018833134 BER: 0.4765799876
+2022-01-14 00:48:22,637 auto_trainer.py INFO 174: Time for one full iteration is 5.3867 minutes
+2022-01-14 00:53:45,595 auto_trainer.py INFO 173: [126/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015997504 BER: 0.4735199865
+2022-01-14 00:53:45,596 auto_trainer.py INFO 174: Time for one full iteration is 5.3826 minutes
+2022-01-14 00:59:08,232 auto_trainer.py INFO 173: [127/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019073646 BER: 0.4786799875
+2022-01-14 00:59:08,233 auto_trainer.py INFO 174: Time for one full iteration is 5.3773 minutes
+2022-01-14 01:04:31,166 auto_trainer.py INFO 173: [128/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014148055 BER: 0.4796799884
+2022-01-14 01:04:31,167 auto_trainer.py INFO 174: Time for one full iteration is 5.3822 minutes
+2022-01-14 01:09:54,101 auto_trainer.py INFO 173: [129/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010485036 BER: 0.4766999887
+2022-01-14 01:09:54,102 auto_trainer.py INFO 174: Time for one full iteration is 5.3823 minutes
+2022-01-14 01:15:17,359 auto_trainer.py INFO 173: [130/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017934885 BER: 0.4790399870
+2022-01-14 01:15:17,360 auto_trainer.py INFO 174: Time for one full iteration is 5.3876 minutes
+2022-01-14 01:20:40,195 auto_trainer.py INFO 173: [131/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0022941667 BER: 0.4780399880
+2022-01-14 01:20:40,196 auto_trainer.py INFO 174: Time for one full iteration is 5.3806 minutes
+2022-01-14 01:26:03,293 auto_trainer.py INFO 173: [132/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009568593 BER: 0.4769599878
+2022-01-14 01:26:03,294 auto_trainer.py INFO 174: Time for one full iteration is 5.3850 minutes
+2022-01-14 01:31:26,146 auto_trainer.py INFO 173: [133/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012753227 BER: 0.4782999872
+2022-01-14 01:31:26,146 auto_trainer.py INFO 174: Time for one full iteration is 5.3809 minutes
+2022-01-14 01:36:51,194 auto_trainer.py INFO 173: [134/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013741232 BER: 0.4804599875
+2022-01-14 01:36:51,195 auto_trainer.py INFO 174: Time for one full iteration is 5.4175 minutes
+2022-01-14 01:42:16,492 auto_trainer.py INFO 173: [135/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012452705 BER: 0.4805999870
+2022-01-14 01:42:16,493 auto_trainer.py INFO 174: Time for one full iteration is 5.4216 minutes
+2022-01-14 01:47:41,496 auto_trainer.py INFO 173: [136/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020473530 BER: 0.4774999877
+2022-01-14 01:47:41,497 auto_trainer.py INFO 174: Time for one full iteration is 5.4167 minutes
+2022-01-14 01:53:06,905 auto_trainer.py INFO 173: [137/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013744202 BER: 0.4774599877
+2022-01-14 01:53:06,905 auto_trainer.py INFO 174: Time for one full iteration is 5.4235 minutes
+2022-01-14 01:58:31,853 auto_trainer.py INFO 173: [138/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017846213 BER: 0.4805999879
+2022-01-14 01:58:31,854 auto_trainer.py INFO 174: Time for one full iteration is 5.4158 minutes
+2022-01-14 02:03:57,347 auto_trainer.py INFO 173: [139/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013339900 BER: 0.4812799875
+2022-01-14 02:03:57,347 auto_trainer.py INFO 174: Time for one full iteration is 5.4249 minutes
+2022-01-14 02:09:22,649 auto_trainer.py INFO 173: [140/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016226211 BER: 0.4779999868
+2022-01-14 02:09:22,650 auto_trainer.py INFO 174: Time for one full iteration is 5.4217 minutes
+2022-01-14 02:14:47,860 auto_trainer.py INFO 173: [141/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014179966 BER: 0.4769399878
+2022-01-14 02:14:47,860 auto_trainer.py INFO 174: Time for one full iteration is 5.4202 minutes
+2022-01-14 02:20:13,481 auto_trainer.py INFO 173: [142/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016270629 BER: 0.4833799872
+2022-01-14 02:20:13,482 auto_trainer.py INFO 174: Time for one full iteration is 5.4233 minutes
+2022-01-14 02:25:38,566 auto_trainer.py INFO 173: [143/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015361768 BER: 0.4792799876
+2022-01-14 02:25:38,567 auto_trainer.py INFO 174: Time for one full iteration is 5.4181 minutes
+2022-01-14 02:31:03,445 auto_trainer.py INFO 173: [144/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011887940 BER: 0.4786599878
+2022-01-14 02:31:03,445 auto_trainer.py INFO 174: Time for one full iteration is 5.4146 minutes
+2022-01-14 02:36:28,528 auto_trainer.py INFO 173: [145/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012594076 BER: 0.4797999874
+2022-01-14 02:36:28,528 auto_trainer.py INFO 174: Time for one full iteration is 5.4180 minutes
+2022-01-14 02:41:53,351 auto_trainer.py INFO 173: [146/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012699246 BER: 0.4765399875
+2022-01-14 02:41:53,352 auto_trainer.py INFO 174: Time for one full iteration is 5.4137 minutes
+2022-01-14 02:47:18,187 auto_trainer.py INFO 173: [147/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009334381 BER: 0.4769399876
+2022-01-14 02:47:18,188 auto_trainer.py INFO 174: Time for one full iteration is 5.4139 minutes
+2022-01-14 02:52:43,129 auto_trainer.py INFO 173: [148/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0005866896 BER: 0.4758399877
+2022-01-14 02:52:43,130 auto_trainer.py INFO 174: Time for one full iteration is 5.4157 minutes
+2022-01-14 02:58:08,152 auto_trainer.py INFO 173: [149/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015825926 BER: 0.4779199879
+2022-01-14 02:58:08,153 auto_trainer.py INFO 174: Time for one full iteration is 5.4170 minutes
+2022-01-14 03:03:33,452 auto_trainer.py INFO 173: [150/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019472752 BER: 0.4797599882
+2022-01-14 03:03:33,453 auto_trainer.py INFO 174: Time for one full iteration is 5.4217 minutes
+2022-01-14 03:08:58,540 auto_trainer.py INFO 173: [151/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015700178 BER: 0.4782799869
+2022-01-14 03:08:58,540 auto_trainer.py INFO 174: Time for one full iteration is 5.4181 minutes
+2022-01-14 03:14:23,521 auto_trainer.py INFO 173: [152/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0021969203 BER: 0.4832199872
+2022-01-14 03:14:23,521 auto_trainer.py INFO 174: Time for one full iteration is 5.4164 minutes
+2022-01-14 03:19:48,563 auto_trainer.py INFO 173: [153/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018498225 BER: 0.4810599864
+2022-01-14 03:19:48,563 auto_trainer.py INFO 174: Time for one full iteration is 5.4174 minutes
+2022-01-14 03:25:13,534 auto_trainer.py INFO 173: [154/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015503232 BER: 0.4798199872
+2022-01-14 03:25:13,535 auto_trainer.py INFO 174: Time for one full iteration is 5.4162 minutes
+2022-01-14 03:30:38,506 auto_trainer.py INFO 173: [155/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020121015 BER: 0.4807599874
+2022-01-14 03:30:38,507 auto_trainer.py INFO 174: Time for one full iteration is 5.4162 minutes
+2022-01-14 03:36:03,581 auto_trainer.py INFO 173: [156/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014752105 BER: 0.4813799877
+2022-01-14 03:36:03,582 auto_trainer.py INFO 174: Time for one full iteration is 5.4179 minutes
+2022-01-14 03:41:28,851 auto_trainer.py INFO 173: [157/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019935404 BER: 0.4773799872
+2022-01-14 03:41:28,852 auto_trainer.py INFO 174: Time for one full iteration is 5.4212 minutes
+2022-01-14 03:46:53,833 auto_trainer.py INFO 173: [158/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014132495 BER: 0.4775399877
+2022-01-14 03:46:53,833 auto_trainer.py INFO 174: Time for one full iteration is 5.4164 minutes
+2022-01-14 03:52:19,012 auto_trainer.py INFO 173: [159/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017560840 BER: 0.4799199868
+2022-01-14 03:52:19,012 auto_trainer.py INFO 174: Time for one full iteration is 5.4196 minutes
+2022-01-14 03:57:44,173 auto_trainer.py INFO 173: [160/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019494240 BER: 0.4763599879
+2022-01-14 03:57:44,174 auto_trainer.py INFO 174: Time for one full iteration is 5.4194 minutes
+2022-01-14 04:03:09,355 auto_trainer.py INFO 173: [161/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016651842 BER: 0.4811799877
+2022-01-14 04:03:09,355 auto_trainer.py INFO 174: Time for one full iteration is 5.4197 minutes
+2022-01-14 04:08:35,189 auto_trainer.py INFO 173: [162/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017951688 BER: 0.4758999868
+2022-01-14 04:08:35,189 auto_trainer.py INFO 174: Time for one full iteration is 5.4271 minutes
+2022-01-14 04:14:00,766 auto_trainer.py INFO 173: [163/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014316641 BER: 0.4808399873
+2022-01-14 04:14:00,767 auto_trainer.py INFO 174: Time for one full iteration is 5.4263 minutes
+2022-01-14 04:19:26,992 auto_trainer.py INFO 173: [164/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015007264 BER: 0.4754399877
+2022-01-14 04:19:26,993 auto_trainer.py INFO 174: Time for one full iteration is 5.4371 minutes
+2022-01-14 04:24:52,604 auto_trainer.py INFO 173: [165/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013891668 BER: 0.4770199862
+2022-01-14 04:24:52,605 auto_trainer.py INFO 174: Time for one full iteration is 5.4269 minutes
+2022-01-14 04:30:18,307 auto_trainer.py INFO 173: [166/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010606918 BER: 0.4760999882
+2022-01-14 04:30:18,307 auto_trainer.py INFO 174: Time for one full iteration is 5.4284 minutes
+2022-01-14 04:35:44,018 auto_trainer.py INFO 173: [167/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0022214644 BER: 0.4767199876
+2022-01-14 04:35:44,019 auto_trainer.py INFO 174: Time for one full iteration is 5.4285 minutes
+2022-01-14 04:41:09,542 auto_trainer.py INFO 173: [168/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014354927 BER: 0.4800199878
+2022-01-14 04:41:09,542 auto_trainer.py INFO 174: Time for one full iteration is 5.4254 minutes
+2022-01-14 04:46:35,171 auto_trainer.py INFO 173: [169/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017175073 BER: 0.4781399879
+2022-01-14 04:46:35,171 auto_trainer.py INFO 174: Time for one full iteration is 5.4271 minutes
+2022-01-14 04:52:00,589 auto_trainer.py INFO 173: [170/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014013062 BER: 0.4792599874
+2022-01-14 04:52:00,590 auto_trainer.py INFO 174: Time for one full iteration is 5.4236 minutes
+2022-01-14 04:57:25,721 auto_trainer.py INFO 173: [171/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011733454 BER: 0.4795199877
+2022-01-14 04:57:25,721 auto_trainer.py INFO 174: Time for one full iteration is 5.4189 minutes
+2022-01-14 05:02:51,692 auto_trainer.py INFO 173: [172/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019423919 BER: 0.4749199873
+2022-01-14 05:02:51,693 auto_trainer.py INFO 174: Time for one full iteration is 5.4329 minutes
+2022-01-14 05:08:17,603 auto_trainer.py INFO 173: [173/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013348993 BER: 0.4787999872
+2022-01-14 05:08:17,604 auto_trainer.py INFO 174: Time for one full iteration is 5.4318 minutes
+2022-01-14 05:13:43,272 auto_trainer.py INFO 173: [174/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015014776 BER: 0.4779599876
+2022-01-14 05:13:43,272 auto_trainer.py INFO 174: Time for one full iteration is 5.4278 minutes
+2022-01-14 05:19:08,763 auto_trainer.py INFO 173: [175/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010698262 BER: 0.4740399878
+2022-01-14 05:19:08,764 auto_trainer.py INFO 174: Time for one full iteration is 5.4249 minutes
+2022-01-14 05:24:34,381 auto_trainer.py INFO 173: [176/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012661401 BER: 0.4759199877
+2022-01-14 05:24:34,381 auto_trainer.py INFO 174: Time for one full iteration is 5.4270 minutes
+2022-01-14 05:30:00,018 auto_trainer.py INFO 173: [177/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017408195 BER: 0.4800199876
+2022-01-14 05:30:00,019 auto_trainer.py INFO 174: Time for one full iteration is 5.4273 minutes
+2022-01-14 05:35:26,012 auto_trainer.py INFO 173: [178/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010247045 BER: 0.4775399876
+2022-01-14 05:35:26,012 auto_trainer.py INFO 174: Time for one full iteration is 5.4332 minutes
+2022-01-14 05:40:51,820 auto_trainer.py INFO 173: [179/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015473391 BER: 0.4831399869
+2022-01-14 05:40:51,821 auto_trainer.py INFO 174: Time for one full iteration is 5.4301 minutes
+2022-01-14 05:46:17,861 auto_trainer.py INFO 173: [180/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010940789 BER: 0.4804799875
+2022-01-14 05:46:17,861 auto_trainer.py INFO 174: Time for one full iteration is 5.4340 minutes
+2022-01-14 05:51:44,809 auto_trainer.py INFO 173: [181/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013649126 BER: 0.4761999886
+2022-01-14 05:51:44,810 auto_trainer.py INFO 174: Time for one full iteration is 5.4491 minutes
+2022-01-14 05:57:10,176 auto_trainer.py INFO 173: [182/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015955903 BER: 0.4784599883
+2022-01-14 05:57:10,177 auto_trainer.py INFO 174: Time for one full iteration is 5.4193 minutes
+2022-01-14 06:02:35,946 auto_trainer.py INFO 173: [183/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015791343 BER: 0.4794599875
+2022-01-14 06:02:35,947 auto_trainer.py INFO 174: Time for one full iteration is 5.4295 minutes
+2022-01-14 06:08:01,648 auto_trainer.py INFO 173: [184/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015163728 BER: 0.4800399877
+2022-01-14 06:08:01,648 auto_trainer.py INFO 174: Time for one full iteration is 5.4284 minutes
+2022-01-14 06:13:27,151 auto_trainer.py INFO 173: [185/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013967359 BER: 0.4784399890
+2022-01-14 06:13:27,151 auto_trainer.py INFO 174: Time for one full iteration is 5.4250 minutes
+2022-01-14 06:18:52,730 auto_trainer.py INFO 173: [186/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016656190 BER: 0.4781199881
+2022-01-14 06:18:52,730 auto_trainer.py INFO 174: Time for one full iteration is 5.4263 minutes
+2022-01-14 06:24:18,740 auto_trainer.py INFO 173: [187/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018455818 BER: 0.4780999876
+2022-01-14 06:24:18,740 auto_trainer.py INFO 174: Time for one full iteration is 5.4335 minutes
+2022-01-14 06:29:44,138 auto_trainer.py INFO 173: [188/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015844706 BER: 0.4792599871
+2022-01-14 06:29:44,138 auto_trainer.py INFO 174: Time for one full iteration is 5.4233 minutes
+2022-01-14 06:35:09,736 auto_trainer.py INFO 173: [189/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015989026 BER: 0.4780999873
+2022-01-14 06:35:09,736 auto_trainer.py INFO 174: Time for one full iteration is 5.4266 minutes
+2022-01-14 06:40:33,395 auto_trainer.py INFO 173: [190/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011160105 BER: 0.4771599880
+2022-01-14 06:40:33,396 auto_trainer.py INFO 174: Time for one full iteration is 5.3943 minutes
+2022-01-14 06:45:57,371 auto_trainer.py INFO 173: [191/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013764149 BER: 0.4800599871
+2022-01-14 06:45:57,372 auto_trainer.py INFO 174: Time for one full iteration is 5.3996 minutes
+2022-01-14 06:51:23,532 auto_trainer.py INFO 173: [192/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012624676 BER: 0.4781199871
+2022-01-14 06:51:23,533 auto_trainer.py INFO 174: Time for one full iteration is 5.4360 minutes
+2022-01-14 06:56:49,982 auto_trainer.py INFO 173: [193/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010022562 BER: 0.4781199871
+2022-01-14 06:56:49,983 auto_trainer.py INFO 174: Time for one full iteration is 5.4408 minutes
+2022-01-14 07:02:16,435 auto_trainer.py INFO 173: [194/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015308466 BER: 0.4787799885
+2022-01-14 07:02:16,435 auto_trainer.py INFO 174: Time for one full iteration is 5.4409 minutes
+2022-01-14 07:07:42,741 auto_trainer.py INFO 173: [195/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020804957 BER: 0.4774799869
+2022-01-14 07:07:42,742 auto_trainer.py INFO 174: Time for one full iteration is 5.4384 minutes
+2022-01-14 07:13:08,739 auto_trainer.py INFO 173: [196/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013149236 BER: 0.4792599874
+2022-01-14 07:13:08,740 auto_trainer.py INFO 174: Time for one full iteration is 5.4333 minutes
+2022-01-14 07:18:34,883 auto_trainer.py INFO 173: [197/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018430786 BER: 0.4771399884
+2022-01-14 07:18:34,883 auto_trainer.py INFO 174: Time for one full iteration is 5.4357 minutes
+2022-01-14 07:24:01,790 auto_trainer.py INFO 173: [198/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020092186 BER: 0.4771599873
+2022-01-14 07:24:01,791 auto_trainer.py INFO 174: Time for one full iteration is 5.4485 minutes
+2022-01-14 07:29:27,833 auto_trainer.py INFO 173: [199/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016257794 BER: 0.4772999883
+2022-01-14 07:29:27,834 auto_trainer.py INFO 174: Time for one full iteration is 5.4340 minutes
+2022-01-14 07:34:54,478 auto_trainer.py INFO 173: [200/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016806070 BER: 0.4793199865
+2022-01-14 07:34:54,479 auto_trainer.py INFO 174: Time for one full iteration is 5.4441 minutes
+2022-01-14 07:40:21,030 auto_trainer.py INFO 173: [201/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012149996 BER: 0.4789399874
+2022-01-14 07:40:21,030 auto_trainer.py INFO 174: Time for one full iteration is 5.4425 minutes
+2022-01-14 07:45:45,593 auto_trainer.py INFO 173: [202/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014734254 BER: 0.4761599880
+2022-01-14 07:45:45,593 auto_trainer.py INFO 174: Time for one full iteration is 5.4058 minutes
+2022-01-14 07:51:11,060 auto_trainer.py INFO 173: [203/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020744868 BER: 0.4808999881
+2022-01-14 07:51:11,060 auto_trainer.py INFO 174: Time for one full iteration is 5.4245 minutes
+2022-01-14 07:56:35,253 auto_trainer.py INFO 173: [204/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019539802 BER: 0.4741799875
+2022-01-14 07:56:35,254 auto_trainer.py INFO 174: Time for one full iteration is 5.4032 minutes
+2022-01-14 08:02:00,443 auto_trainer.py INFO 173: [205/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012221769 BER: 0.4771999871
+2022-01-14 08:02:00,443 auto_trainer.py INFO 174: Time for one full iteration is 5.4198 minutes
+2022-01-14 08:07:24,689 auto_trainer.py INFO 173: [206/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012405640 BER: 0.4781599879
+2022-01-14 08:07:24,689 auto_trainer.py INFO 174: Time for one full iteration is 5.4041 minutes
+2022-01-14 08:12:47,334 auto_trainer.py INFO 173: [207/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015880096 BER: 0.4814799872
+2022-01-14 08:12:47,335 auto_trainer.py INFO 174: Time for one full iteration is 5.3774 minutes
+2022-01-14 08:18:10,441 auto_trainer.py INFO 173: [208/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014078437 BER: 0.4793199875
+2022-01-14 08:18:10,441 auto_trainer.py INFO 174: Time for one full iteration is 5.3851 minutes
+2022-01-14 08:23:36,475 auto_trainer.py INFO 173: [209/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011656376 BER: 0.4758399876
+2022-01-14 08:23:36,475 auto_trainer.py INFO 174: Time for one full iteration is 5.4339 minutes
+2022-01-14 08:29:01,214 auto_trainer.py INFO 173: [210/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017916546 BER: 0.4776999876
+2022-01-14 08:29:01,215 auto_trainer.py INFO 174: Time for one full iteration is 5.4123 minutes
+2022-01-14 08:34:26,327 auto_trainer.py INFO 173: [211/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013362140 BER: 0.4768599877
+2022-01-14 08:34:26,328 auto_trainer.py INFO 174: Time for one full iteration is 5.4185 minutes
+2022-01-14 08:39:51,392 auto_trainer.py INFO 173: [212/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012098885 BER: 0.4788999876
+2022-01-14 08:39:51,393 auto_trainer.py INFO 174: Time for one full iteration is 5.4177 minutes
+2022-01-14 08:45:16,059 auto_trainer.py INFO 173: [213/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012881993 BER: 0.4744599879
+2022-01-14 08:45:16,060 auto_trainer.py INFO 174: Time for one full iteration is 5.4111 minutes
+2022-01-14 08:50:42,599 auto_trainer.py INFO 173: [214/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014962358 BER: 0.4767399879
+2022-01-14 08:50:42,600 auto_trainer.py INFO 174: Time for one full iteration is 5.4423 minutes
+2022-01-14 08:56:07,855 auto_trainer.py INFO 173: [215/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018901507 BER: 0.4771599884
+2022-01-14 08:56:07,856 auto_trainer.py INFO 174: Time for one full iteration is 5.4209 minutes
+2022-01-14 09:01:33,255 auto_trainer.py INFO 173: [216/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011053003 BER: 0.4767399874
+2022-01-14 09:01:33,256 auto_trainer.py INFO 174: Time for one full iteration is 5.4233 minutes
+2022-01-14 09:06:59,326 auto_trainer.py INFO 173: [217/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013654600 BER: 0.4795599879
+2022-01-14 09:06:59,327 auto_trainer.py INFO 174: Time for one full iteration is 5.4345 minutes
+2022-01-14 09:12:24,164 auto_trainer.py INFO 173: [218/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014371014 BER: 0.4769799876
+2022-01-14 09:12:24,165 auto_trainer.py INFO 174: Time for one full iteration is 5.4140 minutes
+2022-01-14 09:17:49,073 auto_trainer.py INFO 173: [219/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015029151 BER: 0.4783799877
+2022-01-14 09:17:49,074 auto_trainer.py INFO 174: Time for one full iteration is 5.4152 minutes
+2022-01-14 09:23:14,514 auto_trainer.py INFO 173: [220/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012745108 BER: 0.4769399877
+2022-01-14 09:23:14,515 auto_trainer.py INFO 174: Time for one full iteration is 5.4240 minutes
+2022-01-14 09:28:39,540 auto_trainer.py INFO 173: [221/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015204998 BER: 0.4804999882
+2022-01-14 09:28:39,541 auto_trainer.py INFO 174: Time for one full iteration is 5.4171 minutes
+2022-01-14 09:34:06,898 auto_trainer.py INFO 173: [222/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012344879 BER: 0.4771599877
+2022-01-14 09:34:06,898 auto_trainer.py INFO 174: Time for one full iteration is 5.4526 minutes
+2022-01-14 09:39:33,724 auto_trainer.py INFO 173: [223/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016956462 BER: 0.4757199869
+2022-01-14 09:39:33,724 auto_trainer.py INFO 174: Time for one full iteration is 5.4471 minutes
+2022-01-14 09:45:00,167 auto_trainer.py INFO 173: [224/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011956490 BER: 0.4780999876
+2022-01-14 09:45:00,168 auto_trainer.py INFO 174: Time for one full iteration is 5.4407 minutes
+2022-01-14 09:50:26,878 auto_trainer.py INFO 173: [225/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018012318 BER: 0.4745599875
+2022-01-14 09:50:26,879 auto_trainer.py INFO 174: Time for one full iteration is 5.4452 minutes
+2022-01-14 09:55:53,934 auto_trainer.py INFO 173: [226/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011116510 BER: 0.4795399879
+2022-01-14 09:55:53,935 auto_trainer.py INFO 174: Time for one full iteration is 5.4509 minutes
+2022-01-14 10:01:20,825 auto_trainer.py INFO 173: [227/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020781290 BER: 0.4787599876
+2022-01-14 10:01:20,825 auto_trainer.py INFO 174: Time for one full iteration is 5.4482 minutes
+2022-01-14 10:06:47,047 auto_trainer.py INFO 173: [228/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019091020 BER: 0.4774399877
+2022-01-14 10:06:47,048 auto_trainer.py INFO 174: Time for one full iteration is 5.4370 minutes
+2022-01-14 10:12:12,968 auto_trainer.py INFO 173: [229/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018601774 BER: 0.4799799874
+2022-01-14 10:12:12,969 auto_trainer.py INFO 174: Time for one full iteration is 5.4320 minutes
+2022-01-14 10:17:39,230 auto_trainer.py INFO 173: [230/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014856260 BER: 0.4791999872
+2022-01-14 10:17:39,230 auto_trainer.py INFO 174: Time for one full iteration is 5.4377 minutes
+2022-01-14 10:23:05,280 auto_trainer.py INFO 173: [231/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013779216 BER: 0.4759399874
+2022-01-14 10:23:05,281 auto_trainer.py INFO 174: Time for one full iteration is 5.4342 minutes
+2022-01-14 10:28:30,913 auto_trainer.py INFO 173: [232/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015149405 BER: 0.4784199876
+2022-01-14 10:28:30,913 auto_trainer.py INFO 174: Time for one full iteration is 5.4272 minutes
+2022-01-14 10:33:57,674 auto_trainer.py INFO 173: [233/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012824774 BER: 0.4779199879
+2022-01-14 10:33:57,675 auto_trainer.py INFO 174: Time for one full iteration is 5.4460 minutes
+2022-01-14 10:39:25,344 auto_trainer.py INFO 173: [234/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015573594 BER: 0.4789199876
+2022-01-14 10:39:25,344 auto_trainer.py INFO 174: Time for one full iteration is 5.4612 minutes
+2022-01-14 10:44:54,455 auto_trainer.py INFO 173: [235/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013564335 BER: 0.4804399869
+2022-01-14 10:44:54,455 auto_trainer.py INFO 174: Time for one full iteration is 5.4852 minutes
+2022-01-14 10:50:21,546 auto_trainer.py INFO 173: [236/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013944906 BER: 0.4792799866
+2022-01-14 10:50:21,547 auto_trainer.py INFO 174: Time for one full iteration is 5.4515 minutes
+2022-01-14 10:55:53,712 auto_trainer.py INFO 173: [237/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012543573 BER: 0.4769999880
+2022-01-14 10:55:53,712 auto_trainer.py INFO 174: Time for one full iteration is 5.5361 minutes
+2022-01-14 11:01:23,575 auto_trainer.py INFO 173: [238/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015149619 BER: 0.4754599873
+2022-01-14 11:01:23,575 auto_trainer.py INFO 174: Time for one full iteration is 5.4977 minutes
+2022-01-14 11:06:51,437 auto_trainer.py INFO 173: [239/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012542608 BER: 0.4764599875
+2022-01-14 11:06:51,438 auto_trainer.py INFO 174: Time for one full iteration is 5.4644 minutes
+2022-01-14 11:12:19,426 auto_trainer.py INFO 173: [240/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0022425388 BER: 0.4781999875
+2022-01-14 11:12:19,427 auto_trainer.py INFO 174: Time for one full iteration is 5.4665 minutes
+2022-01-14 11:17:46,706 auto_trainer.py INFO 173: [241/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015264411 BER: 0.4817199878
+2022-01-14 11:17:46,707 auto_trainer.py INFO 174: Time for one full iteration is 5.4547 minutes
+2022-01-14 11:23:13,717 auto_trainer.py INFO 173: [242/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019180758 BER: 0.4751799872
+2022-01-14 11:23:13,717 auto_trainer.py INFO 174: Time for one full iteration is 5.4466 minutes
+2022-01-14 11:28:40,774 auto_trainer.py INFO 173: [243/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011644124 BER: 0.4756999880
+2022-01-14 11:28:40,774 auto_trainer.py INFO 174: Time for one full iteration is 5.4510 minutes
+2022-01-14 11:34:07,147 auto_trainer.py INFO 173: [244/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017946503 BER: 0.4782999869
+2022-01-14 11:34:07,148 auto_trainer.py INFO 174: Time for one full iteration is 5.4396 minutes
+2022-01-14 11:39:33,883 auto_trainer.py INFO 173: [245/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011409800 BER: 0.4761599879
+2022-01-14 11:39:33,883 auto_trainer.py INFO 174: Time for one full iteration is 5.4456 minutes
+2022-01-14 11:45:00,293 auto_trainer.py INFO 173: [246/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014592282 BER: 0.4779799877
+2022-01-14 11:45:00,294 auto_trainer.py INFO 174: Time for one full iteration is 5.4402 minutes
+2022-01-14 11:50:26,969 auto_trainer.py INFO 173: [247/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017798408 BER: 0.4786199877
+2022-01-14 11:50:26,969 auto_trainer.py INFO 174: Time for one full iteration is 5.4446 minutes
+2022-01-14 11:55:54,524 auto_trainer.py INFO 173: [248/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009871895 BER: 0.4762199874
+2022-01-14 11:55:54,525 auto_trainer.py INFO 174: Time for one full iteration is 5.4593 minutes
+2022-01-14 12:01:20,989 auto_trainer.py INFO 173: [249/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009493718 BER: 0.4772199873
+2022-01-14 12:01:20,990 auto_trainer.py INFO 174: Time for one full iteration is 5.4411 minutes
+2022-01-14 12:06:47,798 auto_trainer.py INFO 173: [250/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011830602 BER: 0.4788399876
+2022-01-14 12:06:47,798 auto_trainer.py INFO 174: Time for one full iteration is 5.4468 minutes
+2022-01-14 12:12:14,603 auto_trainer.py INFO 173: [251/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015453192 BER: 0.4778599875
+2022-01-14 12:12:14,604 auto_trainer.py INFO 174: Time for one full iteration is 5.4468 minutes
+2022-01-14 12:17:41,338 auto_trainer.py INFO 173: [252/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018594585 BER: 0.4761599875
+2022-01-14 12:17:41,338 auto_trainer.py INFO 174: Time for one full iteration is 5.4456 minutes
+2022-01-14 12:23:08,049 auto_trainer.py INFO 173: [253/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014708930 BER: 0.4782599874
+2022-01-14 12:23:08,050 auto_trainer.py INFO 174: Time for one full iteration is 5.4452 minutes
+2022-01-14 12:28:35,225 auto_trainer.py INFO 173: [254/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016735727 BER: 0.4805599880
+2022-01-14 12:28:35,226 auto_trainer.py INFO 174: Time for one full iteration is 5.4529 minutes
+2022-01-14 12:34:01,981 auto_trainer.py INFO 173: [255/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015392777 BER: 0.4810799882
+2022-01-14 12:34:01,982 auto_trainer.py INFO 174: Time for one full iteration is 5.4459 minutes
+2022-01-14 12:39:28,570 auto_trainer.py INFO 173: [256/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016430839 BER: 0.4798399870
+2022-01-14 12:39:28,571 auto_trainer.py INFO 174: Time for one full iteration is 5.4432 minutes
+2022-01-14 12:44:55,062 auto_trainer.py INFO 173: [257/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018657071 BER: 0.4828599874
+2022-01-14 12:44:55,063 auto_trainer.py INFO 174: Time for one full iteration is 5.4415 minutes
+2022-01-14 12:50:21,595 auto_trainer.py INFO 173: [258/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011210148 BER: 0.4779399874
+2022-01-14 12:50:21,595 auto_trainer.py INFO 174: Time for one full iteration is 5.4422 minutes
+2022-01-14 12:55:48,341 auto_trainer.py INFO 173: [259/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010236443 BER: 0.4745199881
+2022-01-14 12:55:48,342 auto_trainer.py INFO 174: Time for one full iteration is 5.4458 minutes
+2022-01-14 13:01:15,105 auto_trainer.py INFO 173: [260/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013982130 BER: 0.4754799874
+2022-01-14 13:01:15,106 auto_trainer.py INFO 174: Time for one full iteration is 5.4461 minutes
+2022-01-14 13:06:42,156 auto_trainer.py INFO 173: [261/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015177325 BER: 0.4810999873
+2022-01-14 13:06:42,156 auto_trainer.py INFO 174: Time for one full iteration is 5.4508 minutes
+2022-01-14 13:12:07,841 auto_trainer.py INFO 173: [262/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017548183 BER: 0.4784999880
+2022-01-14 13:12:07,842 auto_trainer.py INFO 174: Time for one full iteration is 5.4236 minutes
+2022-01-14 13:17:33,004 auto_trainer.py INFO 173: [263/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016304741 BER: 0.4769599878
+2022-01-14 13:17:33,004 auto_trainer.py INFO 174: Time for one full iteration is 5.4194 minutes
+2022-01-14 13:22:58,980 auto_trainer.py INFO 173: [264/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016335312 BER: 0.4789199872
+2022-01-14 13:22:58,981 auto_trainer.py INFO 174: Time for one full iteration is 5.4329 minutes
+2022-01-14 13:28:26,018 auto_trainer.py INFO 173: [265/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012656931 BER: 0.4760199879
+2022-01-14 13:28:26,019 auto_trainer.py INFO 174: Time for one full iteration is 5.4506 minutes
+2022-01-14 13:33:51,703 auto_trainer.py INFO 173: [266/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0021673252 BER: 0.4767599877
+2022-01-14 13:33:51,703 auto_trainer.py INFO 174: Time for one full iteration is 5.4281 minutes
+2022-01-14 13:39:17,657 auto_trainer.py INFO 173: [267/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017360105 BER: 0.4791599876
+2022-01-14 13:39:17,658 auto_trainer.py INFO 174: Time for one full iteration is 5.4326 minutes
+2022-01-14 13:44:42,082 auto_trainer.py INFO 173: [268/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011196976 BER: 0.4783799875
+2022-01-14 13:44:42,083 auto_trainer.py INFO 174: Time for one full iteration is 5.4071 minutes
+2022-01-14 13:50:06,142 auto_trainer.py INFO 173: [269/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014328782 BER: 0.4756799872
+2022-01-14 13:50:06,143 auto_trainer.py INFO 174: Time for one full iteration is 5.4010 minutes
+2022-01-14 13:55:30,093 auto_trainer.py INFO 173: [270/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016661490 BER: 0.4789799873
+2022-01-14 13:55:30,094 auto_trainer.py INFO 174: Time for one full iteration is 5.3992 minutes
+2022-01-14 14:00:54,076 auto_trainer.py INFO 173: [271/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013288248 BER: 0.4776199879
+2022-01-14 14:00:54,077 auto_trainer.py INFO 174: Time for one full iteration is 5.3997 minutes
+2022-01-14 14:06:17,935 auto_trainer.py INFO 173: [272/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0021918176 BER: 0.4779199877
+2022-01-14 14:06:17,936 auto_trainer.py INFO 174: Time for one full iteration is 5.3976 minutes
+2022-01-14 14:11:42,133 auto_trainer.py INFO 173: [273/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015476920 BER: 0.4740799876
+2022-01-14 14:11:42,133 auto_trainer.py INFO 174: Time for one full iteration is 5.4033 minutes
+2022-01-14 14:17:07,507 auto_trainer.py INFO 173: [274/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020674949 BER: 0.4797199870
+2022-01-14 14:17:07,508 auto_trainer.py INFO 174: Time for one full iteration is 5.4229 minutes
+2022-01-14 14:22:33,149 auto_trainer.py INFO 173: [275/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017017137 BER: 0.4816599882
+2022-01-14 14:22:33,149 auto_trainer.py INFO 174: Time for one full iteration is 5.4274 minutes
+2022-01-14 14:27:59,147 auto_trainer.py INFO 173: [276/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016051163 BER: 0.4775999878
+2022-01-14 14:27:59,148 auto_trainer.py INFO 174: Time for one full iteration is 5.4333 minutes
+2022-01-14 14:33:24,617 auto_trainer.py INFO 173: [277/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011231669 BER: 0.4804399871
+2022-01-14 14:33:24,617 auto_trainer.py INFO 174: Time for one full iteration is 5.4245 minutes
+2022-01-14 14:38:50,640 auto_trainer.py INFO 173: [278/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0008251495 BER: 0.4798799867
+2022-01-14 14:38:50,641 auto_trainer.py INFO 174: Time for one full iteration is 5.4337 minutes
+2022-01-14 14:44:16,246 auto_trainer.py INFO 173: [279/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013698341 BER: 0.4779199877
+2022-01-14 14:44:16,247 auto_trainer.py INFO 174: Time for one full iteration is 5.4268 minutes
+2022-01-14 14:49:42,078 auto_trainer.py INFO 173: [280/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013100290 BER: 0.4801599873
+2022-01-14 14:49:42,078 auto_trainer.py INFO 174: Time for one full iteration is 5.4305 minutes
+2022-01-14 14:55:07,497 auto_trainer.py INFO 173: [281/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015355558 BER: 0.4759199876
+2022-01-14 14:55:07,498 auto_trainer.py INFO 174: Time for one full iteration is 5.4237 minutes
+2022-01-14 15:00:34,089 auto_trainer.py INFO 173: [282/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018341719 BER: 0.4746599877
+2022-01-14 15:00:34,089 auto_trainer.py INFO 174: Time for one full iteration is 5.4395 minutes
+2022-01-14 15:06:01,434 auto_trainer.py INFO 173: [283/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018071051 BER: 0.4797999874
+2022-01-14 15:06:01,435 auto_trainer.py INFO 174: Time for one full iteration is 5.4558 minutes
+2022-01-14 15:11:28,022 auto_trainer.py INFO 173: [284/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014029746 BER: 0.4775999877
+2022-01-14 15:11:28,023 auto_trainer.py INFO 174: Time for one full iteration is 5.4431 minutes
+2022-01-14 15:16:54,578 auto_trainer.py INFO 173: [285/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016435968 BER: 0.4843399879
+2022-01-14 15:16:54,579 auto_trainer.py INFO 174: Time for one full iteration is 5.4426 minutes
+2022-01-14 15:22:21,941 auto_trainer.py INFO 173: [286/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012716049 BER: 0.4798599876
+2022-01-14 15:22:21,942 auto_trainer.py INFO 174: Time for one full iteration is 5.4561 minutes
+2022-01-14 15:27:50,120 auto_trainer.py INFO 173: [287/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014465492 BER: 0.4797199871
+2022-01-14 15:27:50,121 auto_trainer.py INFO 174: Time for one full iteration is 5.4696 minutes
+2022-01-14 15:33:17,016 auto_trainer.py INFO 173: [288/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012310592 BER: 0.4772799872
+2022-01-14 15:33:17,017 auto_trainer.py INFO 174: Time for one full iteration is 5.4483 minutes
+2022-01-14 15:38:43,644 auto_trainer.py INFO 173: [289/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013021295 BER: 0.4796599872
+2022-01-14 15:38:43,644 auto_trainer.py INFO 174: Time for one full iteration is 5.4438 minutes
+2022-01-14 15:44:10,132 auto_trainer.py INFO 173: [290/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017721504 BER: 0.4767199880
+2022-01-14 15:44:10,132 auto_trainer.py INFO 174: Time for one full iteration is 5.4415 minutes
+2022-01-14 15:49:36,576 auto_trainer.py INFO 173: [291/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0008748734 BER: 0.4790599869
+2022-01-14 15:49:36,577 auto_trainer.py INFO 174: Time for one full iteration is 5.4407 minutes
+2022-01-14 15:55:03,276 auto_trainer.py INFO 173: [292/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011336686 BER: 0.4753999869
+2022-01-14 15:55:03,277 auto_trainer.py INFO 174: Time for one full iteration is 5.4450 minutes
+2022-01-14 16:00:29,788 auto_trainer.py INFO 173: [293/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018757370 BER: 0.4786599876
+2022-01-14 16:00:29,788 auto_trainer.py INFO 174: Time for one full iteration is 5.4419 minutes
+2022-01-14 16:05:56,701 auto_trainer.py INFO 173: [294/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009433903 BER: 0.4742599887
+2022-01-14 16:05:56,701 auto_trainer.py INFO 174: Time for one full iteration is 5.4485 minutes
+2022-01-14 16:11:23,219 auto_trainer.py INFO 173: [295/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014909860 BER: 0.4776799870
+2022-01-14 16:11:23,219 auto_trainer.py INFO 174: Time for one full iteration is 5.4420 minutes
+2022-01-14 16:16:49,738 auto_trainer.py INFO 173: [296/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018871239 BER: 0.4777599868
+2022-01-14 16:16:49,738 auto_trainer.py INFO 174: Time for one full iteration is 5.4420 minutes
+2022-01-14 16:22:16,989 auto_trainer.py INFO 173: [297/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017220932 BER: 0.4784799878
+2022-01-14 16:22:16,989 auto_trainer.py INFO 174: Time for one full iteration is 5.4542 minutes
+2022-01-14 16:27:44,162 auto_trainer.py INFO 173: [298/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015832002 BER: 0.4774599879
+2022-01-14 16:27:44,162 auto_trainer.py INFO 174: Time for one full iteration is 5.4529 minutes
+2022-01-14 16:33:10,587 auto_trainer.py INFO 173: [299/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018521415 BER: 0.4824799874
+2022-01-14 16:33:10,587 auto_trainer.py INFO 174: Time for one full iteration is 5.4404 minutes
+2022-01-14 16:38:37,656 auto_trainer.py INFO 173: [300/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017306751 BER: 0.4782799874
+2022-01-14 16:38:37,657 auto_trainer.py INFO 174: Time for one full iteration is 5.4512 minutes
+2022-01-14 16:44:04,603 auto_trainer.py INFO 173: [301/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013889761 BER: 0.4774599881
+2022-01-14 16:44:04,604 auto_trainer.py INFO 174: Time for one full iteration is 5.4491 minutes
+2022-01-14 16:49:31,966 auto_trainer.py INFO 173: [302/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020417795 BER: 0.4771199876
+2022-01-14 16:49:31,967 auto_trainer.py INFO 174: Time for one full iteration is 5.4523 minutes
+2022-01-14 16:54:58,222 auto_trainer.py INFO 173: [303/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016761944 BER: 0.4765199876
+2022-01-14 16:54:58,222 auto_trainer.py INFO 174: Time for one full iteration is 5.4376 minutes
+2022-01-14 17:00:24,711 auto_trainer.py INFO 173: [304/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013975119 BER: 0.4768999877
+2022-01-14 17:00:24,712 auto_trainer.py INFO 174: Time for one full iteration is 5.4415 minutes
+2022-01-14 17:05:51,267 auto_trainer.py INFO 173: [305/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016807242 BER: 0.4773599867
+2022-01-14 17:05:51,268 auto_trainer.py INFO 174: Time for one full iteration is 5.4426 minutes
+2022-01-14 17:11:17,616 auto_trainer.py INFO 173: [306/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013157900 BER: 0.4823399873
+2022-01-14 17:11:17,617 auto_trainer.py INFO 174: Time for one full iteration is 5.4392 minutes
+2022-01-14 17:16:44,286 auto_trainer.py INFO 173: [307/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0021856576 BER: 0.4801799880
+2022-01-14 17:16:44,286 auto_trainer.py INFO 174: Time for one full iteration is 5.4445 minutes
+2022-01-14 17:22:10,872 auto_trainer.py INFO 173: [308/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0023323332 BER: 0.4753799878
+2022-01-14 17:22:10,873 auto_trainer.py INFO 174: Time for one full iteration is 5.4431 minutes
+2022-01-14 17:27:37,135 auto_trainer.py INFO 173: [309/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011908854 BER: 0.4781199865
+2022-01-14 17:27:37,135 auto_trainer.py INFO 174: Time for one full iteration is 5.4377 minutes
+2022-01-14 17:33:03,264 auto_trainer.py INFO 173: [310/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015088328 BER: 0.4790599875
+2022-01-14 17:33:03,264 auto_trainer.py INFO 174: Time for one full iteration is 5.4355 minutes
+2022-01-14 17:38:29,766 auto_trainer.py INFO 173: [311/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010950386 BER: 0.4762599878
+2022-01-14 17:38:29,767 auto_trainer.py INFO 174: Time for one full iteration is 5.4417 minutes
+2022-01-14 17:43:55,786 auto_trainer.py INFO 173: [312/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018305187 BER: 0.4774399870
+2022-01-14 17:43:55,787 auto_trainer.py INFO 174: Time for one full iteration is 5.4337 minutes
+2022-01-14 17:49:22,346 auto_trainer.py INFO 173: [313/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017459434 BER: 0.4793999874
+2022-01-14 17:49:22,346 auto_trainer.py INFO 174: Time for one full iteration is 5.4427 minutes
+2022-01-14 17:54:48,945 auto_trainer.py INFO 173: [314/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012121042 BER: 0.4789799873
+2022-01-14 17:54:48,945 auto_trainer.py INFO 174: Time for one full iteration is 5.4433 minutes
+2022-01-14 18:00:15,176 auto_trainer.py INFO 173: [315/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013463238 BER: 0.4773599874
+2022-01-14 18:00:15,177 auto_trainer.py INFO 174: Time for one full iteration is 5.4372 minutes
+2022-01-14 18:05:41,592 auto_trainer.py INFO 173: [316/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016308400 BER: 0.4791199877
+2022-01-14 18:05:41,593 auto_trainer.py INFO 174: Time for one full iteration is 5.4403 minutes
+2022-01-14 18:11:08,125 auto_trainer.py INFO 173: [317/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013487753 BER: 0.4771799879
+2022-01-14 18:11:08,126 auto_trainer.py INFO 174: Time for one full iteration is 5.4422 minutes
+2022-01-14 18:16:34,367 auto_trainer.py INFO 173: [318/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015207032 BER: 0.4785199884
+2022-01-14 18:16:34,368 auto_trainer.py INFO 174: Time for one full iteration is 5.4374 minutes
+2022-01-14 18:22:00,615 auto_trainer.py INFO 173: [319/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019497025 BER: 0.4771599877
+2022-01-14 18:22:00,615 auto_trainer.py INFO 174: Time for one full iteration is 5.4375 minutes
+2022-01-14 18:27:26,619 auto_trainer.py INFO 173: [320/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0023956476 BER: 0.4815799878
+2022-01-14 18:27:26,620 auto_trainer.py INFO 174: Time for one full iteration is 5.4334 minutes
+2022-01-14 18:32:52,813 auto_trainer.py INFO 173: [321/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015567112 BER: 0.4771399876
+2022-01-14 18:32:52,813 auto_trainer.py INFO 174: Time for one full iteration is 5.4366 minutes
+2022-01-14 18:38:18,173 auto_trainer.py INFO 173: [322/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019757783 BER: 0.4770799884
+2022-01-14 18:38:18,174 auto_trainer.py INFO 174: Time for one full iteration is 5.4180 minutes
+2022-01-14 18:43:43,561 auto_trainer.py INFO 173: [323/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016681330 BER: 0.4779199877
+2022-01-14 18:43:43,562 auto_trainer.py INFO 174: Time for one full iteration is 5.4231 minutes
+2022-01-14 18:49:09,047 auto_trainer.py INFO 173: [324/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0022341050 BER: 0.4788599869
+2022-01-14 18:49:09,048 auto_trainer.py INFO 174: Time for one full iteration is 5.4248 minutes
+2022-01-14 18:54:34,872 auto_trainer.py INFO 173: [325/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016235303 BER: 0.4788599870
+2022-01-14 18:54:34,872 auto_trainer.py INFO 174: Time for one full iteration is 5.4304 minutes
+2022-01-14 18:59:58,695 auto_trainer.py INFO 173: [326/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010567252 BER: 0.4766599877
+2022-01-14 18:59:58,695 auto_trainer.py INFO 174: Time for one full iteration is 5.3970 minutes
+2022-01-14 19:05:23,381 auto_trainer.py INFO 173: [327/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012793413 BER: 0.4804599875
+2022-01-14 19:05:23,382 auto_trainer.py INFO 174: Time for one full iteration is 5.4114 minutes
+2022-01-14 19:10:49,458 auto_trainer.py INFO 173: [328/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011908566 BER: 0.4775999877
+2022-01-14 19:10:49,459 auto_trainer.py INFO 174: Time for one full iteration is 5.4346 minutes
+2022-01-14 19:16:15,324 auto_trainer.py INFO 173: [329/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017395151 BER: 0.4804199871
+2022-01-14 19:16:15,325 auto_trainer.py INFO 174: Time for one full iteration is 5.4311 minutes
+2022-01-14 19:21:41,363 auto_trainer.py INFO 173: [330/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014822066 BER: 0.4764599878
+2022-01-14 19:21:41,364 auto_trainer.py INFO 174: Time for one full iteration is 5.4340 minutes
+2022-01-14 19:27:07,261 auto_trainer.py INFO 173: [331/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016351963 BER: 0.4761199878
+2022-01-14 19:27:07,262 auto_trainer.py INFO 174: Time for one full iteration is 5.4316 minutes
+2022-01-14 19:32:33,100 auto_trainer.py INFO 173: [332/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015312410 BER: 0.4782399880
+2022-01-14 19:32:33,100 auto_trainer.py INFO 174: Time for one full iteration is 5.4306 minutes
+2022-01-14 19:37:59,420 auto_trainer.py INFO 173: [333/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019343699 BER: 0.4799199868
+2022-01-14 19:37:59,421 auto_trainer.py INFO 174: Time for one full iteration is 5.4387 minutes
+2022-01-14 19:43:25,920 auto_trainer.py INFO 173: [334/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009105482 BER: 0.4795799882
+2022-01-14 19:43:25,920 auto_trainer.py INFO 174: Time for one full iteration is 5.4416 minutes
+2022-01-14 19:48:52,067 auto_trainer.py INFO 173: [335/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017593949 BER: 0.4803199880
+2022-01-14 19:48:52,068 auto_trainer.py INFO 174: Time for one full iteration is 5.4358 minutes
+2022-01-14 19:54:18,592 auto_trainer.py INFO 173: [336/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010146324 BER: 0.4810599880
+2022-01-14 19:54:18,593 auto_trainer.py INFO 174: Time for one full iteration is 5.4421 minutes
+2022-01-14 19:59:44,885 auto_trainer.py INFO 173: [337/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0008733334 BER: 0.4780799873
+2022-01-14 19:59:44,885 auto_trainer.py INFO 174: Time for one full iteration is 5.4382 minutes
+2022-01-14 20:05:11,409 auto_trainer.py INFO 173: [338/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014926954 BER: 0.4796199875
+2022-01-14 20:05:11,410 auto_trainer.py INFO 174: Time for one full iteration is 5.4421 minutes
+2022-01-14 20:10:37,706 auto_trainer.py INFO 173: [339/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017627031 BER: 0.4793599882
+2022-01-14 20:10:37,707 auto_trainer.py INFO 174: Time for one full iteration is 5.4383 minutes
+2022-01-14 20:16:03,808 auto_trainer.py INFO 173: [340/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015665884 BER: 0.4749599879
+2022-01-14 20:16:03,809 auto_trainer.py INFO 174: Time for one full iteration is 5.4350 minutes
+2022-01-14 20:21:30,274 auto_trainer.py INFO 173: [341/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014719197 BER: 0.4771199880
+2022-01-14 20:21:30,274 auto_trainer.py INFO 174: Time for one full iteration is 5.4411 minutes
+2022-01-14 20:26:55,406 auto_trainer.py INFO 173: [342/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014148093 BER: 0.4802799877
+2022-01-14 20:26:55,407 auto_trainer.py INFO 174: Time for one full iteration is 5.4145 minutes
+2022-01-14 20:32:20,166 auto_trainer.py INFO 173: [343/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015548398 BER: 0.4789199881
+2022-01-14 20:32:20,167 auto_trainer.py INFO 174: Time for one full iteration is 5.4127 minutes
+2022-01-14 20:37:44,975 auto_trainer.py INFO 173: [344/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017703997 BER: 0.4750399868
+2022-01-14 20:37:44,975 auto_trainer.py INFO 174: Time for one full iteration is 5.4135 minutes
+2022-01-14 20:43:10,761 auto_trainer.py INFO 173: [345/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0023053677 BER: 0.4793599880
+2022-01-14 20:43:10,762 auto_trainer.py INFO 174: Time for one full iteration is 5.4298 minutes
+2022-01-14 20:48:36,459 auto_trainer.py INFO 173: [346/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020148254 BER: 0.4770599875
+2022-01-14 20:48:36,460 auto_trainer.py INFO 174: Time for one full iteration is 5.4283 minutes
+2022-01-14 20:54:01,829 auto_trainer.py INFO 173: [347/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015877713 BER: 0.4802599872
+2022-01-14 20:54:01,830 auto_trainer.py INFO 174: Time for one full iteration is 5.4228 minutes
+2022-01-14 20:59:26,816 auto_trainer.py INFO 173: [348/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013377898 BER: 0.4757999876
+2022-01-14 20:59:26,817 auto_trainer.py INFO 174: Time for one full iteration is 5.4164 minutes
+2022-01-14 21:04:52,185 auto_trainer.py INFO 173: [349/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010235819 BER: 0.4780599878
+2022-01-14 21:04:52,186 auto_trainer.py INFO 174: Time for one full iteration is 5.4228 minutes
+2022-01-14 21:10:17,060 auto_trainer.py INFO 173: [350/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014979288 BER: 0.4801399871
+2022-01-14 21:10:17,060 auto_trainer.py INFO 174: Time for one full iteration is 5.4146 minutes
+2022-01-14 21:15:41,611 auto_trainer.py INFO 173: [351/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015210689 BER: 0.4759999875
+2022-01-14 21:15:41,612 auto_trainer.py INFO 174: Time for one full iteration is 5.4092 minutes
+2022-01-14 21:21:06,027 auto_trainer.py INFO 173: [352/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016428619 BER: 0.4801199871
+2022-01-14 21:21:06,028 auto_trainer.py INFO 174: Time for one full iteration is 5.4069 minutes
+2022-01-14 21:26:30,993 auto_trainer.py INFO 173: [353/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011525353 BER: 0.4786199874
+2022-01-14 21:26:30,994 auto_trainer.py INFO 174: Time for one full iteration is 5.4161 minutes
+2022-01-14 21:31:55,510 auto_trainer.py INFO 173: [354/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012272510 BER: 0.4781999881
+2022-01-14 21:31:55,511 auto_trainer.py INFO 174: Time for one full iteration is 5.4086 minutes
+2022-01-14 21:37:21,626 auto_trainer.py INFO 173: [355/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010472112 BER: 0.4791999875
+2022-01-14 21:37:21,626 auto_trainer.py INFO 174: Time for one full iteration is 5.4353 minutes
+2022-01-14 21:42:47,732 auto_trainer.py INFO 173: [356/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020221202 BER: 0.4809599871
+2022-01-14 21:42:47,732 auto_trainer.py INFO 174: Time for one full iteration is 5.4351 minutes
+2022-01-14 21:48:14,014 auto_trainer.py INFO 173: [357/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016592114 BER: 0.4772599887
+2022-01-14 21:48:14,014 auto_trainer.py INFO 174: Time for one full iteration is 5.4380 minutes
+2022-01-14 21:53:40,579 auto_trainer.py INFO 173: [358/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016502057 BER: 0.4761999871
+2022-01-14 21:53:40,580 auto_trainer.py INFO 174: Time for one full iteration is 5.4428 minutes
+2022-01-14 21:59:07,052 auto_trainer.py INFO 173: [359/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0021841996 BER: 0.4752599873
+2022-01-14 21:59:07,053 auto_trainer.py INFO 174: Time for one full iteration is 5.4412 minutes
+2022-01-14 22:04:33,095 auto_trainer.py INFO 173: [360/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011878880 BER: 0.4780599877
+2022-01-14 22:04:33,095 auto_trainer.py INFO 174: Time for one full iteration is 5.4340 minutes
+2022-01-14 22:10:00,361 auto_trainer.py INFO 173: [361/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011325860 BER: 0.4780599872
+2022-01-14 22:10:00,362 auto_trainer.py INFO 174: Time for one full iteration is 5.4544 minutes
+2022-01-14 22:15:25,597 auto_trainer.py INFO 173: [362/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014864018 BER: 0.4781599882
+2022-01-14 22:15:25,598 auto_trainer.py INFO 174: Time for one full iteration is 5.4156 minutes
+2022-01-14 22:20:51,254 auto_trainer.py INFO 173: [363/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016049852 BER: 0.4766999876
+2022-01-14 22:20:51,255 auto_trainer.py INFO 174: Time for one full iteration is 5.4276 minutes
+2022-01-14 22:26:17,813 auto_trainer.py INFO 173: [364/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012451884 BER: 0.4826199872
+2022-01-14 22:26:17,814 auto_trainer.py INFO 174: Time for one full iteration is 5.4427 minutes
+2022-01-14 22:31:44,423 auto_trainer.py INFO 173: [365/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013386849 BER: 0.4760999873
+2022-01-14 22:31:44,424 auto_trainer.py INFO 174: Time for one full iteration is 5.4435 minutes
+2022-01-14 22:37:10,995 auto_trainer.py INFO 173: [366/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016705079 BER: 0.4767199872
+2022-01-14 22:37:10,996 auto_trainer.py INFO 174: Time for one full iteration is 5.4429 minutes
+2022-01-14 22:42:38,247 auto_trainer.py INFO 173: [367/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017201138 BER: 0.4785399882
+2022-01-14 22:42:38,248 auto_trainer.py INFO 174: Time for one full iteration is 5.4542 minutes
+2022-01-14 22:48:38,521 auto_trainer.py INFO 173: [368/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009796933 BER: 0.4793799872
+2022-01-14 22:48:38,521 auto_trainer.py INFO 174: Time for one full iteration is 6.0046 minutes
+2022-01-14 22:54:44,856 auto_trainer.py INFO 173: [369/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013146024 BER: 0.4789199872
+2022-01-14 22:54:44,857 auto_trainer.py INFO 174: Time for one full iteration is 6.1056 minutes
+2022-01-14 23:00:31,547 auto_trainer.py INFO 173: [370/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016587485 BER: 0.4776599877
+2022-01-14 23:00:31,548 auto_trainer.py INFO 174: Time for one full iteration is 5.7782 minutes
+2022-01-14 23:06:00,911 auto_trainer.py INFO 173: [371/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010511483 BER: 0.4802999879
+2022-01-14 23:06:00,911 auto_trainer.py INFO 174: Time for one full iteration is 5.4894 minutes
+2022-01-14 23:11:28,494 auto_trainer.py INFO 173: [372/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020232517 BER: 0.4781599887
+2022-01-14 23:11:28,494 auto_trainer.py INFO 174: Time for one full iteration is 5.4597 minutes
+2022-01-14 23:16:55,253 auto_trainer.py INFO 173: [373/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015645622 BER: 0.4788199875
+2022-01-14 23:16:55,253 auto_trainer.py INFO 174: Time for one full iteration is 5.4460 minutes
+2022-01-14 23:22:23,846 auto_trainer.py INFO 173: [374/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017014368 BER: 0.4780199877
+2022-01-14 23:22:23,846 auto_trainer.py INFO 174: Time for one full iteration is 5.4765 minutes
+2022-01-14 23:27:50,769 auto_trainer.py INFO 173: [375/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016464310 BER: 0.4772799870
+2022-01-14 23:27:50,770 auto_trainer.py INFO 174: Time for one full iteration is 5.4487 minutes
+2022-01-14 23:33:18,249 auto_trainer.py INFO 173: [376/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016976130 BER: 0.4740399877
+2022-01-14 23:33:18,249 auto_trainer.py INFO 174: Time for one full iteration is 5.4580 minutes
+2022-01-14 23:38:45,343 auto_trainer.py INFO 173: [377/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011668797 BER: 0.4792799872
+2022-01-14 23:38:45,344 auto_trainer.py INFO 174: Time for one full iteration is 5.4516 minutes
+2022-01-14 23:44:12,409 auto_trainer.py INFO 173: [378/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011936843 BER: 0.4766399872
+2022-01-14 23:44:12,410 auto_trainer.py INFO 174: Time for one full iteration is 5.4511 minutes
+2022-01-14 23:49:39,894 auto_trainer.py INFO 173: [379/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010492522 BER: 0.4828599880
+2022-01-14 23:49:39,895 auto_trainer.py INFO 174: Time for one full iteration is 5.4581 minutes
+2022-01-14 23:55:07,336 auto_trainer.py INFO 173: [380/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009493233 BER: 0.4787799876
+2022-01-14 23:55:07,337 auto_trainer.py INFO 174: Time for one full iteration is 5.4574 minutes
+2022-01-15 00:00:34,839 auto_trainer.py INFO 173: [381/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020722002 BER: 0.4784799878
+2022-01-15 00:00:34,840 auto_trainer.py INFO 174: Time for one full iteration is 5.4584 minutes
+2022-01-15 00:06:02,441 auto_trainer.py INFO 173: [382/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011824439 BER: 0.4825399874
+2022-01-15 00:06:02,442 auto_trainer.py INFO 174: Time for one full iteration is 5.4556 minutes
+2022-01-15 00:11:28,965 auto_trainer.py INFO 173: [383/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018230872 BER: 0.4776199881
+2022-01-15 00:11:28,966 auto_trainer.py INFO 174: Time for one full iteration is 5.4421 minutes
+2022-01-15 00:16:56,210 auto_trainer.py INFO 173: [384/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018905759 BER: 0.4778799869
+2022-01-15 00:16:56,211 auto_trainer.py INFO 174: Time for one full iteration is 5.4541 minutes
+2022-01-15 00:22:23,284 auto_trainer.py INFO 173: [385/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019699715 BER: 0.4780199873
+2022-01-15 00:22:23,285 auto_trainer.py INFO 174: Time for one full iteration is 5.4512 minutes
+2022-01-15 00:27:49,889 auto_trainer.py INFO 173: [386/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019829751 BER: 0.4811199877
+2022-01-15 00:27:49,889 auto_trainer.py INFO 174: Time for one full iteration is 5.4434 minutes
+2022-01-15 00:33:16,339 auto_trainer.py INFO 173: [387/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0007218041 BER: 0.4769599871
+2022-01-15 00:33:16,340 auto_trainer.py INFO 174: Time for one full iteration is 5.4408 minutes
+2022-01-15 00:38:43,442 auto_trainer.py INFO 173: [388/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013856912 BER: 0.4831199881
+2022-01-15 00:38:43,443 auto_trainer.py INFO 174: Time for one full iteration is 5.4517 minutes
+2022-01-15 00:44:09,257 auto_trainer.py INFO 173: [389/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012054088 BER: 0.4750399880
+2022-01-15 00:44:09,258 auto_trainer.py INFO 174: Time for one full iteration is 5.4303 minutes
+2022-01-15 00:49:35,536 auto_trainer.py INFO 173: [390/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018342674 BER: 0.4815999874
+2022-01-15 00:49:35,537 auto_trainer.py INFO 174: Time for one full iteration is 5.4380 minutes
+2022-01-15 00:55:01,945 auto_trainer.py INFO 173: [391/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015347287 BER: 0.4804599872
+2022-01-15 00:55:01,945 auto_trainer.py INFO 174: Time for one full iteration is 5.4401 minutes
+2022-01-15 01:00:27,930 auto_trainer.py INFO 173: [392/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012051010 BER: 0.4781799871
+2022-01-15 01:00:27,931 auto_trainer.py INFO 174: Time for one full iteration is 5.4331 minutes
+2022-01-15 01:05:52,698 auto_trainer.py INFO 173: [393/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012190072 BER: 0.4813999872
+2022-01-15 01:05:52,698 auto_trainer.py INFO 174: Time for one full iteration is 5.4128 minutes
+2022-01-15 01:11:17,223 auto_trainer.py INFO 173: [394/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015838625 BER: 0.4765999883
+2022-01-15 01:11:17,223 auto_trainer.py INFO 174: Time for one full iteration is 5.4087 minutes
+2022-01-15 01:16:43,239 auto_trainer.py INFO 173: [395/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011539754 BER: 0.4781399875
+2022-01-15 01:16:43,240 auto_trainer.py INFO 174: Time for one full iteration is 5.4336 minutes
+2022-01-15 01:22:10,495 auto_trainer.py INFO 173: [396/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010660472 BER: 0.4758199881
+2022-01-15 01:22:10,496 auto_trainer.py INFO 174: Time for one full iteration is 5.4543 minutes
+2022-01-15 01:27:37,785 auto_trainer.py INFO 173: [397/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012209760 BER: 0.4762199872
+2022-01-15 01:27:37,786 auto_trainer.py INFO 174: Time for one full iteration is 5.4548 minutes
+2022-01-15 01:33:05,285 auto_trainer.py INFO 173: [398/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013100997 BER: 0.4775999876
+2022-01-15 01:33:05,285 auto_trainer.py INFO 174: Time for one full iteration is 5.4583 minutes
+2022-01-15 01:38:33,032 auto_trainer.py INFO 173: [399/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016385317 BER: 0.4774399879
+2022-01-15 01:38:33,033 auto_trainer.py INFO 174: Time for one full iteration is 5.4625 minutes
+2022-01-15 01:43:59,854 auto_trainer.py INFO 173: [400/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016538654 BER: 0.4763599868
+2022-01-15 01:43:59,855 auto_trainer.py INFO 174: Time for one full iteration is 5.4470 minutes
+2022-01-15 01:49:26,634 auto_trainer.py INFO 173: [401/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019136156 BER: 0.4771399876
+2022-01-15 01:49:26,635 auto_trainer.py INFO 174: Time for one full iteration is 5.4463 minutes
+2022-01-15 01:54:50,476 auto_trainer.py INFO 173: [402/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009918966 BER: 0.4777399877
+2022-01-15 01:54:50,476 auto_trainer.py INFO 174: Time for one full iteration is 5.3935 minutes
+2022-01-15 02:00:14,279 auto_trainer.py INFO 173: [403/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013992455 BER: 0.4749999875
+2022-01-15 02:00:14,280 auto_trainer.py INFO 174: Time for one full iteration is 5.3967 minutes
+2022-01-15 02:05:38,897 auto_trainer.py INFO 173: [404/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017142793 BER: 0.4778199874
+2022-01-15 02:05:38,898 auto_trainer.py INFO 174: Time for one full iteration is 5.4103 minutes
+2022-01-15 02:11:02,802 auto_trainer.py INFO 173: [405/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010431922 BER: 0.4765199875
+2022-01-15 02:11:02,802 auto_trainer.py INFO 174: Time for one full iteration is 5.3984 minutes
+2022-01-15 02:16:27,663 auto_trainer.py INFO 173: [406/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013807809 BER: 0.4774599876
+2022-01-15 02:16:27,664 auto_trainer.py INFO 174: Time for one full iteration is 5.4144 minutes
+2022-01-15 02:21:53,662 auto_trainer.py INFO 173: [407/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015842681 BER: 0.4775799879
+2022-01-15 02:21:53,663 auto_trainer.py INFO 174: Time for one full iteration is 5.4333 minutes
+2022-01-15 02:27:19,780 auto_trainer.py INFO 173: [408/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016839951 BER: 0.4769399872
+2022-01-15 02:27:19,780 auto_trainer.py INFO 174: Time for one full iteration is 5.4353 minutes
+2022-01-15 02:32:45,258 auto_trainer.py INFO 173: [409/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016364863 BER: 0.4806599873
+2022-01-15 02:32:45,258 auto_trainer.py INFO 174: Time for one full iteration is 5.4246 minutes
+2022-01-15 02:38:11,339 auto_trainer.py INFO 173: [410/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015745709 BER: 0.4792199888
+2022-01-15 02:38:11,340 auto_trainer.py INFO 174: Time for one full iteration is 5.4347 minutes
+2022-01-15 02:43:36,832 auto_trainer.py INFO 173: [411/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016010852 BER: 0.4780199881
+2022-01-15 02:43:36,833 auto_trainer.py INFO 174: Time for one full iteration is 5.4249 minutes
+2022-01-15 02:49:02,945 auto_trainer.py INFO 173: [412/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015685172 BER: 0.4800599874
+2022-01-15 02:49:02,946 auto_trainer.py INFO 174: Time for one full iteration is 5.4352 minutes
+2022-01-15 02:54:28,965 auto_trainer.py INFO 173: [413/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018401871 BER: 0.4798199878
+2022-01-15 02:54:28,966 auto_trainer.py INFO 174: Time for one full iteration is 5.4337 minutes
+2022-01-15 02:59:54,814 auto_trainer.py INFO 173: [414/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018843012 BER: 0.4787399876
+2022-01-15 02:59:54,815 auto_trainer.py INFO 174: Time for one full iteration is 5.4308 minutes
+2022-01-15 03:05:21,040 auto_trainer.py INFO 173: [415/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020399231 BER: 0.4792599871
+2022-01-15 03:05:21,041 auto_trainer.py INFO 174: Time for one full iteration is 5.4371 minutes
+2022-01-15 03:10:47,130 auto_trainer.py INFO 173: [416/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015984471 BER: 0.4782199877
+2022-01-15 03:10:47,131 auto_trainer.py INFO 174: Time for one full iteration is 5.4348 minutes
+2022-01-15 03:16:12,990 auto_trainer.py INFO 173: [417/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009713435 BER: 0.4779599872
+2022-01-15 03:16:12,991 auto_trainer.py INFO 174: Time for one full iteration is 5.4310 minutes
+2022-01-15 03:21:39,128 auto_trainer.py INFO 173: [418/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015350264 BER: 0.4773399879
+2022-01-15 03:21:39,129 auto_trainer.py INFO 174: Time for one full iteration is 5.4356 minutes
+2022-01-15 03:27:04,866 auto_trainer.py INFO 173: [419/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012608113 BER: 0.4791799871
+2022-01-15 03:27:04,867 auto_trainer.py INFO 174: Time for one full iteration is 5.4290 minutes
+2022-01-15 03:32:30,772 auto_trainer.py INFO 173: [420/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015074250 BER: 0.4788399873
+2022-01-15 03:32:30,772 auto_trainer.py INFO 174: Time for one full iteration is 5.4318 minutes
+2022-01-15 03:37:56,633 auto_trainer.py INFO 173: [421/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013108752 BER: 0.4740999869
+2022-01-15 03:37:56,634 auto_trainer.py INFO 174: Time for one full iteration is 5.4310 minutes
+2022-01-15 03:43:22,660 auto_trainer.py INFO 173: [422/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014464967 BER: 0.4787599880
+2022-01-15 03:43:22,661 auto_trainer.py INFO 174: Time for one full iteration is 5.4300 minutes
+2022-01-15 03:48:50,220 auto_trainer.py INFO 173: [423/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019546757 BER: 0.4757999889
+2022-01-15 03:48:50,220 auto_trainer.py INFO 174: Time for one full iteration is 5.4593 minutes
+2022-01-15 03:54:18,040 auto_trainer.py INFO 173: [424/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011015373 BER: 0.4822799872
+2022-01-15 03:54:18,041 auto_trainer.py INFO 174: Time for one full iteration is 5.4637 minutes
+2022-01-15 03:59:45,011 auto_trainer.py INFO 173: [425/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010555793 BER: 0.4773999867
+2022-01-15 03:59:45,012 auto_trainer.py INFO 174: Time for one full iteration is 5.4495 minutes
+2022-01-15 04:05:12,380 auto_trainer.py INFO 173: [426/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0008987627 BER: 0.4774199873
+2022-01-15 04:05:12,381 auto_trainer.py INFO 174: Time for one full iteration is 5.4562 minutes
+2022-01-15 04:10:39,423 auto_trainer.py INFO 173: [427/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017968683 BER: 0.4755799878
+2022-01-15 04:10:39,424 auto_trainer.py INFO 174: Time for one full iteration is 5.4507 minutes
+2022-01-15 04:16:04,979 auto_trainer.py INFO 173: [428/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014026245 BER: 0.4773999881
+2022-01-15 04:16:04,980 auto_trainer.py INFO 174: Time for one full iteration is 5.4259 minutes
+2022-01-15 04:21:30,897 auto_trainer.py INFO 173: [429/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015124728 BER: 0.4790599887
+2022-01-15 04:21:30,897 auto_trainer.py INFO 174: Time for one full iteration is 5.4320 minutes
+2022-01-15 04:26:56,376 auto_trainer.py INFO 173: [430/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018461035 BER: 0.4732999883
+2022-01-15 04:26:56,376 auto_trainer.py INFO 174: Time for one full iteration is 5.4246 minutes
+2022-01-15 04:32:23,169 auto_trainer.py INFO 173: [431/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012723794 BER: 0.4791399875
+2022-01-15 04:32:23,170 auto_trainer.py INFO 174: Time for one full iteration is 5.4466 minutes
+2022-01-15 04:37:50,522 auto_trainer.py INFO 173: [432/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017175800 BER: 0.4809399883
+2022-01-15 04:37:50,522 auto_trainer.py INFO 174: Time for one full iteration is 5.4559 minutes
+2022-01-15 04:43:17,582 auto_trainer.py INFO 173: [433/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009758776 BER: 0.4760999874
+2022-01-15 04:43:17,582 auto_trainer.py INFO 174: Time for one full iteration is 5.4510 minutes
+2022-01-15 04:48:44,773 auto_trainer.py INFO 173: [434/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014373334 BER: 0.4777599880
+2022-01-15 04:48:44,774 auto_trainer.py INFO 174: Time for one full iteration is 5.4532 minutes
+2022-01-15 04:54:12,378 auto_trainer.py INFO 173: [435/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012682274 BER: 0.4780799881
+2022-01-15 04:54:12,379 auto_trainer.py INFO 174: Time for one full iteration is 5.4601 minutes
+2022-01-15 04:59:39,057 auto_trainer.py INFO 173: [436/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012298037 BER: 0.4781599880
+2022-01-15 04:59:39,058 auto_trainer.py INFO 174: Time for one full iteration is 5.4446 minutes
+2022-01-15 05:05:06,420 auto_trainer.py INFO 173: [437/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010297536 BER: 0.4763799885
+2022-01-15 05:05:06,421 auto_trainer.py INFO 174: Time for one full iteration is 5.4560 minutes
+2022-01-15 05:10:34,117 auto_trainer.py INFO 173: [438/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015905042 BER: 0.4812999870
+2022-01-15 05:10:34,117 auto_trainer.py INFO 174: Time for one full iteration is 5.4616 minutes
+2022-01-15 05:16:01,386 auto_trainer.py INFO 173: [439/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017155039 BER: 0.4747399881
+2022-01-15 05:16:01,387 auto_trainer.py INFO 174: Time for one full iteration is 5.4545 minutes
+2022-01-15 05:21:28,991 auto_trainer.py INFO 173: [440/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016517836 BER: 0.4783999875
+2022-01-15 05:21:28,991 auto_trainer.py INFO 174: Time for one full iteration is 5.4601 minutes
+2022-01-15 05:26:56,396 auto_trainer.py INFO 173: [441/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014708831 BER: 0.4780999872
+2022-01-15 05:26:56,397 auto_trainer.py INFO 174: Time for one full iteration is 5.4568 minutes
+2022-01-15 05:32:22,771 auto_trainer.py INFO 173: [442/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013172039 BER: 0.4760999873
+2022-01-15 05:32:22,772 auto_trainer.py INFO 174: Time for one full iteration is 5.4344 minutes
+2022-01-15 05:37:48,755 auto_trainer.py INFO 173: [443/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020268208 BER: 0.4811199875
+2022-01-15 05:37:48,756 auto_trainer.py INFO 174: Time for one full iteration is 5.4331 minutes
+2022-01-15 05:43:14,675 auto_trainer.py INFO 173: [444/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011005960 BER: 0.4793999865
+2022-01-15 05:43:14,676 auto_trainer.py INFO 174: Time for one full iteration is 5.4320 minutes
+2022-01-15 05:48:40,156 auto_trainer.py INFO 173: [445/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017335650 BER: 0.4761199886
+2022-01-15 05:48:40,156 auto_trainer.py INFO 174: Time for one full iteration is 5.4247 minutes
+2022-01-15 05:54:06,253 auto_trainer.py INFO 173: [446/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013874506 BER: 0.4778599874
+2022-01-15 05:54:06,253 auto_trainer.py INFO 174: Time for one full iteration is 5.4349 minutes
+2022-01-15 05:59:31,956 auto_trainer.py INFO 173: [447/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012894314 BER: 0.4815999877
+2022-01-15 05:59:31,956 auto_trainer.py INFO 174: Time for one full iteration is 5.4284 minutes
+2022-01-15 06:04:57,287 auto_trainer.py INFO 173: [448/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015014744 BER: 0.4773799878
+2022-01-15 06:04:57,288 auto_trainer.py INFO 174: Time for one full iteration is 5.4222 minutes
+2022-01-15 06:10:22,944 auto_trainer.py INFO 173: [449/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018012152 BER: 0.4777999874
+2022-01-15 06:10:22,945 auto_trainer.py INFO 174: Time for one full iteration is 5.4276 minutes
+2022-01-15 06:15:48,169 auto_trainer.py INFO 173: [450/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017216859 BER: 0.4744399876
+2022-01-15 06:15:48,169 auto_trainer.py INFO 174: Time for one full iteration is 5.4204 minutes
+2022-01-15 06:21:13,422 auto_trainer.py INFO 173: [451/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0022614219 BER: 0.4759799879
+2022-01-15 06:21:13,422 auto_trainer.py INFO 174: Time for one full iteration is 5.4209 minutes
+2022-01-15 06:26:38,669 auto_trainer.py INFO 173: [452/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013938819 BER: 0.4776399872
+2022-01-15 06:26:38,670 auto_trainer.py INFO 174: Time for one full iteration is 5.4208 minutes
+2022-01-15 06:32:03,573 auto_trainer.py INFO 173: [453/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013998066 BER: 0.4791799872
+2022-01-15 06:32:03,574 auto_trainer.py INFO 174: Time for one full iteration is 5.4151 minutes
+2022-01-15 06:37:28,814 auto_trainer.py INFO 173: [454/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012170711 BER: 0.4789799872
+2022-01-15 06:37:28,815 auto_trainer.py INFO 174: Time for one full iteration is 5.4207 minutes
+2022-01-15 06:42:53,741 auto_trainer.py INFO 173: [455/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011242073 BER: 0.4755199879
+2022-01-15 06:42:53,741 auto_trainer.py INFO 174: Time for one full iteration is 5.4154 minutes
+2022-01-15 06:48:18,686 auto_trainer.py INFO 173: [456/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013711222 BER: 0.4761599882
+2022-01-15 06:48:18,687 auto_trainer.py INFO 174: Time for one full iteration is 5.4158 minutes
+2022-01-15 06:53:44,673 auto_trainer.py INFO 173: [457/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018668848 BER: 0.4781999882
+2022-01-15 06:53:44,674 auto_trainer.py INFO 174: Time for one full iteration is 5.4331 minutes
+2022-01-15 06:59:10,888 auto_trainer.py INFO 173: [458/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014946461 BER: 0.4819199878
+2022-01-15 06:59:10,889 auto_trainer.py INFO 174: Time for one full iteration is 5.4369 minutes
+2022-01-15 07:04:36,318 auto_trainer.py INFO 173: [459/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011182837 BER: 0.4770199872
+2022-01-15 07:04:36,318 auto_trainer.py INFO 174: Time for one full iteration is 5.4238 minutes
+2022-01-15 07:10:02,203 auto_trainer.py INFO 173: [460/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014741378 BER: 0.4814799874
+2022-01-15 07:10:02,204 auto_trainer.py INFO 174: Time for one full iteration is 5.4314 minutes
+2022-01-15 07:15:27,434 auto_trainer.py INFO 173: [461/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014173273 BER: 0.4783999872
+2022-01-15 07:15:27,435 auto_trainer.py INFO 174: Time for one full iteration is 5.4205 minutes
+2022-01-15 07:20:53,841 auto_trainer.py INFO 173: [462/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015823719 BER: 0.4790199876
+2022-01-15 07:20:53,841 auto_trainer.py INFO 174: Time for one full iteration is 5.4361 minutes
+2022-01-15 07:26:19,799 auto_trainer.py INFO 173: [463/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014402991 BER: 0.4764399884
+2022-01-15 07:26:19,800 auto_trainer.py INFO 174: Time for one full iteration is 5.4326 minutes
+2022-01-15 07:31:45,784 auto_trainer.py INFO 173: [464/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016088721 BER: 0.4777599877
+2022-01-15 07:31:45,784 auto_trainer.py INFO 174: Time for one full iteration is 5.4331 minutes
+2022-01-15 07:37:17,013 auto_trainer.py INFO 173: [465/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012869112 BER: 0.4769999874
+2022-01-15 07:37:17,014 auto_trainer.py INFO 174: Time for one full iteration is 5.5205 minutes
+2022-01-15 07:42:43,172 auto_trainer.py INFO 173: [466/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012971371 BER: 0.4803399870
+2022-01-15 07:42:43,172 auto_trainer.py INFO 174: Time for one full iteration is 5.4360 minutes
+2022-01-15 07:48:09,439 auto_trainer.py INFO 173: [467/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0006854934 BER: 0.4753799877
+2022-01-15 07:48:09,439 auto_trainer.py INFO 174: Time for one full iteration is 5.4378 minutes
+2022-01-15 07:53:35,464 auto_trainer.py INFO 173: [468/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020906194 BER: 0.4757999880
+2022-01-15 07:53:35,465 auto_trainer.py INFO 174: Time for one full iteration is 5.4338 minutes
+2022-01-15 07:59:01,717 auto_trainer.py INFO 173: [469/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016141515 BER: 0.4816399875
+2022-01-15 07:59:01,718 auto_trainer.py INFO 174: Time for one full iteration is 5.4375 minutes
+2022-01-15 08:04:28,133 auto_trainer.py INFO 173: [470/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013161966 BER: 0.4783599877
+2022-01-15 08:04:28,134 auto_trainer.py INFO 174: Time for one full iteration is 5.4403 minutes
+2022-01-15 08:09:54,757 auto_trainer.py INFO 173: [471/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010173358 BER: 0.4757799878
+2022-01-15 08:09:54,757 auto_trainer.py INFO 174: Time for one full iteration is 5.4437 minutes
+2022-01-15 08:15:20,851 auto_trainer.py INFO 173: [472/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014725364 BER: 0.4778599876
+2022-01-15 08:15:20,851 auto_trainer.py INFO 174: Time for one full iteration is 5.4349 minutes
+2022-01-15 08:20:48,019 auto_trainer.py INFO 173: [473/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012121096 BER: 0.4765199876
+2022-01-15 08:20:48,020 auto_trainer.py INFO 174: Time for one full iteration is 5.4528 minutes
+2022-01-15 08:26:14,072 auto_trainer.py INFO 173: [474/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016105473 BER: 0.4790399879
+2022-01-15 08:26:14,072 auto_trainer.py INFO 174: Time for one full iteration is 5.4342 minutes
+2022-01-15 08:31:40,765 auto_trainer.py INFO 173: [475/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012551353 BER: 0.4809599872
+2022-01-15 08:31:40,765 auto_trainer.py INFO 174: Time for one full iteration is 5.4449 minutes
+2022-01-15 08:37:07,622 auto_trainer.py INFO 173: [476/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017327463 BER: 0.4800399870
+2022-01-15 08:37:07,622 auto_trainer.py INFO 174: Time for one full iteration is 5.4476 minutes
+2022-01-15 08:42:34,404 auto_trainer.py INFO 173: [477/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012043578 BER: 0.4802399875
+2022-01-15 08:42:34,405 auto_trainer.py INFO 174: Time for one full iteration is 5.4464 minutes
+2022-01-15 08:48:00,709 auto_trainer.py INFO 173: [478/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017400759 BER: 0.4789999879
+2022-01-15 08:48:00,709 auto_trainer.py INFO 174: Time for one full iteration is 5.4384 minutes
+2022-01-15 08:53:27,610 auto_trainer.py INFO 173: [479/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019129907 BER: 0.4810999874
+2022-01-15 08:53:27,611 auto_trainer.py INFO 174: Time for one full iteration is 5.4484 minutes
+2022-01-15 08:58:53,483 auto_trainer.py INFO 173: [480/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015884985 BER: 0.4812399871
+2022-01-15 08:58:53,483 auto_trainer.py INFO 174: Time for one full iteration is 5.4312 minutes
+2022-01-15 09:04:18,910 auto_trainer.py INFO 173: [481/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016507265 BER: 0.4748399872
+2022-01-15 09:04:18,911 auto_trainer.py INFO 174: Time for one full iteration is 5.4238 minutes
+2022-01-15 09:09:44,808 auto_trainer.py INFO 173: [482/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014569911 BER: 0.4754199879
+2022-01-15 09:09:44,809 auto_trainer.py INFO 174: Time for one full iteration is 5.4280 minutes
+2022-01-15 09:15:09,948 auto_trainer.py INFO 173: [483/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017731978 BER: 0.4791399868
+2022-01-15 09:15:09,949 auto_trainer.py INFO 174: Time for one full iteration is 5.4190 minutes
+2022-01-15 09:20:35,183 auto_trainer.py INFO 173: [484/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011666450 BER: 0.4772199870
+2022-01-15 09:20:35,184 auto_trainer.py INFO 174: Time for one full iteration is 5.4206 minutes
+2022-01-15 09:26:01,508 auto_trainer.py INFO 173: [485/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019307355 BER: 0.4811599870
+2022-01-15 09:26:01,509 auto_trainer.py INFO 174: Time for one full iteration is 5.4387 minutes
+2022-01-15 09:31:27,994 auto_trainer.py INFO 173: [486/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018284526 BER: 0.4799599872
+2022-01-15 09:31:27,994 auto_trainer.py INFO 174: Time for one full iteration is 5.4414 minutes
+2022-01-15 09:36:54,354 auto_trainer.py INFO 173: [487/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016654810 BER: 0.4770599870
+2022-01-15 09:36:54,354 auto_trainer.py INFO 174: Time for one full iteration is 5.4393 minutes
+2022-01-15 09:42:20,743 auto_trainer.py INFO 173: [488/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012348110 BER: 0.4773999873
+2022-01-15 09:42:20,743 auto_trainer.py INFO 174: Time for one full iteration is 5.4398 minutes
+2022-01-15 09:47:46,828 auto_trainer.py INFO 173: [489/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012494338 BER: 0.4794799874
+2022-01-15 09:47:46,829 auto_trainer.py INFO 174: Time for one full iteration is 5.4348 minutes
+2022-01-15 09:53:13,723 auto_trainer.py INFO 173: [490/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015548026 BER: 0.4768999883
+2022-01-15 09:53:13,723 auto_trainer.py INFO 174: Time for one full iteration is 5.4482 minutes
+2022-01-15 09:58:41,063 auto_trainer.py INFO 173: [491/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014473109 BER: 0.4760399874
+2022-01-15 09:58:41,064 auto_trainer.py INFO 174: Time for one full iteration is 5.4557 minutes
+2022-01-15 10:04:07,958 auto_trainer.py INFO 173: [492/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012541021 BER: 0.4788799878
+2022-01-15 10:04:07,959 auto_trainer.py INFO 174: Time for one full iteration is 5.4482 minutes
+2022-01-15 10:09:35,038 auto_trainer.py INFO 173: [493/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015083529 BER: 0.4791599873
+2022-01-15 10:09:35,039 auto_trainer.py INFO 174: Time for one full iteration is 5.4513 minutes
+2022-01-15 10:15:01,229 auto_trainer.py INFO 173: [494/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014455616 BER: 0.4753399881
+2022-01-15 10:15:01,229 auto_trainer.py INFO 174: Time for one full iteration is 5.4365 minutes
+2022-01-15 10:20:27,475 auto_trainer.py INFO 173: [495/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016711771 BER: 0.4740399876
+2022-01-15 10:20:27,476 auto_trainer.py INFO 174: Time for one full iteration is 5.4374 minutes
+2022-01-15 10:25:54,439 auto_trainer.py INFO 173: [496/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014469912 BER: 0.4774199882
+2022-01-15 10:25:54,440 auto_trainer.py INFO 174: Time for one full iteration is 5.4494 minutes
+2022-01-15 10:31:21,034 auto_trainer.py INFO 173: [497/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012226712 BER: 0.4777599879
+2022-01-15 10:31:21,034 auto_trainer.py INFO 174: Time for one full iteration is 5.4432 minutes
+2022-01-15 10:36:47,343 auto_trainer.py INFO 173: [498/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016104718 BER: 0.4806999878
+2022-01-15 10:36:47,344 auto_trainer.py INFO 174: Time for one full iteration is 5.4385 minutes
+2022-01-15 10:42:13,579 auto_trainer.py INFO 173: [499/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020117210 BER: 0.4747199881
+2022-01-15 10:42:13,580 auto_trainer.py INFO 174: Time for one full iteration is 5.4373 minutes
+2022-01-15 10:47:40,319 auto_trainer.py INFO 173: [500/500] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020533735 BER: 0.4770999877
+2022-01-15 10:47:40,320 auto_trainer.py INFO 174: Time for one full iteration is 5.4457 minutes
+2022-01-15 10:47:40,320 auto_trainer.py WARNING 202: Finished
