@@ -1,212 +1,212 @@
 ==========================================
-SLURM_JOB_ID = 568441
-SLURM_NODELIST = gnode16
-SLURM_JOB_GPUS = 1
+SLURM_JOB_ID = 578555
+SLURM_NODELIST = gnode14
+SLURM_JOB_GPUS = 2
 ==========================================
-auto_trainer.py INFO 106: train_conf_name : rm_m4_r1
-auto_trainer.py INFO 107: Device : cuda
-auto_trainer.py INFO 108: We are on!!!
-auto_trainer.py INFO 199: [1/100] At 6 dB, Loss: 0.0003251840 BER: 0.2712599928
-auto_trainer.py INFO 200: Time for one full iteration is 22.8666 minutes
-auto_trainer.py INFO 199: [2/100] At 6 dB, Loss: -0.0003184582 BER: 0.1837199955
-auto_trainer.py INFO 200: Time for one full iteration is 22.6101 minutes
-auto_trainer.py INFO 199: [3/100] At 6 dB, Loss: -0.0010367075 BER: 0.1526799962
-auto_trainer.py INFO 200: Time for one full iteration is 22.6552 minutes
-auto_trainer.py INFO 199: [4/100] At 6 dB, Loss: -0.0015268392 BER: 0.1306799967
-auto_trainer.py INFO 200: Time for one full iteration is 22.7068 minutes
-auto_trainer.py INFO 199: [5/100] At 6 dB, Loss: -0.0025334428 BER: 0.1130599971
-auto_trainer.py INFO 200: Time for one full iteration is 22.7001 minutes
-auto_trainer.py INFO 199: [6/100] At 6 dB, Loss: -0.0034195073 BER: 0.0996999972
-auto_trainer.py INFO 200: Time for one full iteration is 22.6973 minutes
-auto_trainer.py INFO 199: [7/100] At 6 dB, Loss: -0.0038829502 BER: 0.0887999975
-auto_trainer.py INFO 200: Time for one full iteration is 22.8628 minutes
-auto_trainer.py INFO 199: [8/100] At 6 dB, Loss: -0.0042045750 BER: 0.0801399976
-auto_trainer.py INFO 200: Time for one full iteration is 22.8525 minutes
-auto_trainer.py INFO 199: [9/100] At 6 dB, Loss: -0.0047201328 BER: 0.0771199978
-auto_trainer.py INFO 200: Time for one full iteration is 23.0572 minutes
-auto_trainer.py INFO 199: [10/100] At 6 dB, Loss: -0.0034677687 BER: 0.0715999980
-auto_trainer.py INFO 200: Time for one full iteration is 23.4205 minutes
-auto_trainer.py INFO 199: [11/100] At 6 dB, Loss: -0.0042444835 BER: 0.0682999982
-auto_trainer.py INFO 200: Time for one full iteration is 23.0004 minutes
-auto_trainer.py INFO 199: [12/100] At 6 dB, Loss: -0.0054191640 BER: 0.0678199981
-auto_trainer.py INFO 200: Time for one full iteration is 23.3259 minutes
-auto_trainer.py INFO 199: [13/100] At 6 dB, Loss: -0.0046382435 BER: 0.0655199982
-auto_trainer.py INFO 200: Time for one full iteration is 23.0699 minutes
-auto_trainer.py INFO 199: [14/100] At 6 dB, Loss: -0.0043681934 BER: 0.0600399983
-auto_trainer.py INFO 200: Time for one full iteration is 23.1529 minutes
-auto_trainer.py INFO 199: [15/100] At 6 dB, Loss: -0.0068669794 BER: 0.0580399984
-auto_trainer.py INFO 200: Time for one full iteration is 23.9335 minutes
-auto_trainer.py INFO 199: [16/100] At 6 dB, Loss: -0.0053030765 BER: 0.0602399983
-auto_trainer.py INFO 200: Time for one full iteration is 23.9514 minutes
-auto_trainer.py INFO 199: [17/100] At 6 dB, Loss: -0.0063419626 BER: 0.0562799985
-auto_trainer.py INFO 200: Time for one full iteration is 23.8945 minutes
-auto_trainer.py INFO 199: [18/100] At 6 dB, Loss: -0.0053918604 BER: 0.0552199985
-auto_trainer.py INFO 200: Time for one full iteration is 23.7280 minutes
-auto_trainer.py INFO 199: [19/100] At 6 dB, Loss: -0.0045069521 BER: 0.0533199986
-auto_trainer.py INFO 200: Time for one full iteration is 23.7788 minutes
-auto_trainer.py INFO 199: [20/100] At 6 dB, Loss: -0.0052078799 BER: 0.0537199985
-auto_trainer.py INFO 200: Time for one full iteration is 23.7298 minutes
-auto_trainer.py INFO 199: [21/100] At 6 dB, Loss: -0.0057909559 BER: 0.0521799985
-auto_trainer.py INFO 200: Time for one full iteration is 24.1240 minutes
-auto_trainer.py INFO 199: [22/100] At 6 dB, Loss: -0.0062920908 BER: 0.0522999986
-auto_trainer.py INFO 200: Time for one full iteration is 24.3923 minutes
-auto_trainer.py INFO 199: [23/100] At 6 dB, Loss: -0.0059719379 BER: 0.0499599987
-auto_trainer.py INFO 200: Time for one full iteration is 22.7111 minutes
-auto_trainer.py INFO 199: [24/100] At 6 dB, Loss: -0.0052474430 BER: 0.0492399987
-auto_trainer.py INFO 200: Time for one full iteration is 22.7035 minutes
-auto_trainer.py INFO 199: [25/100] At 6 dB, Loss: -0.0064983778 BER: 0.0491599987
-auto_trainer.py INFO 200: Time for one full iteration is 22.8451 minutes
-auto_trainer.py INFO 199: [26/100] At 6 dB, Loss: -0.0083398921 BER: 0.0498999986
-auto_trainer.py INFO 200: Time for one full iteration is 22.7867 minutes
-auto_trainer.py INFO 199: [27/100] At 6 dB, Loss: -0.0095065171 BER: 0.0483599987
-auto_trainer.py INFO 200: Time for one full iteration is 22.8252 minutes
-auto_trainer.py INFO 199: [28/100] At 6 dB, Loss: -0.0068594506 BER: 0.0473399987
-auto_trainer.py INFO 200: Time for one full iteration is 22.8497 minutes
-auto_trainer.py INFO 199: [29/100] At 6 dB, Loss: -0.0074158399 BER: 0.0459799988
-auto_trainer.py INFO 200: Time for one full iteration is 22.8140 minutes
-auto_trainer.py INFO 199: [30/100] At 6 dB, Loss: -0.0093224905 BER: 0.0471199987
-auto_trainer.py INFO 200: Time for one full iteration is 22.8653 minutes
-auto_trainer.py INFO 199: [31/100] At 6 dB, Loss: -0.0080225710 BER: 0.0459999987
-auto_trainer.py INFO 200: Time for one full iteration is 22.9447 minutes
-auto_trainer.py INFO 199: [32/100] At 6 dB, Loss: -0.0082907043 BER: 0.0458199987
-auto_trainer.py INFO 200: Time for one full iteration is 22.6483 minutes
-auto_trainer.py INFO 199: [33/100] At 6 dB, Loss: -0.0111613479 BER: 0.0464599987
-auto_trainer.py INFO 200: Time for one full iteration is 22.6386 minutes
-auto_trainer.py INFO 199: [34/100] At 6 dB, Loss: -0.0078512076 BER: 0.0453599988
-auto_trainer.py INFO 200: Time for one full iteration is 22.7631 minutes
-auto_trainer.py INFO 199: [35/100] At 6 dB, Loss: -0.0095941396 BER: 0.0456199987
-auto_trainer.py INFO 200: Time for one full iteration is 22.8767 minutes
-auto_trainer.py INFO 199: [36/100] At 6 dB, Loss: -0.0110162031 BER: 0.0442399988
-auto_trainer.py INFO 200: Time for one full iteration is 22.7980 minutes
-auto_trainer.py INFO 199: [37/100] At 6 dB, Loss: -0.0077535114 BER: 0.0445799987
-auto_trainer.py INFO 200: Time for one full iteration is 22.8768 minutes
-auto_trainer.py INFO 199: [38/100] At 6 dB, Loss: -0.0113196010 BER: 0.0432599988
-auto_trainer.py INFO 200: Time for one full iteration is 22.7342 minutes
-auto_trainer.py INFO 199: [39/100] At 6 dB, Loss: -0.0096863583 BER: 0.0435399988
-auto_trainer.py INFO 200: Time for one full iteration is 22.7709 minutes
-auto_trainer.py INFO 199: [40/100] At 6 dB, Loss: -0.0097970534 BER: 0.0450199988
-auto_trainer.py INFO 200: Time for one full iteration is 23.5308 minutes
-auto_trainer.py INFO 199: [41/100] At 6 dB, Loss: -0.0090085585 BER: 0.0430399987
-auto_trainer.py INFO 200: Time for one full iteration is 23.6627 minutes
-auto_trainer.py INFO 199: [42/100] At 6 dB, Loss: -0.0108719887 BER: 0.0428999988
-auto_trainer.py INFO 200: Time for one full iteration is 23.8838 minutes
-auto_trainer.py INFO 199: [43/100] At 6 dB, Loss: -0.0118350005 BER: 0.0399199988
-auto_trainer.py INFO 200: Time for one full iteration is 23.8869 minutes
-auto_trainer.py INFO 199: [44/100] At 6 dB, Loss: -0.0103651052 BER: 0.0416799988
-auto_trainer.py INFO 200: Time for one full iteration is 23.8423 minutes
-auto_trainer.py INFO 199: [45/100] At 6 dB, Loss: -0.0091514587 BER: 0.0419999988
-auto_trainer.py INFO 200: Time for one full iteration is 23.9012 minutes
-auto_trainer.py INFO 199: [46/100] At 6 dB, Loss: -0.0124653252 BER: 0.0415799988
-auto_trainer.py INFO 200: Time for one full iteration is 22.5952 minutes
-auto_trainer.py INFO 199: [47/100] At 6 dB, Loss: -0.0098939016 BER: 0.0425999988
-auto_trainer.py INFO 200: Time for one full iteration is 23.6048 minutes
-auto_trainer.py INFO 199: [48/100] At 6 dB, Loss: -0.0108441599 BER: 0.0418999989
-auto_trainer.py INFO 200: Time for one full iteration is 25.2181 minutes
-auto_trainer.py INFO 199: [49/100] At 6 dB, Loss: -0.0096105291 BER: 0.0421399988
-auto_trainer.py INFO 200: Time for one full iteration is 25.1514 minutes
-auto_trainer.py INFO 199: [50/100] At 6 dB, Loss: -0.0080933068 BER: 0.0416599988
-auto_trainer.py INFO 200: Time for one full iteration is 25.1567 minutes
-auto_trainer.py INFO 199: [51/100] At 6 dB, Loss: -0.0112332003 BER: 0.0427399988
-auto_trainer.py INFO 200: Time for one full iteration is 25.1446 minutes
-auto_trainer.py INFO 199: [52/100] At 6 dB, Loss: -0.0120807840 BER: 0.0401799989
-auto_trainer.py INFO 200: Time for one full iteration is 24.7827 minutes
-auto_trainer.py INFO 199: [53/100] At 6 dB, Loss: -0.0098570557 BER: 0.0414999988
-auto_trainer.py INFO 200: Time for one full iteration is 23.9292 minutes
-auto_trainer.py INFO 199: [54/100] At 6 dB, Loss: -0.0145808607 BER: 0.0399599990
-auto_trainer.py INFO 200: Time for one full iteration is 23.6327 minutes
-auto_trainer.py INFO 199: [55/100] At 6 dB, Loss: -0.0108128469 BER: 0.0411199988
-auto_trainer.py INFO 200: Time for one full iteration is 23.5586 minutes
-auto_trainer.py INFO 199: [56/100] At 6 dB, Loss: -0.0118810702 BER: 0.0408599988
-auto_trainer.py INFO 200: Time for one full iteration is 23.5476 minutes
-auto_trainer.py INFO 199: [57/100] At 6 dB, Loss: -0.0121579571 BER: 0.0421399987
-auto_trainer.py INFO 200: Time for one full iteration is 23.5431 minutes
-auto_trainer.py INFO 199: [58/100] At 6 dB, Loss: -0.0110343415 BER: 0.0400799989
-auto_trainer.py INFO 200: Time for one full iteration is 23.5389 minutes
-auto_trainer.py INFO 199: [59/100] At 6 dB, Loss: -0.0108573902 BER: 0.0393399989
-auto_trainer.py INFO 200: Time for one full iteration is 23.5367 minutes
-auto_trainer.py INFO 199: [60/100] At 6 dB, Loss: -0.0122482665 BER: 0.0408199989
-auto_trainer.py INFO 200: Time for one full iteration is 23.5404 minutes
-auto_trainer.py INFO 199: [61/100] At 6 dB, Loss: -0.0119883427 BER: 0.0384599990
-auto_trainer.py INFO 200: Time for one full iteration is 23.5469 minutes
-auto_trainer.py INFO 199: [62/100] At 6 dB, Loss: -0.0159815159 BER: 0.0393399990
-auto_trainer.py INFO 200: Time for one full iteration is 23.5291 minutes
-auto_trainer.py INFO 199: [63/100] At 6 dB, Loss: -0.0132273128 BER: 0.0387799989
-auto_trainer.py INFO 200: Time for one full iteration is 23.5291 minutes
-auto_trainer.py INFO 199: [64/100] At 6 dB, Loss: -0.0145210940 BER: 0.0377599989
-auto_trainer.py INFO 200: Time for one full iteration is 23.5345 minutes
-auto_trainer.py INFO 199: [65/100] At 6 dB, Loss: -0.0159190260 BER: 0.0396999989
-auto_trainer.py INFO 200: Time for one full iteration is 23.5183 minutes
-auto_trainer.py INFO 199: [66/100] At 6 dB, Loss: -0.0122438017 BER: 0.0389199989
-auto_trainer.py INFO 200: Time for one full iteration is 23.5194 minutes
-auto_trainer.py INFO 199: [67/100] At 6 dB, Loss: -0.0136792352 BER: 0.0371399989
-auto_trainer.py INFO 200: Time for one full iteration is 23.1538 minutes
-auto_trainer.py INFO 199: [68/100] At 6 dB, Loss: -0.0144989584 BER: 0.0382199990
-auto_trainer.py INFO 200: Time for one full iteration is 22.7702 minutes
-auto_trainer.py INFO 199: [69/100] At 6 dB, Loss: -0.0110793989 BER: 0.0391799989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8578 minutes
-auto_trainer.py INFO 199: [70/100] At 6 dB, Loss: -0.0129329637 BER: 0.0380199989
-auto_trainer.py INFO 200: Time for one full iteration is 23.3862 minutes
-auto_trainer.py INFO 199: [71/100] At 6 dB, Loss: -0.0128874602 BER: 0.0390199989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8771 minutes
-auto_trainer.py INFO 199: [72/100] At 6 dB, Loss: -0.0155609641 BER: 0.0388799989
-auto_trainer.py INFO 200: Time for one full iteration is 24.0234 minutes
-auto_trainer.py INFO 199: [73/100] At 6 dB, Loss: -0.0141752521 BER: 0.0391999989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8839 minutes
-auto_trainer.py INFO 199: [74/100] At 6 dB, Loss: -0.0148483599 BER: 0.0365599989
-auto_trainer.py INFO 200: Time for one full iteration is 23.2825 minutes
-auto_trainer.py INFO 199: [75/100] At 6 dB, Loss: -0.0160777066 BER: 0.0373799990
-auto_trainer.py INFO 200: Time for one full iteration is 23.0060 minutes
-auto_trainer.py INFO 199: [76/100] At 6 dB, Loss: -0.0147827603 BER: 0.0376199990
-auto_trainer.py INFO 200: Time for one full iteration is 23.2805 minutes
-auto_trainer.py INFO 199: [77/100] At 6 dB, Loss: -0.0155312922 BER: 0.0383999989
-auto_trainer.py INFO 200: Time for one full iteration is 23.0910 minutes
-auto_trainer.py INFO 199: [78/100] At 6 dB, Loss: -0.0130677838 BER: 0.0397599989
-auto_trainer.py INFO 200: Time for one full iteration is 23.1239 minutes
-auto_trainer.py INFO 199: [79/100] At 6 dB, Loss: -0.0143150603 BER: 0.0365999990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8599 minutes
-auto_trainer.py INFO 199: [80/100] At 6 dB, Loss: -0.0129082669 BER: 0.0392999990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8374 minutes
-auto_trainer.py INFO 199: [81/100] At 6 dB, Loss: -0.0160200074 BER: 0.0382999989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8198 minutes
-auto_trainer.py INFO 199: [82/100] At 6 dB, Loss: -0.0176591296 BER: 0.0374199989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8145 minutes
-auto_trainer.py INFO 199: [83/100] At 6 dB, Loss: -0.0142522166 BER: 0.0391399989
-auto_trainer.py INFO 200: Time for one full iteration is 22.7975 minutes
-auto_trainer.py INFO 199: [84/100] At 6 dB, Loss: -0.0179635603 BER: 0.0381799989
-auto_trainer.py INFO 200: Time for one full iteration is 22.7978 minutes
-auto_trainer.py INFO 199: [85/100] At 6 dB, Loss: -0.0121086109 BER: 0.0369999990
-auto_trainer.py INFO 200: Time for one full iteration is 22.7861 minutes
-auto_trainer.py INFO 199: [86/100] At 6 dB, Loss: -0.0195214488 BER: 0.0386799989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8461 minutes
-auto_trainer.py INFO 199: [87/100] At 6 dB, Loss: -0.0179103035 BER: 0.0367599990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8067 minutes
-auto_trainer.py INFO 199: [88/100] At 6 dB, Loss: -0.0157351699 BER: 0.0374199990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8210 minutes
-auto_trainer.py INFO 199: [89/100] At 6 dB, Loss: -0.0143279880 BER: 0.0363799989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8192 minutes
-auto_trainer.py INFO 199: [90/100] At 6 dB, Loss: -0.0181000307 BER: 0.0376999990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8292 minutes
-auto_trainer.py INFO 199: [91/100] At 6 dB, Loss: -0.0188891441 BER: 0.0397599989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8282 minutes
-auto_trainer.py INFO 199: [92/100] At 6 dB, Loss: -0.0213869326 BER: 0.0359799990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8128 minutes
-auto_trainer.py INFO 199: [93/100] At 6 dB, Loss: -0.0202952009 BER: 0.0392799989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8762 minutes
-auto_trainer.py INFO 199: [94/100] At 6 dB, Loss: -0.0129721435 BER: 0.0371199990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8191 minutes
-auto_trainer.py INFO 199: [95/100] At 6 dB, Loss: -0.0209881254 BER: 0.0373399989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8382 minutes
-auto_trainer.py INFO 199: [96/100] At 6 dB, Loss: -0.0139605822 BER: 0.0388999989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8262 minutes
-auto_trainer.py INFO 199: [97/100] At 6 dB, Loss: -0.0171139464 BER: 0.0370599990
-auto_trainer.py INFO 200: Time for one full iteration is 22.9050 minutes
-auto_trainer.py INFO 199: [98/100] At 6 dB, Loss: -0.0212236457 BER: 0.0374199989
-auto_trainer.py INFO 200: Time for one full iteration is 22.8830 minutes
-auto_trainer.py INFO 199: [99/100] At 6 dB, Loss: -0.0182011239 BER: 0.0364999990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8573 minutes
-auto_trainer.py INFO 199: [100/100] At 6 dB, Loss: -0.0234814752 BER: 0.0384599990
-auto_trainer.py INFO 200: Time for one full iteration is 22.8755 minutes
-auto_trainer.py WARNING 228: Finished
+auto_trainer.py INFO 76: train_conf_name : rm_m4_r1
+auto_trainer.py INFO 77: Device : cuda
+auto_trainer.py INFO 78: We are on!!!
+auto_trainer.py INFO 173: [1/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011735116 BER: 0.4760599878
+auto_trainer.py INFO 174: Time for one full iteration is 27.6722 minutes
+auto_trainer.py INFO 173: [2/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016517852 BER: 0.4738999878
+auto_trainer.py INFO 174: Time for one full iteration is 28.7949 minutes
+auto_trainer.py INFO 173: [3/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011240541 BER: 0.4734399881
+auto_trainer.py INFO 174: Time for one full iteration is 28.1292 minutes
+auto_trainer.py INFO 173: [4/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018294217 BER: 0.4767399879
+auto_trainer.py INFO 174: Time for one full iteration is 27.6417 minutes
+auto_trainer.py INFO 173: [5/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014038055 BER: 0.4727799879
+auto_trainer.py INFO 174: Time for one full iteration is 27.3649 minutes
+auto_trainer.py INFO 173: [6/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020790258 BER: 0.4755199876
+auto_trainer.py INFO 174: Time for one full iteration is 27.4076 minutes
+auto_trainer.py INFO 173: [7/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0005859576 BER: 0.4728799880
+auto_trainer.py INFO 174: Time for one full iteration is 27.7982 minutes
+auto_trainer.py INFO 173: [8/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011731540 BER: 0.4739399876
+auto_trainer.py INFO 174: Time for one full iteration is 27.4201 minutes
+auto_trainer.py INFO 173: [9/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016035746 BER: 0.4758399875
+auto_trainer.py INFO 174: Time for one full iteration is 27.2765 minutes
+auto_trainer.py INFO 173: [10/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013782817 BER: 0.4737399876
+auto_trainer.py INFO 174: Time for one full iteration is 27.3091 minutes
+auto_trainer.py INFO 173: [11/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012727897 BER: 0.4719399872
+auto_trainer.py INFO 174: Time for one full iteration is 27.3756 minutes
+auto_trainer.py INFO 173: [12/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018219935 BER: 0.4749399882
+auto_trainer.py INFO 174: Time for one full iteration is 27.7707 minutes
+auto_trainer.py INFO 173: [13/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019666222 BER: 0.4761799870
+auto_trainer.py INFO 174: Time for one full iteration is 27.3798 minutes
+auto_trainer.py INFO 173: [14/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013807636 BER: 0.4757199882
+auto_trainer.py INFO 174: Time for one full iteration is 27.4656 minutes
+auto_trainer.py INFO 173: [15/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010434180 BER: 0.4736399876
+auto_trainer.py INFO 174: Time for one full iteration is 27.5582 minutes
+auto_trainer.py INFO 173: [16/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013868444 BER: 0.4754399875
+auto_trainer.py INFO 174: Time for one full iteration is 27.3749 minutes
+auto_trainer.py INFO 173: [17/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016835203 BER: 0.4738199874
+auto_trainer.py INFO 174: Time for one full iteration is 28.0035 minutes
+auto_trainer.py INFO 173: [18/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015027110 BER: 0.4732199885
+auto_trainer.py INFO 174: Time for one full iteration is 27.5341 minutes
+auto_trainer.py INFO 173: [19/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013979324 BER: 0.4740999873
+auto_trainer.py INFO 174: Time for one full iteration is 27.5405 minutes
+auto_trainer.py INFO 173: [20/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016132436 BER: 0.4755999873
+auto_trainer.py INFO 174: Time for one full iteration is 27.4419 minutes
+auto_trainer.py INFO 173: [21/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011456845 BER: 0.4747599871
+auto_trainer.py INFO 174: Time for one full iteration is 27.5611 minutes
+auto_trainer.py INFO 173: [22/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014919501 BER: 0.4724799871
+auto_trainer.py INFO 174: Time for one full iteration is 27.8326 minutes
+auto_trainer.py INFO 173: [23/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013212970 BER: 0.4747399877
+auto_trainer.py INFO 174: Time for one full iteration is 27.5498 minutes
+auto_trainer.py INFO 173: [24/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020882331 BER: 0.4717399877
+auto_trainer.py INFO 174: Time for one full iteration is 27.4678 minutes
+auto_trainer.py INFO 173: [25/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020066693 BER: 0.4715199871
+auto_trainer.py INFO 174: Time for one full iteration is 27.5914 minutes
+auto_trainer.py INFO 173: [26/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016637860 BER: 0.4754399869
+auto_trainer.py INFO 174: Time for one full iteration is 27.7470 minutes
+auto_trainer.py INFO 173: [27/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0006168660 BER: 0.4767799879
+auto_trainer.py INFO 174: Time for one full iteration is 27.4137 minutes
+auto_trainer.py INFO 173: [28/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013349868 BER: 0.4756799868
+auto_trainer.py INFO 174: Time for one full iteration is 27.4802 minutes
+auto_trainer.py INFO 173: [29/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014853118 BER: 0.4754799871
+auto_trainer.py INFO 174: Time for one full iteration is 27.7843 minutes
+auto_trainer.py INFO 173: [30/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009636090 BER: 0.4729199871
+auto_trainer.py INFO 174: Time for one full iteration is 28.2525 minutes
+auto_trainer.py INFO 173: [31/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013059368 BER: 0.4758399885
+auto_trainer.py INFO 174: Time for one full iteration is 29.0121 minutes
+auto_trainer.py INFO 173: [32/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014558362 BER: 0.4756599882
+auto_trainer.py INFO 174: Time for one full iteration is 29.6200 minutes
+auto_trainer.py INFO 173: [33/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010013966 BER: 0.4775799877
+auto_trainer.py INFO 174: Time for one full iteration is 29.8693 minutes
+auto_trainer.py INFO 173: [34/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017904297 BER: 0.4722999874
+auto_trainer.py INFO 174: Time for one full iteration is 29.6716 minutes
+auto_trainer.py INFO 173: [35/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016970489 BER: 0.4728399878
+auto_trainer.py INFO 174: Time for one full iteration is 29.5621 minutes
+auto_trainer.py INFO 173: [36/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017627152 BER: 0.4769599875
+auto_trainer.py INFO 174: Time for one full iteration is 29.5698 minutes
+auto_trainer.py INFO 173: [37/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013530958 BER: 0.4750199876
+auto_trainer.py INFO 174: Time for one full iteration is 29.9281 minutes
+auto_trainer.py INFO 173: [38/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009407198 BER: 0.4725799875
+auto_trainer.py INFO 174: Time for one full iteration is 29.4763 minutes
+auto_trainer.py INFO 173: [39/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012814187 BER: 0.4765599880
+auto_trainer.py INFO 174: Time for one full iteration is 29.5451 minutes
+auto_trainer.py INFO 173: [40/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017583965 BER: 0.4727799874
+auto_trainer.py INFO 174: Time for one full iteration is 29.6623 minutes
+auto_trainer.py INFO 173: [41/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0018880728 BER: 0.4731599878
+auto_trainer.py INFO 174: Time for one full iteration is 29.4759 minutes
+auto_trainer.py INFO 173: [42/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013561625 BER: 0.4753399882
+auto_trainer.py INFO 174: Time for one full iteration is 29.4809 minutes
+auto_trainer.py INFO 173: [43/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013288887 BER: 0.4734399875
+auto_trainer.py INFO 174: Time for one full iteration is 29.4871 minutes
+auto_trainer.py INFO 173: [44/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010745914 BER: 0.4725799880
+auto_trainer.py INFO 174: Time for one full iteration is 30.2671 minutes
+auto_trainer.py INFO 173: [45/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010934642 BER: 0.4702199876
+auto_trainer.py INFO 174: Time for one full iteration is 29.6367 minutes
+auto_trainer.py INFO 173: [46/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019337799 BER: 0.4723199883
+auto_trainer.py INFO 174: Time for one full iteration is 27.5983 minutes
+auto_trainer.py INFO 173: [47/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020476168 BER: 0.4729199879
+auto_trainer.py INFO 174: Time for one full iteration is 28.7362 minutes
+auto_trainer.py INFO 173: [48/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013718997 BER: 0.4751799877
+auto_trainer.py INFO 174: Time for one full iteration is 27.2332 minutes
+auto_trainer.py INFO 173: [49/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016244481 BER: 0.4740799882
+auto_trainer.py INFO 174: Time for one full iteration is 27.2301 minutes
+auto_trainer.py INFO 173: [50/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014298969 BER: 0.4728599883
+auto_trainer.py INFO 174: Time for one full iteration is 27.3352 minutes
+auto_trainer.py INFO 173: [51/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012905304 BER: 0.4746399871
+auto_trainer.py INFO 174: Time for one full iteration is 28.4132 minutes
+auto_trainer.py INFO 173: [52/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011715411 BER: 0.4755199888
+auto_trainer.py INFO 174: Time for one full iteration is 27.3479 minutes
+auto_trainer.py INFO 173: [53/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013975155 BER: 0.4718199878
+auto_trainer.py INFO 174: Time for one full iteration is 27.4599 minutes
+auto_trainer.py INFO 173: [54/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016148255 BER: 0.4699599874
+auto_trainer.py INFO 174: Time for one full iteration is 27.3753 minutes
+auto_trainer.py INFO 173: [55/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013510553 BER: 0.4773799878
+auto_trainer.py INFO 174: Time for one full iteration is 27.3477 minutes
+auto_trainer.py INFO 173: [56/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0023257881 BER: 0.4748799877
+auto_trainer.py INFO 174: Time for one full iteration is 27.6843 minutes
+auto_trainer.py INFO 173: [57/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011351343 BER: 0.4744799874
+auto_trainer.py INFO 174: Time for one full iteration is 27.3313 minutes
+auto_trainer.py INFO 173: [58/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012578403 BER: 0.4760399881
+auto_trainer.py INFO 174: Time for one full iteration is 28.2289 minutes
+auto_trainer.py INFO 173: [59/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013756067 BER: 0.4717599875
+auto_trainer.py INFO 174: Time for one full iteration is 27.0103 minutes
+auto_trainer.py INFO 173: [60/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012107848 BER: 0.4752999882
+auto_trainer.py INFO 174: Time for one full iteration is 27.4669 minutes
+auto_trainer.py INFO 173: [61/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014925421 BER: 0.4724599884
+auto_trainer.py INFO 174: Time for one full iteration is 27.3948 minutes
+auto_trainer.py INFO 173: [62/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011246061 BER: 0.4747999876
+auto_trainer.py INFO 174: Time for one full iteration is 26.8839 minutes
+auto_trainer.py INFO 173: [63/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010433503 BER: 0.4735399886
+auto_trainer.py INFO 174: Time for one full iteration is 26.9198 minutes
+auto_trainer.py INFO 173: [64/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016400716 BER: 0.4758999872
+auto_trainer.py INFO 174: Time for one full iteration is 27.4913 minutes
+auto_trainer.py INFO 173: [65/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017471954 BER: 0.4728599879
+auto_trainer.py INFO 174: Time for one full iteration is 27.5131 minutes
+auto_trainer.py INFO 173: [66/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012914051 BER: 0.4741599875
+auto_trainer.py INFO 174: Time for one full iteration is 27.0805 minutes
+auto_trainer.py INFO 173: [67/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019557218 BER: 0.4756599874
+auto_trainer.py INFO 174: Time for one full iteration is 27.0856 minutes
+auto_trainer.py INFO 173: [68/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0024204620 BER: 0.4717199879
+auto_trainer.py INFO 174: Time for one full iteration is 28.5877 minutes
+auto_trainer.py INFO 173: [69/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011872738 BER: 0.4735399877
+auto_trainer.py INFO 174: Time for one full iteration is 27.5924 minutes
+auto_trainer.py INFO 173: [70/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012380099 BER: 0.4741599881
+auto_trainer.py INFO 174: Time for one full iteration is 27.3321 minutes
+auto_trainer.py INFO 173: [71/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013095548 BER: 0.4749999884
+auto_trainer.py INFO 174: Time for one full iteration is 27.5918 minutes
+auto_trainer.py INFO 173: [72/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013938132 BER: 0.4778399878
+auto_trainer.py INFO 174: Time for one full iteration is 27.8771 minutes
+auto_trainer.py INFO 173: [73/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017125910 BER: 0.4738399876
+auto_trainer.py INFO 174: Time for one full iteration is 27.3424 minutes
+auto_trainer.py INFO 173: [74/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017741647 BER: 0.4712799881
+auto_trainer.py INFO 174: Time for one full iteration is 27.6377 minutes
+auto_trainer.py INFO 173: [75/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014474280 BER: 0.4727799882
+auto_trainer.py INFO 174: Time for one full iteration is 27.5457 minutes
+auto_trainer.py INFO 173: [76/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011564391 BER: 0.4716799874
+auto_trainer.py INFO 174: Time for one full iteration is 27.7594 minutes
+auto_trainer.py INFO 173: [77/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012587234 BER: 0.4724599885
+auto_trainer.py INFO 174: Time for one full iteration is 27.3804 minutes
+auto_trainer.py INFO 173: [78/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012201534 BER: 0.4750399874
+auto_trainer.py INFO 174: Time for one full iteration is 27.3887 minutes
+auto_trainer.py INFO 173: [79/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010371514 BER: 0.4743999876
+auto_trainer.py INFO 174: Time for one full iteration is 27.3611 minutes
+auto_trainer.py INFO 173: [80/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0020372784 BER: 0.4737399872
+auto_trainer.py INFO 174: Time for one full iteration is 27.2688 minutes
+auto_trainer.py INFO 173: [81/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011146347 BER: 0.4722599881
+auto_trainer.py INFO 174: Time for one full iteration is 27.1688 minutes
+auto_trainer.py INFO 173: [82/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0016419659 BER: 0.4773999873
+auto_trainer.py INFO 174: Time for one full iteration is 30.8041 minutes
+auto_trainer.py INFO 173: [83/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017482510 BER: 0.4738199875
+auto_trainer.py INFO 174: Time for one full iteration is 30.8351 minutes
+auto_trainer.py INFO 173: [84/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0017059284 BER: 0.4734799875
+auto_trainer.py INFO 174: Time for one full iteration is 27.3786 minutes
+auto_trainer.py INFO 173: [85/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011205463 BER: 0.4720799882
+auto_trainer.py INFO 174: Time for one full iteration is 27.6992 minutes
+auto_trainer.py INFO 173: [86/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013121029 BER: 0.4726999877
+auto_trainer.py INFO 174: Time for one full iteration is 28.7565 minutes
+auto_trainer.py INFO 173: [87/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0009978152 BER: 0.4753799868
+auto_trainer.py INFO 174: Time for one full iteration is 28.8181 minutes
+auto_trainer.py INFO 173: [88/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015856457 BER: 0.4760999869
+auto_trainer.py INFO 174: Time for one full iteration is 28.7925 minutes
+auto_trainer.py INFO 173: [89/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011749514 BER: 0.4761599876
+auto_trainer.py INFO 174: Time for one full iteration is 28.6906 minutes
+auto_trainer.py INFO 173: [90/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0011957060 BER: 0.4760399869
+auto_trainer.py INFO 174: Time for one full iteration is 28.6788 minutes
+auto_trainer.py INFO 173: [91/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0008930324 BER: 0.4739199874
+auto_trainer.py INFO 174: Time for one full iteration is 28.6525 minutes
+auto_trainer.py INFO 173: [92/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0015444718 BER: 0.4772999877
+auto_trainer.py INFO 174: Time for one full iteration is 28.6640 minutes
+auto_trainer.py INFO 173: [93/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0008883197 BER: 0.4738399875
+auto_trainer.py INFO 174: Time for one full iteration is 29.4962 minutes
+auto_trainer.py INFO 173: [94/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0013939197 BER: 0.4765799872
+auto_trainer.py INFO 174: Time for one full iteration is 28.5750 minutes
+auto_trainer.py INFO 173: [95/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0012735764 BER: 0.4761599888
+auto_trainer.py INFO 174: Time for one full iteration is 28.5770 minutes
+auto_trainer.py INFO 173: [96/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0026708359 BER: 0.4741399875
+auto_trainer.py INFO 174: Time for one full iteration is 29.6020 minutes
+auto_trainer.py INFO 173: [97/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0010359243 BER: 0.4726199875
+auto_trainer.py INFO 174: Time for one full iteration is 28.6225 minutes
+auto_trainer.py INFO 173: [98/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0014370494 BER: 0.4746799879
+auto_trainer.py INFO 174: Time for one full iteration is 28.5858 minutes
+auto_trainer.py INFO 173: [99/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0019953479 BER: 0.4718999875
+auto_trainer.py INFO 174: Time for one full iteration is 29.5338 minutes
+auto_trainer.py INFO 173: [100/100] At ENC SNR -2.000000 dB DEC SNR -4.000000 dB, Loss: 0.0007369949 BER: 0.4735799869
+auto_trainer.py INFO 174: Time for one full iteration is 28.6531 minutes
+auto_trainer.py WARNING 202: Finished
 train conf_name: rm_m4_r1
 [[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
  [1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0]
@@ -241,10 +241,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -265,10 +271,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -289,10 +301,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -313,10 +331,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -337,10 +361,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -361,10 +391,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -385,10 +421,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -409,10 +451,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -433,10 +481,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -457,10 +511,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -481,10 +541,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -505,10 +571,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -529,10 +601,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -553,10 +631,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -577,10 +661,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -601,10 +691,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -625,10 +721,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -649,10 +751,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -673,10 +781,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -697,10 +811,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -721,10 +841,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -745,10 +871,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -769,10 +901,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -793,10 +931,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -817,10 +961,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -841,10 +991,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -865,10 +1021,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -889,10 +1051,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -913,10 +1081,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -937,10 +1111,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -961,10 +1141,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -985,10 +1171,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1009,10 +1201,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1033,10 +1231,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1057,10 +1261,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1081,10 +1291,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1105,10 +1321,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1129,10 +1351,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1153,10 +1381,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1177,10 +1411,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1201,10 +1441,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1225,10 +1471,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1249,10 +1501,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1273,10 +1531,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1297,10 +1561,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1321,10 +1591,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1345,10 +1621,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1369,10 +1651,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1393,10 +1681,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1417,10 +1711,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1441,10 +1741,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1465,10 +1771,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1489,10 +1801,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1513,10 +1831,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1537,10 +1861,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1561,10 +1891,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1585,10 +1921,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1609,10 +1951,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1633,10 +1981,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1657,10 +2011,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1681,10 +2041,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1705,10 +2071,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1729,10 +2101,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1753,10 +2131,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1777,10 +2161,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1801,10 +2191,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1825,10 +2221,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1849,10 +2251,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1873,10 +2281,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1897,10 +2311,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1921,10 +2341,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1945,10 +2371,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1969,10 +2401,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -1993,10 +2431,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2017,10 +2461,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2041,10 +2491,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2065,10 +2521,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2089,10 +2551,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2113,10 +2581,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2137,10 +2611,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2161,10 +2641,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2185,10 +2671,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2209,10 +2701,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2233,10 +2731,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2257,10 +2761,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2281,10 +2791,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2305,10 +2821,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2329,10 +2851,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2353,10 +2881,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2377,10 +2911,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2401,10 +2941,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2425,10 +2971,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2449,10 +3001,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2473,10 +3031,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2497,10 +3061,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2521,10 +3091,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2545,10 +3121,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2569,10 +3151,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2593,10 +3181,16 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4
 Decoder 0
 Decoder 1
 Decoder 2
@@ -2617,7 +3211,13 @@ Decoder 16
 Decoder 17
 Decoder 18
 Decoder 19
+Decoder 20
+Decoder 21
+Decoder 22
+Decoder 23
+Decoder 24
 Encoder 0
 Encoder 1
 Encoder 2
 Encoder 3
+Encoder 4

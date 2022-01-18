@@ -94,8 +94,8 @@ if __name__ == "__main__":
 
 
 	criterion = BCEWithLogitsLoss()
-	enc_optimizer = optim.ADAM(enc_model.parameters(), lr=para["lr"])
-	dec_optimizer = optim.ADAM(dec_model.parameters(), lr=para["lr"])
+	enc_optimizer = optim.Adam(enc_model.parameters(), lr=para["lr"])
+	dec_optimizer = optim.Adam(dec_model.parameters(), lr=para["lr"])
 	enc_scheduler = ReduceLROnPlateau(enc_optimizer, 'min')
 	dec_scheduler = ReduceLROnPlateau(dec_optimizer, 'min')
 
