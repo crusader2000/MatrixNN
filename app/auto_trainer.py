@@ -15,7 +15,7 @@ from IPython import display
 from util.conf_util import *
 from util.log_util import *
 from util.utils import *
-from model.matrix_net import *
+from model.matrix_net_v2 import *
 
 import sys
 import pickle
