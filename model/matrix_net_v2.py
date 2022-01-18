@@ -47,7 +47,8 @@ class MatrixNet(nn.Module):
         self.output_layer_mask = torch.zeros(self.num_edges, self.n).to(device)
         self.odd_to_even_layer_mask = torch.zeros(self.num_edges, self.num_edges).to(device)
         self.even_to_odd_layer_mask = torch.zeros(self.num_edges, self.num_edges).to(device)
-
+        self.relu = nn.ReLU()
+            
         for i in range(self.num_edges):
             self.input_layer_mask[int(self.edges[i][0][1]),i] = 1
 
@@ -91,7 +92,7 @@ class MatrixNet(nn.Module):
         e_out = torch.matmul(inputs_e, torch.mul(self.odd_to_even_layer_mask,oddw_e).to(torch.float)).to(torch.float)
 
         odd = v_out + e_out
-        odd = nn.ReLU(odd)
+        odd = self.relu(odd)
         # odd = 0.5 * torch.clamp(odd, min=-self.clip_tanh, max=self.clip_tanh)
         # odd = torch.tanh(odd)
         return odd
@@ -160,7 +161,7 @@ class MatrixNet(nn.Module):
         # prod_rows = torch.log(torch.div(1 + prod_rows, 1 - prod_rows))
         # print(prod_rows)
         
-        prod_rows = nn.ReLU(prod_rows)
+        prod_rows = self.relu(prod_rows)
         
         return prod_rows
 
